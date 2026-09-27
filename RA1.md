@@ -2,7 +2,7 @@
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Fase del Proyecto:** Kick-off & Sprint 1 | **Entregable:** Memoria Incremental v1.0  
-> **Rol del Alumno/a:** *Lead Developer / DevOps / Architect / SysAdmin* (Responsable Único del Proyecto)  
+> **Rol del Alumno/a:** *Architect / Technical Lead / Lead Developer / DevOps / SecOps / SysAdmin* (Responsable Único del Proyecto)
 > **Rol del Docente:** *PMP / Guía Metodológico / Orientador Técnico y Evaluador / Tribunal*
 
 ---
