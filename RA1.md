@@ -31,9 +31,25 @@
 
 El módulo de Proyecto contempla cualquier tipología de solución tecnológica que el alumno/a decida desarrollar, adaptando los fundamentos de la gestión de proyectos de ingeniería a las distintas áreas del sector informático y de las telecomunicaciones:
 
-* **Desarrollo de Software Multiplataforma (DAM):** Aplicaciones móviles nativas (Kotlin, Swift), multiplataforma (Flutter, React Native), software de escritorio o sistemas embebidos.
-* **Desarrollo de Aplicaciones Web (DAW):** Plataformas web SaaS, arquitecturas JAMstack, Single Page Applications (SPA), microservicios frontend/backend y APIs REST/GraphQL.
-* **Administración de Sistemas Informáticos y Redes (ASIR):** Infraestructuras cloud y multi-cloud (AWS, Azure, GCP), virtualización (Proxmox, VMware), redes WAN/SD-WAN, ciberseguridad, alta disponibilidad y servicios gestionados.
+### 📱 Desarrollo de Software Multiplataforma (DAM)
+* **Aplicaciones Móviles:** Nativas (Kotlin, Swift) y soluciones multiplataforma (Flutter, React Native, Compose Multiplatform).
+* **Aplicaciones de Escritorio Multiplataforma:** Desarrollo mediante frameworks modernos basados en tecnologías web e híbridas (Electron, Tauri, Flutter Desktop).
+* **Aplicaciones Progresivas e Híbridas (PWA):** Soluciones instalables en dispositivo con acceso a hardware local y capacidades nativas.
+* **Inteligencia Artificial en Dispositivo:** Integración de modelos de IA local (*On-device AI* / Mobile LLMs).
+* **Sistemas Embebidos e IoT:** Desarrollo para hardware, sensores y dispositivos conectados (Rust, MicroPython).
+
+### 🌐 Desarrollo de Aplicaciones Web (DAW)
+* **Plataformas Web y SaaS:** Arquitecturas Full-Stack, SSR y Serverless (Next.js, Nuxt, SvelteKit).
+* **Progressive Web Apps (PWA):** Experiencias web avanzadas e instalables con soporte offline, almacenamiento local y notificaciones push.
+* **Arquitectura de Microservicios:** APIs modernas e interoperables (REST, GraphQL, gRPC).
+* **Inteligencia Artificial Generativa:** Integración de modelos LLM, agentes inteligentes y arquitecturas RAG.
+
+### 🖥️ Administración de Sistemas Informáticos y Redes (ASIR)
+* **Infraestructura Cloud y Multi-Cloud:** Despliegues y aprovisionamiento en AWS, Azure y GCP.
+* **Virtualización y Contenedores:** Entornos en Proxmox, VMware, Docker y orquestación con Kubernetes/K3s.
+* **Infraestructura como Código (IaC):** Automatización del aprovisionamiento con Terraform y Ansible.
+* **Redes y Telecomunicaciones:** Diseños de red WAN/SD-WAN, enrutamiento dinámico y enlaces dedicados.
+* **Ciberseguridad y Operaciones:** Arquitecturas Zero-Trust, bastionado de sistemas, observabilidad y servicios gestionados (MSPs).
 
 ---
 
