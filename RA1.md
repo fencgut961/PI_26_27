@@ -365,7 +365,7 @@ flowchart TD
     $$\text{Dado [Contexto previo]} \longrightarrow \text{Cuando [Se ejecuta la acción]} \longrightarrow \text{Entonces [Resultado esperado con el criterio de éxito]}$$
   * **Estimación en Story Points (Serie de Fibonacci):** Complejidad relativa ($1, 2, 3, 5, 8, 13$) para medir el esfuerzo de cada tarea.
   * **Tablero Kanban Digital:**
-    * Columnas: *Product Backlog $\rightarrow$ Sprint Backlog $\rightarrow$ In Progress $\rightarrow$ In Review / QA $\rightarrow$ Done*.
+    * Columnas: *Product Backlog → Sprint Backlog → In Progress → In Review / QA → Done*.
     * Aplicación de reglas *Definition of Ready (DoR)* (requisitos para iniciar una tarea) y *Definition of Done (DoD)* (requisitos para dar por finalizada una tarea).
     * Límites de trabajo en progreso (*WIP Limits*).
 
