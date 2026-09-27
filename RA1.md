@@ -404,21 +404,59 @@ gantt
 
 ---
 
-## 5. Ejecución Práctica según la Naturaleza del Proyecto
+## 5. Ejecución Práctica de la Prueba de Concepto (PoC) según la Naturaleza del Proyecto
 
-Al finalizar el Sprint 1, además del documento de la Memoria v1.0, el alumno/a presenta una **Prueba de Concepto (PoC)** funcionando en vivo según la naturaleza de su solución:
+Al finalizar el Sprint 1, además de entregar el documento escrito de la **Memoria v1.0**, el alumno/a debe presentar una **Prueba de Concepto (PoC)** funcionando en vivo. 
+
+La PoC no es el producto final ni una versión completa, sino la demostración técnica de que el entorno de desarrollo o trabajo está correctamente configurado, que los componentes base se comunican y que la arquitectura planteada es ejecutable sin bloqueos críticos antes de iniciar los Sprints de desarrollo e implementación intensiva.
 
 ```mermaid
 flowchart LR
-    subgraph PoC_Types ["Prueba de Concepto - PoC según la Naturaleza Técnica"]
+    subgraph PoC_Types ["Prueba de Concepto - PoC según la Naturaleza Técnica del Proyecto"]
         direction LR
-        P_SW["<b>Desarrollo Software</b><br/>Repo Git + Hello World / Estructura Base"]
-        P_NET["<b>Redes / Telecomunicaciones</b><br/>Enrutamiento básico / PING entre nodos"]
-        P_CLOUD["<b>Cloud / SysAdmin</b><br/>Servidor Semilla + Acceso SSH/VPN"]
-        P_SEC["<b>Ciberseguridad</b><br/>Regla de Firewall / Bastionado Base"]
-        P_DATA["<b>Data / IoT</b><br/>Ingesta de datos / Lectura de sensor"]
+        P_SW["<b>1. Desarrollo Software</b><br/>Repo Git + Hello World / Servidor Local"]
+        P_NET["<b>2. Redes y Telecom</b><br/>Topología base + PING / Enrutamiento"]
+        P_CLOUD["<b>3. Cloud y SysAdmin</b><br/>VM Semilla + Acceso SSH / VPN"]
+        P_SEC["<b>4. Ciberseguridad</b><br/>Firewall activo / Bastionado SSH"]
+        P_DATA["<b>5. Data, IA e IoT</b><br/>Ingesta de datos / Lectura de sensor"]
     end
 ```
+
+### Detalle de Requisitos de la PoC por Ámbito Técnico:
+
+#### 1. Proyectos de Desarrollo Software (Web, Móvil, Desktop, Microservicios)
+* **Objetivo de la PoC:** Comprobar la viabilidad de la compilación, emulación o ejecución del servidor de pruebas en local.
+* **Entorno Configurado:** IDE de desarrollo (Android Studio, VS Code, IntelliJ, PyCharm), gestor de paquetes de dependencias (`npm`, `pip`, `maven`, `gradle`), contenedor Docker (si aplica) y repositorio Git local y remoto (`main` / `develop`).
+* **Demostración en la Demo Funcional (3 min):**
+  * Muestra del código fuente estructurado en el IDE y commit inicial subido al repositorio remoto.
+  * Ejecución en vivo de la aplicación generando un *"Hello World"*, una ventana/pantalla base con navegación inicial, o una respuesta HTTP exitosa (código 200 OK) desde un endpoint `/health` o `/api/v1/test`.
+
+#### 2. Proyectos de Redes y Telecomunicaciones (LAN/WAN, SD-WAN, Enlaces Dedicados)
+* **Objetivo de la PoC:** Validar el diseño de la topología de red y la conectividad básica IP entre nodos.
+* **Entorno Configurado:** Simulador/Emulador de red (Cisco Packet Tracer, GNS3, EVE-NG) o maqueta de hardware físico en laboratorio con interfaces de red etiquetadas.
+* **Demostración en la Demo Funcional (3 min):**
+  * Presentación del plano de direccionamiento IP y topología física/lógica.
+  * Ejecución en vivo de un comando `ping` y `traceroute` entre dos nodos o sedes simuladas comprobando que los paquetes se enmarcan y enrutan correctamente.
+
+#### 3. Proyectos de Cloud, Virtualización y SysAdmin (IaaS, PaaS, On-Premise)
+* **Objetivo de la PoC:** Probar la capacidad de provisión de recursos y acceso remoto seguro.
+* **Entorno Configurado:** Hipervisor local (Proxmox VE, VMware ESXi, VirtualBox) o cuenta en proveedor Cloud (AWS, Azure, GCP) con VPC y grupos de seguridad configurados.
+* **Demostración en la Demo Funcional (3 min):**
+  * Verificación de la máquina virtual o contenedor semilla en estado *Running*.
+  * Conexión en vivo desde la consola local del alumno/a hacia la VM semilla mediante SSH (o túnel VPN/RDP), mostrando la configuración de red (`ip a` / `ifconfig`) y el uptime del sistema operativo.
+
+#### 4. Proyectos de Ciberseguridad y SOC
+* **Objetivo de la PoC:** Demostrar la aplicación de controles perimetrales y políticas de acceso.
+* **Entorno Configurado:** Firewall virtualizado (pfSense, OPNsense, iptables/nftables) o entorno de laboratorio de pruebas de penetración / bastionado.
+* **Demostración en la Demo Funcional (3 min):**
+  * Demostración en vivo de una regla de firewall activa bloqueando tráfico no deseado (ej. bloqueo de ICMP o puerto no autorizado) y permitiendo tráfico legítimo.
+  * Muestra del bastionado inicial del servicio de administración (cambio de puerto SSH por defecto, autenticación exclusiva por clave pública/privada y registros de log activos).
+
+#### 5. Proyectos de Data, Inteligencia Artificial e IoT
+* **Objetivo de la PoC:** Validar el canal de ingesta de datos o la lectura desde la fuente de origen.
+* **Entorno Configurado:** Placa/Dispositivo físico (Raspberry Pi, ESP32, Arduino) con sensor conectado, o entorno de desarrollo Python/Jupyter Notebook con bibliotecas de análisis cargadas.
+* **Demostración en la Demo Funcional (3 min):**
+  * Ejecución en vivo del script de captura mostrando la lectura de datos del sensor por puerto serie/MQTT o la carga y limpieza inicial de un archivo de datos (CSV/JSON/Database) en consola.
 
 ---
 
