@@ -75,21 +75,21 @@ flowchart TD
         S1["<b>Memoria v1.0</b><br/>Análisis Sector + 9 CEs"]:::past --> D1["<b>Demo Funcional 1</b><br/>PoC Entorno Configurado"]:::past
     end
 
-    D1 --> S2_BOX
+    D1 --> S2
 
     subgraph S2_BOX ["Sprint 2: RA2 - Propuesta y Arquitectura (FASE ACTUAL)"]
         direction TD
         S2["<b>Memoria v2.0</b><br/>Cap. 1 + Cap. 2 Arquitectura y Diseño"]:::current --> D2["<b>Demo Funcional 2</b><br/>Prototipo UI / Topología / Esquema"]:::current
     end
 
-    D2 --> S3_BOX
+    D2 --> S3
 
     subgraph S3_BOX ["Sprint 3: RA3 - Core MVP y Operaciones"]
         direction TD
         S3["<b>Memoria v3.0</b><br/>Cap. 1 a 3 + MVP Operativo"]:::future --> D3["<b>Demo Funcional 3</b><br/>MVP en Vivo"]:::future
     end
 
-    D3 --> S4_BOX
+    D3 --> S4
 
     subgraph S4_BOX ["Sprint 4: RA4 - Despliegue y Cierre"]
         direction TD
@@ -156,11 +156,6 @@ flowchart TD
   * **DAW:** Investigación de arquitecturas de renderizado (SSR vs. SSG vs. Client-side), estándares REST/OpenAPI 3.0, patrones de diseño de microservicios y benchmarking de plataformas SaaS similares.
   * **ASIR:** Investigación de guías de bastionado CIS Benchmarks para Linux/Windows, estándares de cableado estructurado e interconexión de redes, documentación oficial de proveedores Cloud (AWS Well-Architected Framework) y comparativa de licencias de hipervisores (Proxmox vs. VMware).
 
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.1):**
-  1. Detallar las fuentes bibliográficas, repositorios y documentación oficial consultada.
-  2. Presentar la tabla comparativa de *Benchmarking* con al menos 2-3 soluciones existentes destacando fortalezas y carencias que justifica la propuesta.
-  3. Enumerar los estándares técnicos adoptados para el diseño.
-
 ---
 
 ### CE.b — Estudio Detallado de Viabilidad Técnica y Análisis de Riesgos
@@ -185,11 +180,6 @@ flowchart TD
   * **DAM:** Análisis de compatibilidad entre versiones de Android/iOS, evaluación de consumo de batería y memoria RAM al usar IA en dispositivo (*On-device AI*), y plan de mitigación ante cambios en las APIs de tiendas oficiales (Google Play / App Store).
   * **DAW:** Evaluación de latencia en llamadas a APIs de terceros (ej. pasarelas de pago o LLMs), análisis de costes de escalado automático en Serverless y plan de mitigación ante caídas de proveedores de hosting/CDN.
   * **ASIR:** Análisis de capacidad de procesamiento y ancho de banda en la red WAN/SD-WAN, compatibilidad de drivers y hardware en servidores físicos/virtualizados, y plan de mitigación ante caídas de enlaces de red o fallos de disco en arreglo RAID.
-
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.2):**
-  1. Justificar la viabilidad técnica de cada capa o componente de la solución.
-  2. Presentar la **Matriz de Riesgos Técnicos** (Riesgo, Probabilidad 1-5, Impacto 1-5, Nivel Severidad, Plan de Contención).
-  3. Conclusión de viabilidad aprobada para continuar.
 
 ---
 
@@ -226,11 +216,6 @@ gantt
   * **DAW:** Cronograma con hitos de diseño de esquema de BD, desarrollo de endpoints de API, maquetación de componentes frontend, integración con pasarelas y despliegue continuo en entorno Staging/Production.
   * **ASIR:** Cronograma dividiendo el aprovisionamiento de hypervisores, configuración de VLANs/túneles VPN, despliegue de scripts de automatización Ansible/Terraform, bastionado de seguridad y pruebas de carga.
 
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.3):**
-  1. Describir cada una de las fases indicando entregables objetivos y responsables.
-  2. Incluir el **Diagrama de Gantt** exportado como imagen o generado en Markdown/Gantt.
-  3. Identificar los hitos presenciales de evaluación (Demos Funcionales) y el camino crítico del proyecto.
-
 ---
 
 ### CE.d — Definición de Objetivos (SMART), Alcance y Métricas de Éxito
@@ -258,11 +243,6 @@ flowchart TD
   * **DAM:** *Objetivo SMART:* "Desarrollar una aplicación móvil multiplataforma en Flutter que permita completar una inspección técnica en menos de 2 minutos sin conexión a internet, sincronizando los datos en menos de 5 segundos tras recuperar cobertura 4G/5G antes de finalizar el Sprint 3."
   * **DAW:** *Objetivo SMART:* "Implementar una plataforma web SaaS en Next.js capaz de procesar 500 solicitudes por segundo con un tiempo de respuesta de servidor inferior a 200ms y disponibilidad del 99.9% medida durante la Demo del Sprint 3."
   * **ASIR:** *Objetivo SMART:* "Desplegar una infraestructura cloud redundante mediante Terraform con un tiempo de conmutación por error (*Failover*) inferior a 3 segundos y cumplimiento del 100% de las directivas de bastionado CIS Benchmark al término del Sprint 2."
-
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.4):**
-  1. Redactar el Objetivo General del Proyecto.
-  2. Enumerar los Objetivos Específicos verificando el cumplimiento de los 5 criterios SMART.
-  3. Definir la **Tabla de KPIs y Métricas de Éxito** (Métrica, Valor Objetivo, Método de Medición).
 
 ---
 
@@ -297,11 +277,6 @@ flowchart TD
   * **DAW:** EDT desglosada en paquetes de diseño de modelos ORM/Base de Datos, endpoints de la API REST/GraphQL, componentes UI de frontend, middleware de autenticación y pipeline de integración continua.
   * **ASIR:** EDT estructurada en paquetes de diseño de red VLAN/Subredes, aprovisionamiento de nodos en hipervisor/cloud, scripts de automatización Ansible, configuración de cortafuegos y sistema de monitorización/alertas.
 
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.5):**
-  1. Presentar el gráfico o esquema jerárquico de la **EDT / WBS**.
-  2. Incluir el diccionario de la EDT describiendo los paquetes de trabajo principales.
-  3. Relacionar la EDT con el *Product Backlog* en la herramienta Kanban (GitHub Projects, Trello, Jira).
-
 ---
 
 ### CE.f — Determinación y Estimación de Recursos Materiales y Personales
@@ -326,11 +301,6 @@ flowchart TD
   * **DAM:** Asignación de rol de Lead Mobile Developer, requerimiento de dispositivos de prueba físicos (móvil Android API 33+, iPhone iOS 17+), licencia de cuenta de desarrollador Apple/Google e IDEs Android Studio/Xcode.
   * **DAW:** Asignación de rol de Full-Stack Architect, entornos de desarrollo local Docker, dominios `.com`/`.es`, certificados Let's Encrypt y servidores de prueba Staging en Vercel/AWS.
   * **ASIR:** Asignación de roles de Network Engineer y SysAdmin, requerimiento de servidor físico para hipervisor Proxmox (64GB RAM, 2TB SSD RAID1), switches gestionables, cortafuegos pfSense y licencias de evaluación o suscripciones Cloud en AWS/Azure.
-
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.6):**
-  1. Incluir la **Matriz RACI** detallada por fase del proyecto.
-  2. Presentar la tabla de inventario completo de **Recursos Hardware y Software** necesarios.
-  3. Indicar la disponibilidad real de cada recurso para garantizar que no existen bloqueos operacionales.
 
 ---
 
@@ -357,11 +327,6 @@ flowchart TD
   * **DAM:** Presupuesto calculando 300 horas de desarrollo a 35€/hora, coste de licencias Apple Developer (99$/año) y Google Play (25$ pago único), amortización del PC de desarrollo y consumo de servicios Cloud de backend (Firebase/Supabase).
   * **DAW:** Presupuesto desglosando 350 horas de ingeniería Full-Stack a 40€/hora, costes OPEX de infraestructura en AWS (instancias EC2, RDS PostgreSQL, S3) a 85€/mes, dominio y servicios de envío de emails transaccionales.
   * **ASIR:** Presupuesto cuantificando la compra del servidor de virtualización físico (CAPEX: 2.200€), switches y SAI, coste de las horas de instalación y bastionado (250h a 38€/h), y licencias u OPEX de conectividad de fibra/VPN dedicada.
-
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.7):**
-  1. Incluir la tabla desglosada de **Costes de Personal** (Rol, Horas Estimadas, Precio/Hora, Coste Total).
-  2. Incluir la tabla de **CAPEX vs. OPEX** indicando gastos iniciales y mensuales.
-  3. Presentar el **Presupuesto Consolidado Final** indicando el punto de equilibrio y necesidades de financiación requeridas.
 
 ---
 
@@ -400,11 +365,6 @@ flowchart TD
     * Tabla completa de subredes, VLANs, rangos DHCP e IP estáticas.
     * Matriz de Reglas de Cortafuegos (Origen, Destino, Puerto, Protocolo, Acción Allow/Deny).
 
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.8):**
-  1. Incluir todos los **diagramas de arquitectura en formato visual de alta calidad** con su correspondiente explicación en texto.
-  2. Incluir el **Modelo de Datos (ER) o Tabla de Direccionamiento IP**.
-  3. Incluir las capturas de los **Wireframes/Mockups de interfaz** o esquemas de cableado/bastionado.
-
 ---
 
 ### CE.i — Plan de Control de Calidad, Pruebas y Gestión de Incidencias
@@ -429,11 +389,6 @@ flowchart TD
   * **DAM:** Plan de pruebas unitarias con JUnit/Mockito, pruebas de interfaz automatizadas con Espresso/Flutter Driver, pruebas de rendimiento de memoria/batería y protocolo de registro de crash en Firebase Crashlytics.
   * **DAW:** Estrategia de pruebas unitarias y de integración con Jest/Vitest, pruebas End-to-End (E2E) con Cypress/Playwright, análisis estático de código con ESLint/SonarQube y escaneo de vulnerabilidades con OWASP ZAP.
   * **ASIR:** Plan de pruebas de conectividad y velocidad con Iperf3, pruebas de conmutación por error en el clúster (*Failover Testing*), auditorías de seguridad con Nmap/OpenVAS y verificación de reglas de cortafuegos.
-
-* **Guía de Redacción para la Memoria v2.0 (Sección 2.9):**
-  1. Describir la estrategia de pruebas aplicable a cada componente del proyecto.
-  2. Presentar la **Tabla de Casos de Prueba Planificados** (ID Prueba, Componente, Entrada, Resultado Esperado, Criterio de Aceptación).
-  3. Detallar el procedimiento de notificación, clasificación de severidad y resolución de incidencias.
 
 ---
 
