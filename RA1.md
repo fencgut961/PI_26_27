@@ -43,41 +43,40 @@ A lo largo del curso, el alumno/a redacta un **único documento maestro (Memoria
 
 ```mermaid
 flowchart LR
-    %% Estilos de Nodos
     classDef kickoff fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
     classDef sprint fill:#ffffff,stroke:#37474f,stroke-width:2px,color:#263238;
     classDef demo fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
     classDef final fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
 
-    K[<b>1. Kick-off Obligatorio</b><br/>Reunión + Anteproyecto Moodle]:::kickoff --> S1
+    K["<b>1. Kick-off Obligatorio</b><br/>Reunión + Anteproyecto Moodle"]:::kickoff --> S1
 
-    subgraph S1_BOX [Sprint 1: RA1 - Entorno y Viabilidad]
+    subgraph S1_BOX ["Sprint 1: RA1 - Entorno y Viabilidad"]
         direction LR
-        S1[<b>Memoria v1.0</b><br/>Análisis Sector + 9 CEs]:::sprint --> D1[<b>Demo Funcional 1</b><br/>Prueba de Concepto / PoC]:::demo
+        S1["<b>Memoria v1.0</b><br/>Análisis Sector + 9 CEs"]:::sprint --> D1["<b>Demo Funcional 1</b><br/>Prueba de Concepto - PoC"]:::demo
     end
 
     D1 --> S2_BOX
 
-    subgraph S2_BOX [Sprint 2: RA2 - Arquitectura y Diseño]
+    subgraph S2_BOX ["Sprint 2: RA2 - Arquitectura y Diseño"]
         direction LR
-        S2[<b>Memoria v2.0</b><br/>Cap. 1 + Cap. 2 Arquitectura]:::sprint --> D2[<b>Demo Funcional 2</b><br/>UI / Topología / Esquema]:::demo
+        S2["<b>Memoria v2.0</b><br/>Cap. 1 + Cap. 2 Arquitectura"]:::sprint --> D2["<b>Demo Funcional 2</b><br/>UI / Topología / Esquema"]:::demo
     end
 
     D2 --> S3_BOX
 
-    subgraph S3_BOX [Sprint 3: RA3 - Core MVP & Operaciones]
+    subgraph S3_BOX ["Sprint 3: RA3 - Core MVP y Operaciones"]
         direction LR
-        S3[<b>Memoria v3.0</b><br/>Cap. 1 a 3 + MVP]:::sprint --> D3[<b>Demo Funcional 3</b><br/>MVP Operativo en Vivo]:::demo
+        S3["<b>Memoria v3.0</b><br/>Cap. 1 a 3 + MVP"]:::sprint --> D3["<b>Demo Funcional 3</b><br/>MVP Operativo en Vivo"]:::demo
     end
 
     D3 --> S4_BOX
 
-    subgraph S4_BOX [Sprint 4: RA4 - Despliegue y Cierre]
+    subgraph S4_BOX ["Sprint 4: RA4 - Despliegue y Cierre"]
         direction LR
-        S4[<b>Memoria v4.0 FINAL</b><br/>Documento Consolidado]:::sprint --> D4[<b>Demo Funcional 4</b><br/>Release Candidate v1.0.0]:::demo
+        S4["<b>Memoria v4.0 FINAL</b><br/>Documento Consolidado"]:::sprint --> D4["<b>Demo Funcional 4</b><br/>Release Candidate v1.0.0"]:::demo
     end
 
-    D4 --> TRIBUNAL[<b>TRIBUNAL FINAL DE EVALUACIÓN</b><br/>Defensa Oral + Live Demo]:::final
+    D4 --> TRIBUNAL["<b>TRIBUNAL FINAL DE EVALUACIÓN</b><br/>Defensa Oral + Live Demo"]:::final
 ```
 
 ---
@@ -100,9 +99,9 @@ Cada uno de los 9 Criterios de Evaluación del RA1 pondera exactamente un **11.1
 
 ```mermaid
 flowchart LR
-    subgraph RA1 [Resultado de Aprendizaje 1 - Peso Total 100%]
+    subgraph RA1 ["Resultado de Aprendizaje 1 - Peso Total 100%"]
         direction LR
-        A[CE.a Sector 11.11%] --> B[CE.b Roles 11.11%] --> C[CE.c Necesidades 11.11%] --> D[CE.d Viabilidad 11.11%] --> E[CE.e Alcance 11.11%] --> F[CE.f Requisitos 11.11%] --> G[CE.g Legal 11.11%] --> H[CE.h Ayudas 11.11%] --> I[CE.i Kanban 11.11%]
+        A["CE.a Sector 11.11%"] --> B["CE.b Roles 11.11%"] --> C["CE.c Necesidades 11.11%"] --> D["CE.d Viabilidad 11.11%"] --> E["CE.e Alcance 11.11%"] --> F["CE.f Requisitos 11.11%"] --> G["CE.g Legal 11.11%"] --> H["CE.h Ayudas 11.11%"] --> I["CE.i Kanban 11.11%"]
     end
 ```
 
@@ -121,11 +120,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Sector_TIC [Clasificación del Sector e Industria de Aplicación]
+    subgraph Sector_TIC ["Clasificación del Sector e Industria de Aplicación"]
         direction LR
-        M1[<b>Modelos de Producto</b><br/>SaaS / B2B / B2C / Open Core] --- M2[<b>Modelos de Infraestructura</b><br/>IaaS / PaaS / Hybrid Cloud]
-        M2 --- M3[<b>Servicios Gestionados</b><br/>MSP / MSSP / SOC Delegado]
-        M3 --- M4[<b>Telecomunicaciones</b><br/>ISPs / Redes WAN / SD-WAN]
+        M1["<b>Modelos de Producto</b><br/>SaaS / B2B / B2C / Open Core"] --- M2["<b>Modelos de Infraestructura</b><br/>IaaS / PaaS / Hybrid Cloud"]
+        M2 --- M3["<b>Servicios Gestionados</b><br/>MSP / MSSP / SOC Delegado"]
+        M3 --- M4["<b>Telecomunicaciones</b><br/>ISPs / Redes WAN / SD-WAN"]
     end
 ```
 
@@ -151,13 +150,15 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Squad [Estructura Organizativa del Equipo de Proyecto]
+    subgraph Squad ["Estructura Organizativa del Equipo de Proyecto"]
         direction LR
-        PO[<b>Product Owner / PM</b><br/>Visión y Prioridad] --> ARCH[<b>Lead Architect / Tech Lead</b><br/>Diseño y Estándares]
-        ARCH --> DEV[<b>Ingeniería & Desarrollo</b><br/>Software Mobile / Web]
-        ARCH --> INFRA[<b>Infraestructura & Redes</b><br/>SysAdmin / Cloud / WAN]
-        ARCH --> SEC[<b>SecOps & Ciberseguridad</b><br/>Bastionado / Encriptación]
-        DEV & INFRA & SEC --> QA[<b>QA & SDET</b><br/>Pruebas & Validación]
+        PO["<b>Product Owner / PM</b><br/>Visión y Prioridad"] --> ARCH["<b>Lead Architect / Tech Lead</b><br/>Diseño y Estándares"]
+        ARCH --> DEV["<b>Ingeniería y Desarrollo</b><br/>Software Mobile / Web"]
+        ARCH --> INFRA["<b>Infraestructura y Redes</b><br/>SysAdmin / Cloud / WAN"]
+        ARCH --> SEC["<b>SecOps y Ciberseguridad</b><br/>Bastionado / Encriptación"]
+        DEV --> QA["<b>QA y SDET</b><br/>Pruebas y Validación"]
+        INFRA --> QA
+        SEC --> QA
     end
 ```
 
@@ -181,7 +182,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A[<b>1. Dolencia / Problema Detectado</b><br/>Procesos manuales / Caídas de red / Vulnerabilidades] --> B[<b>2. Análisis Causa Raíz</b><br/>Diagnóstico técnico de fallos] --> C[<b>3. Propuesta de Valor</b><br/>Solución tecnológica justificada]
+    A["<b>1. Dolencia / Problema Detectado</b><br/>Procesos manuales / Caídas de red / Vulnerabilidades"] --> B["<b>2. Análisis Causa Raíz</b><br/>Diagnóstico técnico de fallos"] --> C["<b>3. Propuesta de Valor</b><br/>Solución tecnológica justificada"]
 ```
 
 * **Guía de Redacción para la Memoria v1.0 (Sección 1.3):**
@@ -203,20 +204,20 @@ El apartado se completa con la **Matriz DAFO / FODA** (Debilidades, Amenazas, Fo
 
 ```mermaid
 flowchart LR
-    subgraph DAFO [Análisis Estratégico DAFO]
+    subgraph DAFO ["Análisis Estratégico DAFO"]
         direction LR
-        subgraph Interno [Análisis Interno]
-            F[<b>Fortalezas</b><br/>Control de stack / Conocimiento]
-            D[<b>Debilidades</b><br/>Tiempo limitado / Recurso unipersonal]
+        subgraph Interno ["Análisis Interno"]
+            F["<b>Fortalezas</b><br/>Control de stack / Conocimiento"]
+            D["<b>Debilidades</b><br/>Tiempo limitado / Recurso unipersonal"]
         end
-        subgraph Externo [Análisis Externo]
-            O[<b>Oportunidades</b><br/>Demanda de mercado / Ayudas públicas]
-            A[<b>Amenazas</b><br/>Ciberamenazas / Cambios normativos]
+        subgraph Externo ["Análisis Externo"]
+            O["<b>Oportunidades</b><br/>Demanda de mercado / Ayudas públicas"]
+            A["<b>Amenazas</b><br/>Ciberamenazas / Cambios normativos"]
         end
     end
-    subgraph Viabilidad [Evaluación de Viabilidad]
+    subgraph Viabilidad ["Evaluación de Viabilidad"]
         direction LR
-        VT[<b>Viabilidad Técnica</b><br/>Madurez y Factibilidad] --> VE[<b>Viabilidad Económica</b><br/>ROI y Control CAPEX/OPEX] --> VO[<b>Viabilidad Operativa</b><br/>Sostenibilidad y Mantenimiento]
+        VT["<b>Viabilidad Técnica</b><br/>Madurez y Factibilidad"] --> VE["<b>Viabilidad Económica</b><br/>ROI y Control CAPEX/OPEX"] --> VO["<b>Viabilidad Operativa</b><br/>Sostenibilidad y Mantenimiento"]
     end
     DAFO --> Viabilidad
 ```
@@ -244,10 +245,10 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Alcance [Delimitación de Fronteras del Proyecto]
+    subgraph Alcance ["Delimitación de Fronteras del Proyecto"]
         direction LR
-        NEC[<b>Necesidad Aprobada</b>] --> INSCOPE[<b>EN ALCANCE (In-Scope)</b><br/>Funcionalidades, módulos, nodos y servicios a implementar]
-        NEC --> OUTSCOPE[<b>FUERA DE ALCANCE (Out-of-Scope)</b><br/>Integraciones secundarias y características pospuestas]
+        NEC["<b>Necesidad Aprobada</b>"] --> INSCOPE["<b>EN ALCANCE (In-Scope)</b><br/>Funcionalidades, módulos, nodos y servicios a implementar"]
+        NEC --> OUTSCOPE["<b>FUERA DE ALCANCE (Out-of-Scope)</b><br/>Integraciones secundarias y características pospuestas"]
     end
 ```
 
@@ -273,14 +274,14 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Requisitos [Ingeniería de Requisitos - ISO/IEC 25010]
+    subgraph Requisitos ["Ingeniería de Requisitos - ISO/IEC 25010"]
         direction LR
-        RF[<b>Requisitos Funcionales (RF)</b><br/>Servicios, Capacidades y Funciones]
-        RNF[<b>Requisitos No Funcionales (RNF)</b><br/>Rendimiento, Latencia, SLA y Seguridad]
+        RF["<b>Requisitos Funcionales (RF)</b><br/>Servicios, Capacidades y Funciones"]
+        RNF["<b>Requisitos No Funcionales (RNF)</b><br/>Rendimiento, Latencia, SLA y Seguridad"]
     end
-    subgraph Eleccion [Selección Justificada de Medios]
+    subgraph Eleccion ["Selección Justificada de Medios"]
         direction LR
-        ALT[<b>Análisis de Alternativas</b>] --> BENCH[<b>Benchmarking Técnico</b>] --> STACK[<b>Stack / Medios Seleccionados</b>]
+        ALT["<b>Análisis de Alternativas</b>"] --> BENCH["<b>Benchmarking Técnico</b>"] --> STACK["<b>Stack / Medios Seleccionados</b>"]
     end
     Requisitos --> Eleccion
 ```
@@ -309,11 +310,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Marco_Legal [Cumplimiento Normativo e Institucional]
+    subgraph Marco_Legal ["Cumplimiento Normativo e Institucional"]
         direction LR
-        PRIV[<b>Privacidad & Datos</b><br/>RGPD / LOPD-GDD] --- SEC[<b>Ciberseguridad</b><br/>NIS2 / ENS / ISO 27001]
-        SEC --- LIC[<b>Licenciamiento</b><br/>Open Source vs Propietario]
-        LIC --- LAB[<b>Laboral & PRL</b><br/>Teletrabajo & Ergonomía PVD]
+        PRIV["<b>Privacidad y Datos</b><br/>RGPD / LOPD-GDD"] --- SEC["<b>Ciberseguridad</b><br/>NIS2 / ENS / ISO 27001"]
+        SEC --- LIC["<b>Licenciamiento</b><br/>Open Source vs Propietario"]
+        LIC --- LAB["<b>Laboral y PRL</b><br/>Teletrabajo y Ergonomía PVD"]
     end
 ```
 
@@ -336,9 +337,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Financiacion [Ecosistema de Incentivos y Ayudas Públicas]
+    subgraph Financiacion ["Ecosistema de Incentivos y Ayudas Públicas"]
         direction LR
-        KD[<b>Kit Digital (NextGenEU)</b><br/>Subvención a la digitalización] --- ENISA[<b>Préstamos ENISA</b><br/>Financiación sin avales para proyectos innovadores] --- CDTI[<b>CDTI Neotec</b><br/>Ayudas a empresas tecnológicas]
+        KD["<b>Kit Digital (NextGenEU)</b><br/>Subvención a la digitalización"] --- ENISA["<b>Préstamos ENISA</b><br/>Financiación sin avales para proyectos innovadores"] --- CDTI["<b>CDTI Neotec</b><br/>Ayudas a empresas tecnológicas"]
     end
 ```
 
@@ -364,12 +365,12 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph Kanban_Flow [Flujo de Trabajo Kanban en Tablero Digital]
+    subgraph Kanban_Flow ["Flujo de Trabajo Kanban en Tablero Digital"]
         direction LR
-        BACKLOG[<b>1. Product Backlog</b><br/>Historias & Tarjetas] --> SPRINT_BACKLOG[<b>2. Sprint Backlog</b><br/>Compromiso del Sprint]
-        SPRINT_BACKLOG --> IN_PROGRESS[<b>3. In Progress</b><br/>Trabajo Activo]
-        IN_PROGRESS --> IN_REVIEW[<b>4. In Review / QA</b><br/>Pruebas & Review]
-        IN_REVIEW --> DONE[<b>5. Done</b><br/>Cumple DoD]
+        BACKLOG["<b>1. Product Backlog</b><br/>Historias y Tarjetas"] --> SPRINT_BACKLOG["<b>2. Sprint Backlog</b><br/>Compromiso del Sprint"]
+        SPRINT_BACKLOG --> IN_PROGRESS["<b>3. In Progress</b><br/>Trabajo Activo"]
+        IN_PROGRESS --> IN_REVIEW["<b>4. In Review / QA</b><br/>Pruebas y Review"]
+        IN_REVIEW --> DONE["<b>5. Done</b><br/>Cumple DoD"]
     end
 ```
 
@@ -379,19 +380,19 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
     section Fase Previa
-    Kick-off & Anteproyecto          :active, k1, 2026-10-01, 7d
-    section Sprint 1 (RA1)
-    Análisis Entorno & Memoria v1.0  :s1, 2026-10-08, 14d
-    Demo Funcional 1 (PoC)            :crit, d1, 2026-10-22, 1d
-    section Sprint 2 (RA2)
-    Arquitectura & Memoria v2.0      :s2, 2026-10-23, 14d
-    Demo Funcional 2 (UI/Network)     :crit, d2, 2026-11-06, 1d
-    section Sprint 3 (RA3)
-    Core MVP & Memoria v3.0          :s3, 2026-11-07, 21d
-    Demo Funcional 3 (MVP Operativo)  :crit, d3, 2026-11-28, 1d
-    section Sprint 4 (RA4)
-    Despliegue & Memoria v4.0 FINAL  :s4, 2026-11-29, 14d
-    Demo Funcional 4 (Release)        :crit, d4, 2026-12-13, 1d
+    Kick-off y Anteproyecto          :active, k1, 2026-10-01, 7d
+    section Sprint 1 RA1
+    Análisis Entorno y Memoria v1.0  :s1, 2026-10-08, 14d
+    Demo Funcional 1 - PoC            :crit, d1, 2026-10-22, 1d
+    section Sprint 2 RA2
+    Arquitectura y Memoria v2.0      :s2, 2026-10-23, 14d
+    Demo Funcional 2 - UI e Red       :crit, d2, 2026-11-06, 1d
+    section Sprint 3 RA3
+    Core MVP y Memoria v3.0          :s3, 2026-11-07, 21d
+    Demo Funcional 3 - MVP Operativo  :crit, d3, 2026-11-28, 1d
+    section Sprint 4 RA4
+    Despliegue y Memoria v4.0 FINAL  :s4, 2026-11-29, 14d
+    Demo Funcional 4 - Release        :crit, d4, 2026-12-13, 1d
     section Cierre
     Defensa ante Tribunal            :milestone, t1, 2026-12-20, 1d
 ```
@@ -409,13 +410,13 @@ Al finalizar el Sprint 1, además del documento de la Memoria v1.0, el alumno/a 
 
 ```mermaid
 flowchart LR
-    subgraph PoC_Types [Prueba de Concepto (PoC) según la Naturaleza Técnica]
+    subgraph PoC_Types ["Prueba de Concepto - PoC según la Naturaleza Técnica"]
         direction LR
-        P_SW[<b>Desarrollo Software</b><br/>Repo Git + Hello World / Estructura Base]
-        P_NET[<b>Redes / Telecomunicaciones</b><br/>Enrutamiento básico / PING entre nodos]
-        P_CLOUD[<b>Cloud / SysAdmin</b><br/>Servidor Semilla + Acceso SSH/VPN]
-        P_SEC[<b>Ciberseguridad</b><br/>Regla de Firewall / Bastionado Base]
-        P_DATA[<b>Data / IoT</b><br/>Ingesta de datos / Lectura de sensor]
+        P_SW["<b>Desarrollo Software</b><br/>Repo Git + Hello World / Estructura Base"]
+        P_NET["<b>Redes / Telecomunicaciones</b><br/>Enrutamiento básico / PING entre nodos"]
+        P_CLOUD["<b>Cloud / SysAdmin</b><br/>Servidor Semilla + Acceso SSH/VPN"]
+        P_SEC["<b>Ciberseguridad</b><br/>Regla de Firewall / Bastionado Base"]
+        P_DATA["<b>Data / IoT</b><br/>Ingesta de datos / Lectura de sensor"]
     end
 ```
 
