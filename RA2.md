@@ -115,8 +115,8 @@ Antes de comenzar la redacción del Capítulo 2 (RA2), el alumno/a debe haber sa
 
 ### CE.a — Recopilación e Investigación de Información Técnica del Proyecto
 
-* **Objetivo Curricular:** Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.
-* **Explicación Profunda:** El alumno/a debe realizar un levantamiento exhaustivo de información técnica, normativa y de mercado que fundamente las decisiones de diseño de su proyecto. Se investigan proyectos similares (*Benchmarking*), documentación oficial de fabricantes/frameworks, normativas técnicas aplicables y estándares de la industria.
+* **Objetivo:** Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.
+* **Explicación:** El alumno/a debe realizar un levantamiento exhaustivo de información técnica, normativa y de mercado que fundamente las decisiones de diseño de su proyecto. Se investigan proyectos similares (*Benchmarking*), documentación oficial de fabricantes/frameworks, normativas técnicas aplicables y estándares de la industria.
   * **Fuentes Documentales e Investigación:**
     * Documentación técnica oficial de lenguajes, librerías, hipervisores o servicios cloud.
     * Análisis comparativo de soluciones existentes en el mercado (*Benchmarking* competitivo).
@@ -141,8 +141,8 @@ flowchart TD
 
 ### CE.b — Estudio Detallado de Viabilidad Técnica y Análisis de Riesgos
 
-* **Objetivo Curricular:** Se ha realizado el estudio de viabilidad técnica del proyecto.
-* **Explicación Profunda:** Profundización en el estudio de factibilidad técnica iniciado en el Sprint 1, evaluando la capacidad real de implementar la solución diseñada dentro de los límites de tiempo, hardware, licencias y conocimientos disponibles, incluyendo una **Matriz de Gestión de Riesgos Técnicos**.
+* **Objetivo:** Se ha realizado el estudio de viabilidad técnica del proyecto.
+* **Explicación:** Profundización en el estudio de factibilidad técnica iniciado en el Sprint 1, evaluando la capacidad real de implementar la solución diseñada dentro de los límites de tiempo, hardware, licencias y conocimientos disponibles, incluyendo una **Matriz de Gestión de Riesgos Técnicos**.
   * **Dimensiones del Estudio:**
     * *Compatibilidad e Interoperabilidad:* Garantía de que los componentes elegidos se integran sin conflictos.
     * *Límites de Rendimiento y Escalabilidad:* Evaluación de la capacidad del stack para soportar la carga prevista.
@@ -166,8 +166,8 @@ flowchart TD
 
 ### CE.c — Identificación de Fases, Cronograma y Plazos de Ejecución
 
-* **Objetivo Curricular:** Se han identificado las fases del proyecto especificando su contenido y plazos de ejecución.
-* **Explicación Profunda:** Estructuración temporal del proyecto dividida en fases e hitos clave (*Milestones*), representada visualmente mediante un **Diagrama de Gantt detallado** que refleje las fechas de inicio, fin, duraciones y dependencias entre etapas.
+* **Objetivo:** Se han identificado las fases del proyecto especificando su contenido y plazos de ejecución.
+* **Explicación:** Estructuración temporal del proyecto dividida en fases e hitos clave (*Milestones*), representada visualmente mediante un **Diagrama de Gantt detallado** que refleje las fechas de inicio, fin, duraciones y dependencias entre etapas.
   * **Fases Típicas de un Proyecto de Ingeniería:**
     1. *Fase 1: Kick-off y Análisis de Requisitos* (Sprint 1)
     2. *Fase 2: Diseño de Arquitectura y Prototipado* (Sprint 2 - Fase Actual)
@@ -201,8 +201,8 @@ gantt
 
 ### CE.d — Definición de Objetivos (SMART), Alcance y Métricas de Éxito
 
-* **Objetivo Curricular:** Se han establecido los objetivos que se pretenden conseguir identificando su alcance.
-* **Explicación Profunda:** Definición formal de los Objetivos Generales y Específicos del proyecto redactados bajo la metodología **SMART** (*Specific, Measurable, Achievable, Relevant, Time-bound*), vinculándolos con métricas de éxito e indicadores clave de rendimiento (KPIs).
+* **Objetivo:** Se han establecido los objetivos que se pretenden conseguir identificando su alcance.
+* **Explicación:** Definición formal de los Objetivos Generales y Específicos del proyecto redactados bajo la metodología **SMART** (*Specific, Measurable, Achievable, Relevant, Time-bound*), vinculándolos con métricas de éxito e indicadores clave de rendimiento (KPIs).
   * **Estructura de Objetivos SMART:**
     * **S** (Específico): ¿Qué se va a lograr exactamente?
     * **M** (Medible): ¿Cómo se cuantificará el éxito?
@@ -229,8 +229,8 @@ flowchart TD
 
 ### CE.e — Desglose de Actividades, EDT/WBS y Planificación de Tareas
 
-* **Objetivo Curricular:** Se han determinado las actividades necesarias para el desarrollo del proyecto.
-* **Explicación Profunda:** Elaboración de la **Estructura de Desglose del Trabajo (EDT / WBS - Work Breakdown Structure)**, dividiendo jerárquicamente el proyecto en paquetes de trabajo (*Work Packages*) y tarjetas de tareas técnicas asociadas al Backlog del proyecto.
+* **Objetivo:** Se han determinado las actividades necesarias para el desarrollo del proyecto.
+* **Explicación:** Elaboración de la **Estructura de Desglose del Trabajo (EDT / WBS - Work Breakdown Structure)**, dividiendo jerárquicamente el proyecto en paquetes de trabajo (*Work Packages*) y tarjetas de tareas técnicas asociadas al Backlog del proyecto.
   * **Niveles de la EDT/WBS:**
     * *Nivel 1:* Proyecto Global
     * *Nivel 2:* Sprints / Fases Principales
@@ -262,8 +262,8 @@ flowchart TD
 
 ### CE.f — Determinación y Estimación de Recursos Materiales y Personales
 
-* **Objetivo Curricular:** Se han previsto los recursos materiales y personales necesarios para realizar el proyecto.
-* **Explicación Profunda:** Identificación, cuantificación y asignación de todos los activos necesarios para ejecutar el proyecto, clasificándolos en **Recursos Humanos / Roles** y **Recursos Materiales / Infraestructura / Software**.
+* **Objetivo:** Se han previsto los recursos materiales y personales necesarios para realizar el proyecto.
+* **Explicación:** Identificación, cuantificación y asignación de todos los activos necesarios para ejecutar el proyecto, clasificándolos en **Recursos Humanos / Roles** y **Recursos Materiales / Infraestructura / Software**.
   * **Tipología de Recursos:**
     * *Recursos Personales:* Asignación de roles técnicos mediante la **Matriz RACI** (*Responsible, Accountable, Consulted, Informed*).
     * *Recursos Hardware / Materiales:* Equipos de cómputo, servidores, dispositivos móviles de prueba, cabinas de almacenamiento, equipos de red.
@@ -287,8 +287,8 @@ flowchart TD
 
 ### CE.g — Presupuesto, Análisis de Costes (CAPEX/OPEX) y Necesidades de Financiación
 
-* **Objetivo Curricular:** Se han identificado las necesidades de financiación para la puesta en marcha del proyecto.
-* **Explicación Profunda:** Elaboración del presupuesto económico consolidado del proyecto, diferenciando entre inversiones de capital (**CAPEX**) y costes operativos continuados (**OPEX**), calculando el coste de mano de obra por hora de ingeniería y determinando las necesidades de liquidez/financiación.
+* **Objetivo:** Se han identificado las necesidades de financiación para la puesta en marcha del proyecto.
+* **Explicación:** Elaboración del presupuesto económico consolidado del proyecto, diferenciando entre inversiones de capital (**CAPEX**) y costes operativos continuados (**OPEX**), calculando el coste de mano de obra por hora de ingeniería y determinando las necesidades de liquidez/financiación.
   * **Desglose Presupuestario Profesional:**
     * **CAPEX (Capital Expenditures):** Inversiones iniciales amortizables (compra de hardware, equipos, licencias perpetuas, registro de marcas).
     * **OPEX (Operational Expenditures):** Gastos recurrentes de operación (alquiler de servidores cloud, suscripciones SaaS, certificados, consumo eléctrico, mantenimiento).
@@ -313,8 +313,8 @@ flowchart TD
 
 ### CE.h — Diseño de Arquitectura, Diagramas Técnicos y Documentación del Proyecto
 
-* **Objetivo Curricular:** Se ha definido y elaborado la documentación necesaria para su diseño.
-* **Explicación Profunda:** Es la sección central del Capítulo 2. El alumno/a debe elaborar la **especificación técnica formal de la arquitectura del proyecto** utilizando diagramas estandarizados según su especialidad (UML, esquemas de red L2/L3, modelos de datos ER/NoSQL y prototipos de interfaz UI/UX).
+* **Objetivo:** Se ha definido y elaborado la documentación necesaria para su diseño.
+* **Explicación:** Es la sección central del Capítulo 2. El alumno/a debe elaborar la **especificación técnica formal de la arquitectura del proyecto** utilizando diagramas estandarizados según su especialidad (UML, esquemas de red L2/L3, modelos de datos ER/NoSQL y prototipos de interfaz UI/UX).
   * **Entregables Técnicos por Especialidad:**
     * *Sistemas Software (DAM/DAW):* Diagramas UML (Clases, Componentes, Secuencia), Modelo Entidad-Relación (ER) de la Base de Datos, Contrato de la API (OpenAPI / Swagger) y Wireframes/Mockups de las pantallas.
     * *Sistemas de Infraestructura y Redes (ASIR):* Diagrama de Topología L2/L3 de Red, Diagrama de Arquitectura Cloud / Virtualización, Tabla de Direccionamiento IP y Subredes, Esquema de Flujo de Tráfico y Reglas de Firewall.
@@ -350,8 +350,8 @@ flowchart TD
 
 ### CE.i — Plan de Control de Calidad, Pruebas y Gestión de Incidencias
 
-* **Objetivo Curricular:** Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto.
-* **Explicación Profunda:** Definición del **Plan de Garantía de Calidad (QA Plan)** que se aplicará durante las fases de desarrollo y despliegue, estableciendo la estrategia de pruebas, los procedimientos de revisión y los protocolos de gestión de incidencias/bugs.
+* **Objetivo:** Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto.
+* **Explicación:** Definición del **Plan de Garantía de Calidad (QA Plan)** que se aplicará durante las fases de desarrollo y despliegue, estableciendo la estrategia de pruebas, los procedimientos de revisión y los protocolos de gestión de incidencias/bugs.
   * **Estrategias de Control de Calidad:**
     * *Niveles de Pruebas:* Unitarias, de Integración, de Sistema, de Rendimiento/Estrés y de Seguridad (OWASP / Bastionado).
     * *Métricas de Calidad:* Cobertura de código (*Code Coverage* $> 80\%$), tiempo medio entre fallos (MTBF), tiempo medio de reparación (MTTR).
