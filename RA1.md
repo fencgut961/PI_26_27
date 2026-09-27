@@ -1,92 +1,83 @@
-# 🚀 Guía Metodológica Universal: RA1 — Estudio del Entorno Productivo y Demandas del Mercado
+# 🚀 Guía Metodológica: RA1 — Estudio del Entorno Productivo y Demandas del Mercado
 
-> **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado  
-> **Ámbito:** Cualquier Tipología de Proyecto Tecnológico (Desarrollo Software Web/Móvil/Desktop, Infraestructura Cloud/On-Premise, Redes Nacionales e Internacionales, Ciberseguridad, Data/IA, IoT o Sistemas Embebidos)  
+> **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Fase del Proyecto:** Kick-off & Sprint 1 | **Entregable:** Memoria Incremental v1.0  
-> **Rol del Alumnado:** *Lead Engineer / Technical Project Lead / DevOps / Architect* (Único Responsable de Proyecto)  
+> **Rol del Alumno/a:** *Lead Developer / DevOps / Architect / SysAdmin* (Responsable Único del Proyecto)  
 > **Rol del Docente:** *Guía Metodológico, Orientador Técnico y Evaluador / Tribunal*
 
 ---
 
 ## 📋 Índice
-1. [Enfoque Agnosticista y Universal del Proyecto](#1-enfoque-agnosticista-y-universal-del-proyecto)
+1. [Enfoque del Proyecto](#1-enfoque-del-proyecto)
 2. [Ciclo de Vida Incremental del Proyecto](#2-ciclo-de-vida-incremental-del-proyecto)
 3. [Prerrequisito Obligatorio: Kick-off y Anteproyecto](#3-prerrequisito-obligatorio-kick-off-y-anteproyecto)
-4. [Desglose Universal Criterio por Criterio (CE.a al CE.i)](#4-desglose-universal-criterio-por-criterio-cea-al-cei)
+4. [Desglose Criterio por Criterio (CE.a al CE.i)](#4-desglose-criterio-por-criterio-cea-al-cei)
    - [CE.a — Clasificación del Sector y Entorno de Aplicación](#ce-a--clasificación-del-sector-y-entorno-de-aplicación)
    - [CE.b — Estructura Organizativa y Roles Técnicos](#ce-b--estructura-organizativa-y-roles-técnicos)
-   - [CE.c — Detección Universal de Necesidades y Dolencias](#ce-c--detección-universal-de-necesidades-y-dolencias)
-   - [CE.d — Valoración de Oportunidades y Viabilidad](#ce-d--valoración-de-oportunidades-y-viabilidad)
+   - [CE.c — Detección de Necesidades y Dolencias](#ce-c--detección-de-necesidades-y-dolencias)
+   - [CE.d — Valoración de Oportunidades y Viabilidad Tridimensional](#ce-d--valoración-de-oportunidades-y-viabilidad-tridimensional)
    - [CE.e — Definición de la Tipología de Proyecto y Alcance](#ce-e--definición-de-la-tipología-de-proyecto-y-alcance)
    - [CE.f — Ingeniería de Requisitos y Elección Justificada del Stack](#ce-f--ingeniería-de-requisitos-y-elección-justificada-del-stack)
-   - [CE.g — Marco Legal, Regulatorio, Ciberseguridad y PRL](#ce-g--marco-legal-regulatorio-ciberseguridad-y-prl)
-   - [CE.h — Ayudas, Subvenciones y Viabilidad Económica](#ce-h--ayudas-subvenciones-y-viabilidad-económica)
-   - [CE.i — Planificación Metodológica, Gestión de Tareas y Kanban](#ce-i--planificación-metodológica-gestión-de-tareas-y-kanban)
-5. [Adaptación de la Prueba de Concepto (PoC) según la Naturaleza del Proyecto](#5-adaptación-de-la-prueba-de-concepto-poc-según-la-naturaleza-del-proyecto)
+   - [CE.g — Marco Legal, Fiscal, Laboral, PRL y Ciberseguridad](#ce-g--marco-legal-fiscal-laboral-prl-y-ciberseguridad)
+   - [CE.h — Ayudas, Subvenciones e Incentivos a la Innovación](#ce-h--ayudas-subvenciones-e-incentivos-a-la-innovación)
+   - [CE.i — Guion de Trabajo, Backlog y Metodología Ágil](#ce-i--guion-de-trabajo-backlog-y-metodología-ágil)
+5. [Ejecución Práctica según la Naturaleza del Proyecto](#5-ejecución-práctica-según-la-naturaleza-del-proyecto)
 6. [Matriz de Entregables en Moodle y Demo Funcional Presencial](#6-matriz-de-entregables-en-moodle-y-demo-funcional-presencial)
 7. [Checklist de Autoevaluación para el Alumnado](#7-checklist-de-autoevaluación-para-el-alumnado)
 
 ---
 
-## 1. Enfoque Agnosticista y Universal del Proyecto
+## 1. Enfoque del Proyecto
 
-El módulo de Proyecto **no está acoplado a una tecnología o tipología concreta**. Cada alumno tiene plena libertad para proponer y desarrollar cualquier solución tecnológica válida, incluyendo pero no limitándose a:
+El módulo de Proyecto contempla cualquier tipología de solución tecnológica que el alumno/a decida desarrollar, adaptando los fundamentos de la gestión de proyectos de ingeniería a las distintas áreas del sector informático y de las telecomunicaciones:
 
-```mermaid
-graph TD
-    subgraph Universos_de_Proyecto [Libertad de Elección de Proyecto Tecnológico]
-        A[<b>Desarrollo Software</b><br/>Web, Mobile, Desktop, PWA, SaaS]
-        B[<b>Redes y Telecomunicaciones</b><br/>WAN/SD-WAN, VLANs, VPNs, BGP, Redes Internacionales]
-        C[<b>Infraestructura & Cloud</b><br/>AWS/Azure/GCP, On-Premise, Virtualización, K8s]
-        D[<b>Ciberseguridad & Bastionado</b><br/>SOC, SIEM, Firewalls, Auditoría, Zero-Trust]
-        E[<b>Datos, IA & IoT</b><br/>Data Pipelines, MLOps, Modelos IA, Sensores/Sistemas Embebidos]
-    end
-```
-
-La **metodología de análisis, viabilidad, requisitos y planificación (RA1)** es exactamente la misma independientemente de la naturaleza técnica de la solución.
+* **Desarrollo de Software Multiplataforma (DAM):** Aplicaciones móviles nativas (Kotlin, Swift), multiplataforma (Flutter, React Native), software de escritorio o sistemas embebidos.
+* **Desarrollo de Aplicaciones Web (DAW):** Plataformas web SaaS, arquitecturas JAMstack, Single Page Applications (SPA), microservicios frontend/backend y APIs REST/GraphQL.
+* **Administración de Sistemas Informáticos y Redes (ASIR):** Infraestructuras cloud y multi-cloud (AWS, Azure, GCP), virtualización (Proxmox, VMware), redes WAN/SD-WAN, ciberseguridad, alta disponibilidad y servicios gestionados.
 
 ---
 
 ## 2. Ciclo de Vida Incremental del Proyecto
 
-El proyecto se desarrolla de forma **incremental por Sprints**. El alumno/a mantendrá un **único documento maestro (la Memoria del Proyecto)** que evolucionará desde la versión `v1.0` hasta la `v4.0 FINAL`.
+A lo largo del curso, el alumno/a redacta un **único documento maestro (Memoria Incremental)** que evoluciona por versiones desde la `v1.0` hasta la `v4.0 FINAL`, acompañado en cada fase por una demostración práctica.
 
 ```mermaid
-flowchart TD
+flowchart LR
+    %% Estilos de Nodos
     classDef kickoff fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
     classDef sprint fill:#ffffff,stroke:#37474f,stroke-width:2px,color:#263238;
     classDef demo fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
     classDef final fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
 
-    K[<b>Kick-off Obligatorio</b><br/>Reunión Previa + Anteproyecto en Moodle]:::kickoff --> S1
+    K[<b>1. Kick-off Obligatorio</b><br/>Reunión + Anteproyecto Moodle]:::kickoff --> S1
 
-    subgraph S1_BOX [Sprint 1: RA1 - Entorno y Viabilidad Inicial]
-        S1[<b>Memoria v1.0</b><br/>Análisis de Entorno + 9 CEs]:::sprint
-        S1 --> D1[<b>Demo Funcional 1</b><br/>Prueba de Concepto / PoC Presencial]:::demo
+    subgraph S1_BOX [Sprint 1: RA1 - Entorno y Viabilidad]
+        direction LR
+        S1[<b>Memoria v1.0</b><br/>Análisis Sector + 9 CEs]:::sprint --> D1[<b>Demo Funcional 1</b><br/>Prueba de Concepto / PoC]:::demo
     end
 
     D1 --> S2_BOX
 
-    subgraph S2_BOX [Sprint 2: RA2 - Diseño Técnico y Arquitectura]
-        S2[<b>Memoria v2.0</b><br/>Arquitectura de SW / Topología de Red / Cloud]:::sprint
-        S2 --> D2[<b>Demo Funcional 2</b><br/>Prototipo / Despliegue Base]:::demo
+    subgraph S2_BOX [Sprint 2: RA2 - Arquitectura y Diseño]
+        direction LR
+        S2[<b>Memoria v2.0</b><br/>Cap. 1 + Cap. 2 Arquitectura]:::sprint --> D2[<b>Demo Funcional 2</b><br/>UI / Topología / Esquema]:::demo
     end
 
     D2 --> S3_BOX
 
-    subgraph S3_BOX [Sprint 3: RA3 - Planificación y Core MVP]
-        S3[<b>Memoria v3.0</b><br/>Núcleo Funcional Operativo]:::sprint
-        S3 --> D3[<b>Demo Funcional 3</b><br/>MVP Integrado]:::demo
+    subgraph S3_BOX [Sprint 3: RA3 - Core MVP & Operaciones]
+        direction LR
+        S3[<b>Memoria v3.0</b><br/>Cap. 1 a 3 + MVP]:::sprint --> D3[<b>Demo Funcional 3</b><br/>MVP Operativo en Vivo]:::demo
     end
 
     D3 --> S4_BOX
 
-    subgraph S4_BOX [Sprint 4: RA4 - Calidad, Despliegue y Cierre]
-        S4[<b>Memoria v4.0 FINAL</b><br/>Documento Consolidado y Pruebas]:::sprint
-        S4 --> D4[<b>Demo Funcional 4</b><br/>Versión Final Release Candidate]:::demo
+    subgraph S4_BOX [Sprint 4: RA4 - Despliegue y Cierre]
+        direction LR
+        S4[<b>Memoria v4.0 FINAL</b><br/>Documento Consolidado]:::sprint --> D4[<b>Demo Funcional 4</b><br/>Release Candidate v1.0.0]:::demo
     end
 
-    D4 --> TRIBUNAL[<b>TRIBUNAL FINAL DE EVALUACIÓN</b><br/>Presentación Oral + Live Demo en Vivo]:::final
+    D4 --> TRIBUNAL[<b>TRIBUNAL FINAL DE EVALUACIÓN</b><br/>Defensa Oral + Live Demo]:::final
 ```
 
 ---
@@ -97,258 +88,334 @@ Antes de comenzar a redactar el Sprint 1 o desarrollar código/configuraciones, 
 
 1. **Iniciativa de la Reunión Previa:** Es responsabilidad del alumno/a solicitar y agendar una reunión individual con el profesor/a para exponer verbalmente la idea, alcance preliminar y recursos. El docente actúa como orientador y guía.
 2. **Redacción y Subida del Anteproyecto:** Elaborar el documento inicial con los apartados obligatorios (*Título, Descripción/Objetivos, Método/Fases, Medios/Recursos, Bibliografía y Declaración de Autoría*).
-3. **Validación en Moodle:** La subida del Anteproyecto constituye la aceptación incondicional del acuerdo pedagógico y la declaración explícita de autoría redactada por el alumno.
+3. **Validación en Moodle:** La subida del Anteproyecto constituye la aceptación incondicional del acuerdo pedagógico y la declaración explícita de autoría redactada por el propio alumno/a.
 
 > ⚠️ **Requisito Innegociable:** La subida e incorporación del Anteproyecto a Moodle en tiempo y forma es condición indispensable. **Sin el Anteproyecto aprobado, el alumno/a no podrá realizar las Demos Funcionales ni optar a la Defensa Final ante el Tribunal de Profesores.**
 
 ---
 
-## 4. Desglose Universal Criterio por Criterio (CE.a al CE.i)
+## 4. Desglose Criterio por Criterio (CE.a al CE.i)
 
 Cada uno de los 9 Criterios de Evaluación del RA1 pondera exactamente un **11.11% de la nota del Sprint 1**.
 
 ```mermaid
-pie title Distribución del Peso de Evaluación en Sprint 1 (RA1)
-    "CE.a Clasificación del Sector" : 11.11
-    "CE.b Estructura Organizativa" : 11.11
-    "CE.c Detección de Necesidades" : 11.11
-    "CE.d Oportunidades & Viabilidad" : 11.11
-    "CE.e Proyecto Tipo & Alcance" : 11.11
-    "CE.f Requisitos & Stack Tecnológico" : 11.11
-    "CE.g Marco Legal & Ciberseguridad" : 11.11
-    "CE.h Ayudas & Subvenciones" : 11.11
-    "CE.i Guion de Trabajo & Kanban" : 11.11
+flowchart LR
+    subgraph RA1 [Resultado de Aprendizaje 1 - Peso Total 100%]
+        direction LR
+        A[CE.a Sector 11.11%] --> B[CE.b Roles 11.11%] --> C[CE.c Necesidades 11.11%] --> D[CE.d Viabilidad 11.11%] --> E[CE.e Alcance 11.11%] --> F[CE.f Requisitos 11.11%] --> G[CE.g Legal 11.11%] --> H[CE.h Ayudas 11.11%] --> I[CE.i Kanban 11.11%]
+    end
 ```
 
 ---
 
 ### CE.a — Clasificación del Sector y Entorno de Aplicación
 
-* **Objetivo:** Clasificar las empresas y organizaciones del sector de aplicación por sus características organizativas y los productos o servicios que ofrecen.
-* **Enfoque Universal:** El alumno debe analizar la industria o ámbito donde se enmarca su solución (tecnológica, industrial, logística, sanitaria, financiera, telecomunicaciones, etc.) y categorizar los actores que prestan servicios similares.
+* **Objetivo Curricular:** Clasificar las empresas y organizaciones del sector por sus características organizativas y los productos o servicios que ofrecen.
+* **Explicación Profunda:** El alumno/a analiza el entorno económico e industrial donde se encuadra su solución. No se limita a definir "empresas informáticas", sino que examina la vertical de mercado (Finanzas, Salud, Logística, Retail, Industria 4.0, Telecomunicaciones) y el modelo de prestación de servicios:
+  * **Modelos de Negocio y Servicio:**
+    * *SaaS (Software as a Service):* Aplicaciones alojadas en la nube accesibles por suscripción (ej. plataformas de gestión, herramientas analíticas, ERPs web).
+    * *IaaS / PaaS (Infrastructure / Platform as a Service):* Provisión de recursos informáticos, plataformas de despliegue, cómputo y almacenamiento (ej. AWS, Azure, GCP, entornos de contenedores).
+    * *MSPs / MSSPs (Managed Service / Security Providers):* Gestión delegada de infraestructuras, administración de redes, soporte y ciberseguridad 24/7.
+    * *Telecomunicaciones & ISPs:* Operadores de transporte de datos, provisión de fibra, redes WAN/SD-WAN y enlaces dedicados.
+    * *Software Factories & Consultorías:* Desarrollo a medida de software móvil, web o de escritorio.
 
 ```mermaid
-mindmap
-  root((Sector y Modelo de Mercado))
-    Modelos de Prestación
-      Producto Propietario / SaaS
-      Infraestructura & Cloud / IaaS / PaaS
-      Servicios Gestionados / MSP / MSSP
-      Integración de Redes / Telecomunicaciones
-      Consultoría / Proyectos a Medida
-    Ámbito de Cobertura
-      Local / Regional
-      Nacional
-      Multinacional / Redes Internacionales
+flowchart LR
+    subgraph Sector_TIC [Clasificación del Sector e Industria de Aplicación]
+        direction LR
+        M1[<b>Modelos de Producto</b><br/>SaaS / B2B / B2C / Open Core] --- M2[<b>Modelos de Infraestructura</b><br/>IaaS / PaaS / Hybrid Cloud]
+        M2 --- M3[<b>Servicios Gestionados</b><br/>MSP / MSSP / SOC Delegado]
+        M3 --- M4[<b>Telecomunicaciones</b><br/>ISPs / Redes WAN / SD-WAN]
+    end
 ```
 
-* **Guía para la Memoria v1.0 (Sección 1.1):**
-  * Describir la taxonomía del sector donde operará la solución.
-  * Analizar modelos de negocio imperantes (Suscripción, Pago por Uso/Recursos, Licenciamiento, Llave en mano, Contratos de Mantenimiento / SLA).
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.1):**
+  1. Describir la estructura general del sector tecnológico y la vertical de mercado donde se encuadra el proyecto.
+  2. Identificar el modelo de prestación de la solución propuesta (suscripción, pago por uso, licenciamiento, contrato de mantenimiento con SLA).
+  3. Enumerar empresas u organizaciones de referencia en dicho ámbito (competidores directos o indirectos).
 
 ---
 
 ### CE.b — Estructura Organizativa y Roles Técnicos
 
-* **Objetivo:** Caracterizar la empresa u organización tipo indicando la estructura organizativa y las funciones de cada departamento o área técnica.
-* **Enfoque Universal:** Describir la estructura organizativa necesaria para sostener una solución como la propuesta, detallando las responsabilidades de cada rol independientemente de la especialidad.
-
-```mermaid
-graph TD
-    subgraph Estructura_Organizativa_Tecnica [Estructura Organizativa del Proyecto/Empresa]
-        DIR[<b>Dirección de Proyecto / Product Owner</b><br/>Gestión de Alcance, Objetivos y Prioridades]
-        ARCH[<b>Arquitectura / Lead Specialist</b><br/>Diseño Técnico, Estándares y Decisiones de Ingeniería]
-        
-        subgraph Operaciones_y_Desarrollo [Equipo de Ejecución Técnica]
-            ENG[<b>Ingenieros / Desarrolladores / SysAdmins</b><br/>Implementación, Configuración y Código]
-            SECOPS[<b>Ciberseguridad / SecOps / SRE</b><br/>Auditoría, Bastionado y Monitoreo]
-            NET[<b>Ingeniería de Red / Infraestructura</b><br/>Conectividad, Enrutamiento y Hardware]
-        end
-
-        QA[<b>Aseguramiento de Calidad / QA / Pruebas</b><br/>Verificación y Cumplimiento de Especificaciones]
-    end
-
-    DIR --- ARCH
-    ARCH --- Operaciones_y_Desarrollo
-    Operaciones_y_Desarrollo --- QA
-```
-
-* **Guía para la Memoria v1.0 (Sección 1.2):**
-  * Dibujar el organigrama tipo de la empresa o departamento de TI/Ingeniería.
-  * Definir las competencias técnicas y operativas de cada perfil.
-
----
-
-### CE.c — Detección Universal de Necesidades y Dolencias
-
-* **Objetivo:** Identificar las necesidades más demandadas en el ámbito de actuación del proyecto.
-* **Enfoque Universal:** Identificar la problemática, ineficiencia o cuello de botella real (*Pain Point*) que motiva la existencia del proyecto.
+* **Objetivo Curricular:** Caracterizar la empresa u organización tipo indicando la estructura organizativa y las funciones de cada departamento o área técnica.
+* **Explicación Profunda:** Las organizaciones tecnológicas se estructuran en equipos multidisciplinares (*Product Squads / Equipos de Operaciones e Ingeniería*) orientados a aportar valor continuo:
+  * **Definición de Roles:**
+    * *Product Owner (PO) / Product Manager:* Define la visión de la solución, prioriza los requisitos y valida la entrega con el cliente.
+    * *Tech Lead / Arquitecto de Software o Sistemas:* Toma decisiones de diseño técnico, selecciona tecnologías y fija estándares de calidad.
+    * *Desarrolladores / Ingenieros de Software:* Desarrollan la lógica de negocio, interfaces móviles/web y componentes backend/frontend.
+    * *DevOps / SRE (Site Reliability Engineer):* Automatizan pipelines de CI/CD, gestionan infraestructura como código (IaC) y aseguran la disponibilidad de los servicios.
+    * *SysAdmin / Ingeniero de Redes y Sistemas:* Configura servidores, hypervisores, electrónica de red, VPNs, enrutamiento y almacenamiento.
+    * *SecOps / Ingeniero de Ciberseguridad:* Implementa políticas de bastionado, gestión de identidades, análisis de vulnerabilidades y prevención de intrusiones.
+    * *QA Engineer / SDET:* Diseña y ejecuta pruebas automatizadas de integración, rendimiento y seguridad.
 
 ```mermaid
 flowchart LR
-    A[<b>Problema / Ineficiencia Real</b><br/>Falta de movilidad / Red obsoleta / Vulnerabilidades / Caídas de servicio] --> B[<b>Análisis de Causa Raíz</b>]
-    B --> C[<b>Propuesta de Solución Tecnológica</b><br/>Software / Red SD-WAN / Infraestructura Cloud / Sistema de Seguridad]
+    subgraph Squad [Estructura Organizativa del Equipo de Proyecto]
+        direction LR
+        PO[<b>Product Owner / PM</b><br/>Visión y Prioridad] --> ARCH[<b>Lead Architect / Tech Lead</b><br/>Diseño y Estándares]
+        ARCH --> DEV[<b>Ingeniería & Desarrollo</b><br/>Software Mobile / Web]
+        ARCH --> INFRA[<b>Infraestructura & Redes</b><br/>SysAdmin / Cloud / WAN]
+        ARCH --> SEC[<b>SecOps & Ciberseguridad</b><br/>Bastionado / Encriptación]
+        DEV & INFRA & SEC --> QA[<b>QA & SDET</b><br/>Pruebas & Validación]
+    end
 ```
 
-* **Ejemplos de Necesidades según la Naturaleza del Proyecto:**
-  * **Desarrollo Software:** Inexistencia de herramienta para automatizar un proceso manual, problemas de sincronización de datos o mala experiencia de usuario.
-  * **Infraestructura & Redes:** Saturación de ancho de banda, falta de redundancia en enlaces internacionales, caídas de servicio por punto único de fallo (*SPOF*).
-  * **Ciberseguridad:** Inexistencia de control de accesos, exposición a ciberataques, falta de encriptación en enlaces de comunicación.
-  * **Data & IA:** Imposibilidad de procesar grandes volúmenes de datos en tiempo real o necesidad de modelos predictivos.
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.2):**
+  1. Incluir el diagrama del organigrama técnico de la empresa tipo o departamento de TI/Ingeniería.
+  2. Describir las funciones y responsabilidades de cada perfil profesional.
+  3. Indicar los roles que asume el alumno/a en la ejecución de su proyecto unipersonal.
 
 ---
 
-### CE.d — Valoración de Oportunidades y Viabilidad
+### CE.c — Detección de Necesidades y Dolencias
 
-* **Objetivo:** Valorar las oportunidades de negocio o mejora previsible en el sector mediante técnicas sistemáticas de análisis.
-* **Enfoque Universal:** Aplicar herramientas estandarizadas de análisis estratégico y evaluación de viabilidad.
+* **Objetivo Curricular:** Identificar las necesidades más demandadas en el ámbito de actuación del proyecto.
+* **Explicación Profunda:** El proyecto debe fundamentarse en la resolución de una problemática o ineficiencia real (*Pain Point*), aplicando metodologías de análisis de causa raíz (*5 Porqués*, *Diagrama de Ishikawa*):
+  * **Categoría de Necesidades y Ejemplos:**
+    * *Procesos Manuales e Ineficientes:* Ausencia de aplicaciones en movilidad para partes de trabajo en campo, portales web de autogestión lentos o falta de integración entre herramientas.
+    * *Problemas de Rendimiento y Escalabilidad:* Servidores incapaces de absorber picos de tráfico, bases de datos no optimizadas o latencias elevadas en conexiones de red.
+    * *Vulnerabilidades y Ciberseguridad:* Falta de cifrado en enlaces, ausencia de control de accesos centralizado, falta de bastionado o inexistencia de backups inmutables ante ransomware.
+    * *Puntos Únicos de Fallo (SPOF):* Redes o servidores sin redundancia que provocan caídas completas de servicio ante una avería.
+    * *Costes Ineficientes:* Ineficiencias en facturación Cloud por falta de políticas FinOps o líneas dedicadas sobredimensionadas.
 
 ```mermaid
-quadrantChart
-    title Matriz de Análisis de Viabilidad y Oportunidad
-    x-axis Dificultad de Implementación Baja --> Dificultad de Implementación Alta
-    y-axis Valor e Impacto Bajo --> Valor e Impacto Alto
-    quadrant-1 Prioridad Estratégica (Alto Valor / Complejo)
-    quadrant-2 Victoria Rápida / Quick Win (Alto Valor / Viable)
-    quadrant-3 Descartar / Despriorizar
-    quadrant-4 Evaluación Secundaria
-    "Solución Propuesta": [0.38, 0.85]
-    "Alternativa Tradicional": [0.15, 0.25]
-    "Desarrollo Sobredimensionado": [0.85, 0.40]
+flowchart LR
+    A[<b>1. Dolencia / Problema Detectado</b><br/>Procesos manuales / Caídas de red / Vulnerabilidades] --> B[<b>2. Análisis Causa Raíz</b><br/>Diagnóstico técnico de fallos] --> C[<b>3. Propuesta de Valor</b><br/>Solución tecnológica justificada]
 ```
 
-* **Guía para la Memoria v1.0 (Sección 1.4):**
-  * Elaborar la **Matriz DAFO / FODA** (Debilidades, Amenazas, Fortalezas, Oportunidades).
-  * Evaluar la viabilidad en tres dimensiones: **Técnica** (¿es realizable?), **Económica** (¿es sostenible?) y **Operativa** (¿es mantenible?).
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.3):**
+  1. Explicar el contexto de la problemática detectada.
+  2. Detallar las consecuencias de no resolver el problema (pérdidas económicas, brechas de seguridad, ineficiencia operativa).
+  3. Formular la propuesta de valor del proyecto como respuesta directa a la causa raíz.
+
+---
+
+### CE.d — Valoración de Oportunidades y Viabilidad Tridimensional
+
+* **Objetivo Curricular:** Valorar las oportunidades de negocio o mejora previsible en el sector mediante técnicas sistemáticas de análisis.
+* **Explicación Profunda:** Demostrar que la solución propuesta es viable evaluando sus tres dimensiones fundamentales:
+  1. **Viabilidad Técnica:** Disponibilidad de tecnologías maduras, compatibilidad de entornos y capacidad del equipo para implementar la solución.
+  2. **Viabilidad Económica / Financiera:** Justificación de costes de despliegue y operación (CAPEX/OPEX) mediante el retorno de inversión (ROI) o el ahorro generado.
+  3. **Viabilidad Operativa:** Sostenibilidad y facilidad de mantenimiento de la infraestructura o software a lo largo del tiempo.
+
+El apartado se completa con la **Matriz DAFO / FODA** (Debilidades, Amenazas, Fortalezas, Oportunidades) y el análisis **PESTEL** (Factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales).
+
+```mermaid
+flowchart LR
+    subgraph DAFO [Análisis Estratégico DAFO]
+        direction LR
+        subgraph Interno [Análisis Interno]
+            F[<b>Fortalezas</b><br/>Control de stack / Conocimiento]
+            D[<b>Debilidades</b><br/>Tiempo limitado / Recurso unipersonal]
+        end
+        subgraph Externo [Análisis Externo]
+            O[<b>Oportunidades</b><br/>Demanda de mercado / Ayudas públicas]
+            A[<b>Amenazas</b><br/>Ciberamenazas / Cambios normativos]
+        end
+    end
+    subgraph Viabilidad [Evaluación de Viabilidad]
+        direction LR
+        VT[<b>Viabilidad Técnica</b><br/>Madurez y Factibilidad] --> VE[<b>Viabilidad Económica</b><br/>ROI y Control CAPEX/OPEX] --> VO[<b>Viabilidad Operativa</b><br/>Sostenibilidad y Mantenimiento]
+    end
+    DAFO --> Viabilidad
+```
+
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.4):**
+  1. Presentar la **Matriz DAFO** rellenando cada cuadrante de forma específica para el proyecto.
+  2. Justificar de forma explícita la **Viabilidad Técnica, Económica y Operativa**.
+  3. Concluir el análisis estratégico explicando por qué la oportunidad debe ejecutarse.
 
 ---
 
 ### CE.e — Definición de la Tipología de Proyecto y Alcance
 
-* **Objetivo:** Identificar el tipo de proyecto requerido para dar respuesta a la necesidad y determinar sus fronteras.
-* **Enfoque Universal:** Delimitar con precisión el objeto del proyecto y definir explícitamente qué está dentro del alcance (*In-Scope*) y qué queda fuera (*Out-of-Scope*).
+* **Objetivo Curricular:** Identificar el tipo de proyecto requerido para dar respuesta a la necesidad y determinar sus fronteras.
+* **Explicación Profunda:** Aplicación del framework **Jobs-To-Be-Done (JTBD)** para acotar la tipología del proyecto y definir la línea base del alcance (*Scope Baseline*):
+  * **Tipologías de Ejemplo:**
+    * *Aplicación Móvil / Software Multiplataforma:* App nativa o híbrida con sincronización offline y notificaciones.
+    * *Plataforma Web SaaS:* Aplicación web responsive con arquitectura de microservicios o API REST.
+    * *Infraestructura Cloud / Híbrida:* Despliegue de hipervisores, clústeres de contenedores y servicios de directorio.
+    * *Red de Comunicaciones / WAN:* Topología en malla o estrella con enrutamiento seguro y VPNs.
+    * *Plataforma de Ciberseguridad / SOC:* Entorno de bastionado, SIEM, firewall y detección de amenazas.
+  * **Delimitación de Fronteras:**
+    * *In-Scope (En Alcance):* Módulos, servicios, funcionalidades y configuraciones que **SÍ** se implementarán en los Sprints.
+    * *Out-of-Scope (Fuera de Alcance):* Elementos que **NO** se incluirán deliberadamente para evitar la dispersión de esfuerzos (*Scope Creep*).
 
 ```mermaid
-graph TD
-    A[<b>Definición del Proyecto</b>] --> B[<b>En Alcance / In-Scope</b><br/>Lo que SE VA a implementar en los Sprints]
-    A --> C[<b>Fuera de Alcance / Out-of-Scope</b><br/>Lo que NO SE VA a incluir para acotar el proyecto]
+flowchart LR
+    subgraph Alcance [Delimitación de Fronteras del Proyecto]
+        direction LR
+        NEC[<b>Necesidad Aprobada</b>] --> INSCOPE[<b>EN ALCANCE (In-Scope)</b><br/>Funcionalidades, módulos, nodos y servicios a implementar]
+        NEC --> OUTSCOPE[<b>FUERA DE ALCANCE (Out-of-Scope)</b><br/>Integraciones secundarias y características pospuestas]
+    end
 ```
 
-* **Guía para la Memoria v1.0 (Sección 1.5):**
-  * Describir la solución elegida (ej. *Plataforma Web SaaS*, *Interconexión SD-WAN mediante VPNs IPSec*, *Clúster de Alta Disponibilidad*, *Sistema de Detección de Intrusos*, etc.).
-  * Enumerar de forma clara los límites del proyecto para garantizar su viabilidad en el tiempo lectivo disponible.
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.5):**
+  1. Clasificar la tipología del proyecto.
+  2. Elaborar la tabla de alcance dividida en dos columnas claras: *En Alcance (In-Scope)* y *Fuera de Alcance (Out-of-Scope)*.
 
 ---
 
 ### CE.f — Ingeniería de Requisitos y Elección Justificada del Stack
 
-* **Objetivo:** Determinar las características específicas del proyecto según los requerimientos y seleccionar los medios técnicos.
-* **Enfoque Universal:** Definición rigurosa de Requisitos Funcionales y No Funcionales bajo el estándar **ISO/IEC 25010** y justificación técnica de los componentes elegidos.
-
-```mermaid
-graph TD
-    subgraph Especificacion_Tecnica [Especificación de Requisitos y Medios]
-        RF[<b>Requisitos Funcionales (RF)</b><br/>¿Qué debe HACER el sistema/red?]
-        RNF[<b>Requisitos No Funcionales (RNF)</b><br/>Latencia, Disponibilidad, Ancho de Banda, Seguridad, Escalabilidad]
-        
-        subgraph Stack_y_Recursos [Stack Tecnológico / Medios Elegidos]
-            HW[<b>Hardware / Comunicaciones</b><br/>Servidores, Routers, Switches, Cableado, Equipos]
-            SW[<b>Software / Sistema Operativo</b><br/>OS, Frameworks, DB, Controladores, Protocolos]
-            CLOUD[<b>Servicios / Cloud / Enlaces</b><br/>Proveedores, Cloud, VPNs, Ancho de Banda]
-        end
-    end
-
-    RF --> Stack_y_Recursos
-    RNF --> Stack_y_Recursos
-```
-
-* **Guía para la Memoria v1.0 (Sección 1.6):**
-  * Redactar la tabla numerada de **Requisitos Funcionales (RF-01, RF-02...)**.
-  * Redactar la tabla de **Requisitos No Funcionales (RNF-01, RNF-02...)**: Tiempos de respuesta, disponibilidad (% uptime), ancho de banda mínimo, cifrado, tolerancia a fallos, etc.
-  * Justificar técnicamente la elección de las tecnologías, herramientas, protocolos o hardware seleccionados.
-
----
-
-### CE.g — Marco Legal, Regulatorio, Ciberseguridad y PRL
-
-* **Objetivo:** Determinar las obligaciones fiscales, laborales, de prevención de riesgos, ciberseguridad y normativas de aplicación.
-* **Enfoque Universal:** Identificar el marco normativo específico que aplica al proyecto según su naturaleza.
-
-```mermaid
-flowchart TD
-    A[<b>Marco Normativo del Proyecto</b>] --> B[<b>Protección de Datos & Privacidad</b><br/>RGPD / LOPD-GDD si procesa datos personales]
-    A --> C[<b>Ciberseguridad & Resiliencia</b><br/>ENS, ISO 27001, NIS2, Bastionado y Cifrado]
-    A --> D[<b>Propiedad Intelectual & Licencias</b><br/>Licencias de SW, Patentes, Acuerdos de Servicio SLA]
-    A --> E[<b>Laboral & Prevención de Riesgos</b><br/>PRL, PVD, Ley de Teletrabajo]
-```
-
-* **Guía para la Memoria v1.0 (Sección 1.7):**
-  * **Protección de Datos:** Análisis de cumplimiento del RGPD (*Privacy by Design*, cifrado en tránsito y reposo).
-  * **Ciberseguridad:** Medidas de seguridad aplicables (Politica de contraseñas, bastionado, firewalls, gestión de parches).
-  * **Licenciamiento y Propiedad:** Licencias del software/hardware utilizado (Open Source, Propietario, Comercial) y propiedad del producto final.
-  * **Fiscal, Laboral y PRL:** Forma jurídica (Autónomo, S.L., Startup), obligaciones tributarias básicas y prevención de riesgos laborales (PVD/Ergonomía).
-
----
-
-### CE.h — Ayudas, Subvenciones y Viabilidad Económica
-
-* **Objetivo:** Identificar posibles ayudas, subvenciones o programas de incentivo para la puesta en marcha de la solución.
-* **Enfoque Universal:** Investigar líneas de financiación e incentivos públicos o privados aplicables a la innovación tecnológica, digitalización o despliegue de infraestructuras.
-
-```mermaid
-graph LR
-    A[<b>Vías de Financiación / Ayudas</b>] --> B[<b>Kit Digital / NextGenEU</b><br/>Bonos para Digitalización e Infraestructura]
-    A --> C[<b>Programas ENISA / CDTI</b><br/>Incentivos a Proyectos de Innovación Tecnológica]
-    A --> D[<b>Ayudas Autonómicas / Locales</b><br/>Subvenciones al Emprendimiento y Modernización TI]
-```
-
-* **Guía para la Memoria v1.0 (Sección 1.8):**
-  * Seleccionar e investigar al menos **2 programas oficiales de ayuda o subvención**.
-  * Detallar requisitos de acceso, cuantías financiables y aplicabilidad directa al proyecto.
-
----
-
-### CE.i — Planificación Metodológica, Gestión de Tareas y Kanban
-
-* **Objetivo:** Elaborar el guion de trabajo y la planificación metodológica que se va a seguir para el desarrollo del proyecto.
-* **Enfoque Universal:** Estructuración del trabajo mediante **Metodología Ágil (Kanban)** en un tablero digital (GitHub Projects, Trello, Jira) dividiendo el proyecto en unidades de trabajo estimadas.
+* **Objetivo Curricular:** Determinar las características específicas del proyecto según los requerimientos y seleccionar los medios técnicos.
+* **Explicación Profunda:** Clasificación de requisitos bajo la norma internacional **ISO/IEC 25010** de calidad de producto tecnológico:
+  * **Requisitos Funcionales (RF):** Capacidades o acciones concretas que debe ejecutar el sistema:
+    * *Ejemplo Software:* Autenticación mediante tokens JWT, generación de informes PDF, captura de firma digital.
+    * *Ejemplo Redes / Sistemas:* Enrutamiento dinámico BGP, asignación DHCP redundante, replicación de volumen de datos.
+    * *Ejemplo Ciberseguridad:* Cifrado TLS 1.3 en comunicaciones, autenticación MFA, bloqueo automático por intentos fallidos.
+  * **Requisitos No Funcionales (RNF):** Atributos de calidad y rendimiento:
+    * *Ejemplo Rendimiento:* Tiempo de respuesta < 200ms, transferencia de red > 1 Gbps.
+    * *Ejemplo Disponibilidad:* Uptime garantizado del 99.9% (SLA), tiempo de recuperación RTO < 1 hora.
+    * *Ejemplo Seguridad:* Cumplimiento de políticas de bastionado CIS Benchmarks.
+  * **Selección del Stack Tecnológico / Medios:** Elección razonada de lenguajes, frameworks, sistemas operativos, hipervisores, hardware de red o proveedores cloud, justificando el descarte de alternativas.
 
 ```mermaid
 flowchart LR
-    subgraph Tablero_Kanban [Flujo de Trabajo Kanban]
-        BACKLOG[<b>Product Backlog</b><br/>Todas las tareas/historias] --> SPRINT[<b>Sprint Backlog</b><br/>Compromiso Sprint 1]
-        SPRINT --> WIP[<b>In Progress</b><br/>WIP Limit <= 2]
-        WIP --> REVIEW[<b>In Review / Testing</b><br/>Verificación / QA]
-        REVIEW --> DONE[<b>Done</b><br/>Cumple Definition of Done]
+    subgraph Requisitos [Ingeniería de Requisitos - ISO/IEC 25010]
+        direction LR
+        RF[<b>Requisitos Funcionales (RF)</b><br/>Servicios, Capacidades y Funciones]
+        RNF[<b>Requisitos No Funcionales (RNF)</b><br/>Rendimiento, Latencia, SLA y Seguridad]
     end
+    subgraph Eleccion [Selección Justificada de Medios]
+        direction LR
+        ALT[<b>Análisis de Alternativas</b>] --> BENCH[<b>Benchmarking Técnico</b>] --> STACK[<b>Stack / Medios Seleccionados</b>]
+    end
+    Requisitos --> Eleccion
 ```
 
-#### Estructura Universal de una Tarea / Historia de Usuario
-Independientemente de la tecnología, cada tarjeta del tablero debe incluir:
-
-* **Sintaxis de Requisito / Historia:**  
-  * *En desarrollo software:* `"Como [Rol], quiero [Función] para [Beneficio]"`  
-  * *En infraestructura/redes:* `"Como [SysAdmin/NetEng], necesito [Configuración/Despliegue] para garantizar [Disponibilidad/Seguridad]"`
-* **Criterios de Aceptación (Formato Given-When-Then / Dado-Cuando-Entonces):**  
-  * `Dado` [Un estado inicial o entorno preconfigurado]  
-  * `Cuando` [Se ejecuta una acción, petición o tráfico de red]  
-  * `Entonces` [Se obtiene el resultado esperado, respuesta o comportamiento verificado]
-* **Estimación en Story Points (Serie de Fibonacci: 1, 2, 3, 5, 8, 13):** Complejidad relativa basada en esfuerzo, riesgo e incertidumbre.
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.6):**
+  1. Incluir la tabla codificada de Requisitos Funcionales (`RF-01`, `RF-02`...) con prioridad.
+  2. Incluir la tabla codificada de Requisitos No Funcionales (`RNF-01`, `RNF-02`...).
+  3. Justificar técnicamente el stack tecnológico o hardware seleccionado frente a otras alternativas probadas.
 
 ---
 
-## 5. Adaptación de la Prueba de Concepto (PoC) según la Naturaleza del Proyecto
+### CE.g — Marco Legal, Fiscal, Laboral, PRL y Ciberseguridad
 
-Al finalizar el Sprint 1, además de la entrega escrita de la Memoria v1.0, el alumno debe presentar una **Prueba de Concepto (PoC) técnica funcionando en vivo** durante la Demo Funcional. La PoC se adapta completamente a lo que cada alumno esté desarrollando:
+* **Objetivo Curricular:** Determinar las obligaciones fiscales, laborales, de prevención de riesgos y ciberseguridad.
+* **Explicación Profunda:** Identificación de la normativa que afecta al desarrollo y operación del proyecto:
+  * **Ciberseguridad, Privacidad y Regulación:**
+    * *RGPD / LOPD-GDD:* Protección de datos personales, privacidad desde el diseño (*Privacy by Design*) y gestión de consentimientos.
+    * *Directiva NIS2 / Esquema Nacional de Seguridad (ENS):* Requisitos de ciberresiliencia, auditorías y gestión de incidentes en infraestructuras.
+    * *EU AI Act:* Clasificación de riesgos en proyectos que incorporen componentes de Inteligencia Artificial.
+  * **Licenciamiento Software y Hardware:**
+    * *Licencias Permisivas:* MIT, Apache 2.0, BSD (permiten uso libre y comercial).
+    * *Licencias Copyleft:* GPLv3, AGPL (exigen liberar código derivado en soluciones SaaS/distribuidas).
+  * **Fiscalidad, Marco Laboral y PRL:**
+    * Formas jurídicas (Autónomo, S.L., ventajas de la *Ley de Startups*).
+    * Cumplimiento de la *Ley de Teletrabajo*, registro de jornada y prevención de riesgos laborales (ergonomía PVD - Pantallas de Visualización de Datos).
 
 ```mermaid
-graph TD
-    subgraph PoC_Agnostica [Ejemplos de Prueba de Concepto según el Proyecto]
-        A[<b>Proyecto Software (Web/App/Desktop)</b><br/>Estructura base del proyecto, repositorio Git configurado y 'Hello World' ejecutándose en entorno local o servidor]
-        B[<b>Proyecto de Redes / Telecomunicaciones</b><br/>Topología simulada/física inicial con enrutamiento básico funcional y prueba de conectividad PING/Traceroute exitosa entre nodos]
-        C[<b>Proyecto de Infraestructura / Cloud</b><br/>Instancia/Máquina Semilla aprovisionada, interfaz de red configurada y acceso remoto seguro SSH/RDP verificado]
-        D[<b>Proyecto de Ciberseguridad / SOC</b><br/>Entorno de pruebas levantado, agente/sensor instalado y captura básica de eventos/logs funcionando]
-        E[<b>Proyecto de Data / IA / IoT</b><br/>Script de ingesta de datos base o lectura de sensor físico/simulado emitiendo métricas correctamente]
+flowchart LR
+    subgraph Marco_Legal [Cumplimiento Normativo e Institucional]
+        direction LR
+        PRIV[<b>Privacidad & Datos</b><br/>RGPD / LOPD-GDD] --- SEC[<b>Ciberseguridad</b><br/>NIS2 / ENS / ISO 27001]
+        SEC --- LIC[<b>Licenciamiento</b><br/>Open Source vs Propietario]
+        LIC --- LAB[<b>Laboral & PRL</b><br/>Teletrabajo & Ergonomía PVD]
+    end
+```
+
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.7):**
+  1. Explicar cómo aplica el RGPD a los datos gestionados por la solución.
+  2. Enumerar las licencias de software, componentes u otros elementos utilizados.
+  3. Indicar el marco fiscal, laboral y las medidas de prevención de riesgos laborales (PRL).
+
+---
+
+### CE.h — Ayudas, Subvenciones e Incentivos a la Innovación
+
+* **Objetivo Curricular:** Identificar posibles ayudas o subvenciones para la incorporación de nuevas tecnologías.
+* **Explicación Profunda:** Análisis de vías de financiación pública e incentivos a la innovación aplicables al proyecto:
+  * **Programas de Financiación Relevantes:**
+    * *Kit Digital (Fondos NextGenerationEU):* Subvenciones para la adopción de herramientas digitales, sitios web, comercio electrónico, gestión de procesos en la nube y ciberseguridad.
+    * *Préstamos Participativos ENISA:* Financiación pública para proyectos innovadores sin exigencia de avales personales.
+    * *CDTI Neotec:* Ayudas destinadas a empresas de base tecnológica.
+    * *Deducciones Fiscales por I+D+i:* Bonificaciones fiscales por desarrollo de software e investigación tecnológica.
+
+```mermaid
+flowchart LR
+    subgraph Financiacion [Ecosistema de Incentivos y Ayudas Públicas]
+        direction LR
+        KD[<b>Kit Digital (NextGenEU)</b><br/>Subvención a la digitalización] --- ENISA[<b>Préstamos ENISA</b><br/>Financiación sin avales para proyectos innovadores] --- CDTI[<b>CDTI Neotec</b><br/>Ayudas a empresas tecnológicas]
+    end
+```
+
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.8):**
+  1. Identificar al menos dos programas de subvención o ayuda pública aplicables.
+  2. Analizar requisitos de acceso, cuantías asignables y su impacto en la viabilidad económica de la propuesta.
+
+---
+
+### CE.i — Guion de Trabajo, Backlog y Metodología Ágil
+
+* **Objetivo Curricular:** Elaborar el guion de trabajo que se va a seguir para la elaboración del proyecto.
+* **Explicación Profunda:** Organización del trabajo por Sprints y configuración de herramientas digitales de gestión:
+  * **Estructura de Historias de Usuario / Tarjetas Técnicas:**
+    $$\text{Como [Rol / Actor / Sistema]} \longrightarrow \text{Quiero [Acción / Configuración]} \longrightarrow \text{Para [Beneficio / Valor]}$$
+  * **Criterios de Aceptación BDD (Behavior-Driven Development):**
+    $$\text{Dado [Contexto previo]} \longrightarrow \text{Cuando [Se ejecuta la acción]} \longrightarrow \text{Entonces [Resultado esperado con el criterio de éxito]}$$
+  * **Estimación en Story Points (Serie de Fibonacci):** Complejidad relativa ($1, 2, 3, 5, 8, 13$) para medir el esfuerzo de cada tarea.
+  * **Tablero Kanban Digital:**
+    * Columnas: *Product Backlog $\rightarrow$ Sprint Backlog $\rightarrow$ In Progress $\rightarrow$ In Review / QA $\rightarrow$ Done*.
+    * Aplicación de reglas *Definition of Ready (DoR)* (requisitos para iniciar una tarea) y *Definition of Done (DoD)* (requisitos para dar por finalizada una tarea).
+    * Límites de trabajo en progreso (*WIP Limits*).
+
+```mermaid
+flowchart LR
+    subgraph Kanban_Flow [Flujo de Trabajo Kanban en Tablero Digital]
+        direction LR
+        BACKLOG[<b>1. Product Backlog</b><br/>Historias & Tarjetas] --> SPRINT_BACKLOG[<b>2. Sprint Backlog</b><br/>Compromiso del Sprint]
+        SPRINT_BACKLOG --> IN_PROGRESS[<b>3. In Progress</b><br/>Trabajo Activo]
+        IN_PROGRESS --> IN_REVIEW[<b>4. In Review / QA</b><br/>Pruebas & Review]
+        IN_REVIEW --> DONE[<b>5. Done</b><br/>Cumple DoD]
+    end
+```
+
+```mermaid
+gantt
+    title Cronograma General del Proyecto por Sprints e Hitos Presenciales
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    section Fase Previa
+    Kick-off & Anteproyecto          :active, k1, 2026-10-01, 7d
+    section Sprint 1 (RA1)
+    Análisis Entorno & Memoria v1.0  :s1, 2026-10-08, 14d
+    Demo Funcional 1 (PoC)            :crit, d1, 2026-10-22, 1d
+    section Sprint 2 (RA2)
+    Arquitectura & Memoria v2.0      :s2, 2026-10-23, 14d
+    Demo Funcional 2 (UI/Network)     :crit, d2, 2026-11-06, 1d
+    section Sprint 3 (RA3)
+    Core MVP & Memoria v3.0          :s3, 2026-11-07, 21d
+    Demo Funcional 3 (MVP Operativo)  :crit, d3, 2026-11-28, 1d
+    section Sprint 4 (RA4)
+    Despliegue & Memoria v4.0 FINAL  :s4, 2026-11-29, 14d
+    Demo Funcional 4 (Release)        :crit, d4, 2026-12-13, 1d
+    section Cierre
+    Defensa ante Tribunal            :milestone, t1, 2026-12-20, 1d
+```
+
+* **Guía de Redacción para la Memoria v1.0 (Sección 1.9):**
+  1. Explicar la metodología de Sprints y las reglas DoR y DoD establecidas.
+  2. Incluir el enlace público al **Tablero Digital (GitHub Projects, Trello, Jira)**.
+  3. Añadir capturas del *Product Backlog* inicial con las Historias de Usuario/Tarjetas Técnicas estimadas en *Story Points*.
+
+---
+
+## 5. Ejecución Práctica según la Naturaleza del Proyecto
+
+Al finalizar el Sprint 1, además del documento de la Memoria v1.0, el alumno/a presenta una **Prueba de Concepto (PoC)** funcionando en vivo según la naturaleza de su solución:
+
+```mermaid
+flowchart LR
+    subgraph PoC_Types [Prueba de Concepto (PoC) según la Naturaleza Técnica]
+        direction LR
+        P_SW[<b>Desarrollo Software</b><br/>Repo Git + Hello World / Estructura Base]
+        P_NET[<b>Redes / Telecomunicaciones</b><br/>Enrutamiento básico / PING entre nodos]
+        P_CLOUD[<b>Cloud / SysAdmin</b><br/>Servidor Semilla + Acceso SSH/VPN]
+        P_SEC[<b>Ciberseguridad</b><br/>Regla de Firewall / Bastionado Base]
+        P_DATA[<b>Data / IoT</b><br/>Ingesta de datos / Lectura de sensor]
     end
 ```
 
@@ -356,27 +423,27 @@ graph TD
 
 ## 6. Matriz de Entregables en Moodle y Demo Funcional Presencial
 
-Para superar el Sprint 1, el alumno/a debe entregar en Moodle tres elementos:
+Para completar con éxito el Sprint 1, el alumno/a debe subir a Moodle los siguientes tres elementos:
 
-| # | Elemento Entregable | Formato / Canal | Descripción Obligatoria |
+| # | Elemento Entregable | Formato / Enlace | Descripción |
 | :-: | :--- | :--- | :--- |
-| **1** | **Memoria Incremental v1.0** | Archivo `.pdf` | Capítulo 1 redactado cubriendo los 9 Criterios de Evaluación (**CE.a al CE.i**). |
-| **2** | **Tablero Digital de Gestión** | URL Pública | Enlace al tablero Kanban (GitHub Projects, Trello, Jira) con las tareas estimadas en Story Points. |
-| **3** | **Repositorio de Código / Configuración** | URL Pública | Enlace al repositorio Git (GitHub/GitLab) con el commit inicial de la Prueba de Concepto (*PoC*). |
+| **1** | **Memoria Incremental v1.0** | Archivo `.pdf` | Capítulo 1 redactado respondiendo íntegramente a los 9 Criterios de Evaluación (CE.a al CE.i). |
+| **2** | **Tablero Digital de Tareas** | URL Pública | Enlace a GitHub Projects, Trello o Jira con las Historias de Usuario estimadas del proyecto. |
+| **3** | **Repositorio / Artefacto Técnico** | URL Pública / Evidencia | Enlace a GitHub / GitLab / Diagrama de red / Entorno de pruebas con el commit o estado inicial de la PoC. |
 
-> 🎙️ **Hito Presencial Obligatorio (Demo Funcional 1):** Exposición individual presencial de 3 minutos ante el profesor mostrando en vivo el funcionamiento de la Prueba de Concepto (*PoC*) para obtener la calificación de **Apto** en el Sprint 1.
+> 🎙️ **Hito Presencial Obligatorio (Demo Funcional 1):** Presentación individual in situ de 3 minutos ante el profesor demostrando en vivo el funcionamiento de la *PoC* para obtener la calificación de **Apto** en el Sprint 1.
 
 ---
 
 ## 7. Checklist de Autoevaluación para el Alumnado
 
-Antes de realizar la entrega definitiva en Moodle, verifica que cumples los siguientes puntos:
+Antes de realizar la entrega en Moodle, verifica que cumples con todos los puntos:
 
-- [ ] He solicitado y mantenido la **Reunión Previa de Orientación** con el profesor/a.
-- [ ] He subido el **Anteproyecto (Kick-off)** a Moodle aceptando el acuerdo pedagógico y declarando la autoría redactada por mí mismo/a.
-- [ ] La **Memoria v1.0 (PDF)** contiene los 9 apartados asociados a los criterios **CE.a al CE.i**.
-- [ ] He definido los **Requisitos Funcionales y No Funcionales** específicos de mi solución.
-- [ ] He incluido el análisis del marco legal (**RGPD, Ciberseguridad, Licencias, PRL**).
-- [ ] Mi **Tablero Digital (Kanban)** tiene las tareas descritas con criterios de aceptación y estimadas en Story Points.
-- [ ] El **Repositorio Git** contiene la estructura base y la Prueba de Concepto (*PoC*).
-- [ ] La **Prueba de Concepto (PoC)** está preparada para ser mostrada en vivo durante la Demo Funcional presencial.
+- [ ] He asistido a la **Reunión Previa de Orientación** con el profesor/a.
+- [ ] He subido el **Anteproyecto (Kick-off)** a Moodle aceptando el acuerdo pedagógico y declarando mi autoría.
+- [ ] La **Memoria v1.0** incluye las 9 secciones asociadas a los criterios **CE.a al CE.i**.
+- [ ] El **CE.d** incluye la Matriz DAFO y la evaluación de Viabilidad Técnica, Económica y Operativa.
+- [ ] He redactado el análisis de obligaciones legales, licencias y ciberseguridad (**CE.g**).
+- [ ] Mi **Tablero Digital (Kanban)** está configurado con las Historias de Usuario/Tarjetas Técnicas estimadas.
+- [ ] El **Repositorio / Entorno Técnico** tiene el estado inicial de la Prueba de Concepto (*PoC*).
+- [ ] Mi **Prueba de Concepto (PoC)** ejecuta o demuestra su funcionamiento en vivo para la Demo Funcional.
