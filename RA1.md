@@ -95,18 +95,6 @@ Antes de comenzar a redactar el Sprint 1 o desarrollar código/configuraciones, 
 
 ## 4. Desglose Criterio por Criterio (CE.a al CE.i)
 
-Cada uno de los 9 Criterios de Evaluación del RA1 pondera exactamente un **11.11% de la nota del Sprint 1**.
-
-```mermaid
-flowchart TD
-    subgraph RA1 ["Resultado de Aprendizaje 1 - Peso Total 100%"]
-        direction LR
-        A["CE.a Sector 11.11%"] --> B["CE.b Roles 11.11%"] --> C["CE.c Necesidades 11.11%"] --> D["CE.d Viabilidad 11.11%"] --> E["CE.e Alcance 11.11%"] --> F["CE.f Requisitos 11.11%"] --> G["CE.g Legal 11.11%"] --> H["CE.h Ayudas 11.11%"] --> I["CE.i Kanban 11.11%"]
-    end
-```
-
----
-
 ### CE.a — Clasificación del Sector y Entorno de Aplicación
 
 * **Objetivo Curricular:** Clasificar las empresas y organizaciones del sector por sus características organizativas y los productos o servicios que ofrecen.
@@ -192,7 +180,7 @@ flowchart TD
 
 ---
 
-### CE.d — Valoración de Oportunidades y Viabilidad Tridimensional
+### CE.d — Valoración de Oportunidades y Viabilidad
 
 * **Objetivo Curricular:** Valorar las oportunidades de negocio o mejora previsible en el sector mediante técnicas sistemáticas de análisis.
 * **Explicación Profunda:** Demostrar que la solución propuesta es viable evaluando sus tres dimensiones fundamentales:
