@@ -114,8 +114,8 @@ Antes de iniciar las actividades del Sprint 3, el alumno/a debe haber superado l
 
 ### CE.a — Secuenciación de Tareas y Dependencias de Implementation
 
-* **Objetivo Curricular:** Se han secuenciado las tareas en función de las necesidades de implementación.
-* **Explicación Profunda:** Ordenación lógica y cronológica del plan de trabajo técnico para garantizar que cada componente se construye sobre sus prerrequisitos tecnológicos. El alumno/a debe identificar las dependencias de implementación (ej. esquema de BD listo antes de crear repositorios ORM; VLANs creadas antes de aplicar reglas de cortafuegos) evitando bloqueos en el flujo de desarrollo.
+* **Objetivo:** Se han secuenciado las tareas en función de las necesidades de implementación.
+* **Explicación:** Ordenación lógica y cronológica del plan de trabajo técnico para garantizar que cada componente se construye sobre sus prerrequisitos tecnológicos. El alumno/a debe identificar las dependencias de implementación (ej. esquema de BD listo antes de crear repositorios ORM; VLANs creadas antes de aplicar reglas de cortafuegos) evitando bloqueos en el flujo de desarrollo.
   * **Tipos de Dependencias Técnicas:**
     * *Fin a Inicio (FI):* La tarea B no puede comenzar hasta que la tarea A ha finalizado por completo.
     * *Inicio a Inicio (II):* Dos tareas que deben arrancar de forma simultánea.
@@ -140,8 +140,8 @@ flowchart TD
 
 ### CE.b — Determinación de Recursos y Logística por Tarea
 
-* **Objetivo Curricular:** Se han determinado los recursos y la logística necesaria para cada tarea.
-* **Explicación Profunda:** Asignación explícita de las herramientas, licencias, hardware, espacio de almacenamiento, entornos de ejecución y conectividad requeridos para la ejecución individual de cada paquete de trabajo. La logística contempla la previsión de aprovisionamiento previo para evitar paradas en el desarrollo.
+* **Objetivo:** Se han determinado los recursos y la logística necesaria para cada tarea.
+* **Explicación:** Asignación explícita de las herramientas, licencias, hardware, espacio de almacenamiento, entornos de ejecución y conectividad requeridos para la ejecución individual de cada paquete de trabajo. La logística contempla la previsión de aprovisionamiento previo para evitar paradas en el desarrollo.
   * **Dimensiones Logísticas:**
     * *Recursos Tecnológicos:* Claves API, credenciales de entorno cloud, repositorios Git, SDKs y compiladores.
     * *Recursos Hardware y Red:* Ancho de banda, tarjetas de red, memoria RAM dedicada en máquinas virtuales o dispositivos físicos IoT.
@@ -166,8 +166,8 @@ flowchart TD
 
 ### CE.c — Gestión de Permisos, Licencias y Autorizaciones Legales/Técnicas
 
-* **Objetivo Curricular:** Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las tareas.
-* **Explicación Profunda:** Identificación y gestión de las autorizaciones administrativas, cumplimiento de normativas de protección de datos (RGPD / LOPD-GDD), licencias de software Open Source o propietario y permisos de acceso a sistemas e infraestructuras.
+* **Objetivo:** Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las tareas.
+* **Explicación:** Identificación y gestión de las autorizaciones administrativas, cumplimiento de normativas de protección de datos (RGPD / LOPD-GDD), licencias de software Open Source o propietario y permisos de acceso a sistemas e infraestructuras.
   * **Marco de Autorizaciones:**
     * *Licenciamiento de Software:* Verificación de compatibilidad de licencias (MIT, Apache 2.0, GPLv3 vs. Propietarias).
     * *Privacidad por Diseño:* Consentimiento explícito de usuarios, cláusulas informativas y cifrado de datos personales.
@@ -192,8 +192,8 @@ flowchart TD
 
 ### CE.d — Procedimientos de Actuación y Ejecución Operativa
 
-* **Objetivo Curricular:** Se han determinado los procedimientos para ejecución de las tareas.
-* **Explicación Profunda:** Definición de los Estándares Operativos de Trabajo (SOP - *Standard Operating Procedures*), guías paso a paso y convenciones técicas que debe seguir el alumno/a para realizar las actividades con calidad profesional y de forma repetible.
+* **Objetivo:** Se han determinado los procedimientos para ejecución de las tareas.
+* **Explicación:** Definición de los Estándares Operativos de Trabajo (SOP - *Standard Operating Procedures*), guías paso a paso y convenciones técicas que debe seguir el alumno/a para realizar las actividades con calidad profesional y de forma repetible.
   * **Componentes de un Procedimiento Técnico:**
     * *Estrategia de Ramas Git:* Uso de GitFlow o Feature-Branching (`main`, `develop`, `feature/xyz`).
     * *Estilo y Calidad de Código:* Guías de estilo (ESLint, Linter, PEP8), convenciones de commits y formato.
@@ -218,8 +218,8 @@ flowchart TD
 
 ### CE.e — Identificación de Riesgos de Ejecución y Plan de Prevención/Contingencia
 
-* **Objetivo Curricular:** Se han identificado los riesgos inherentes a la ejecución del proyecto, definiendo el plan de prevención de riesgos y los medios necesarios.
-* **Explicación Profunda:** Identificación proactiva de los problemas técnicos, temporales y operativos que pueden surgir durante la construcción del MVP, estableciendo **Medidas Preventivas** (para evitar que ocurra) y **Acciones de Contingencia** (plan B si el riesgo se materializa).
+* **Objetivo:** Se han identificado los riesgos inherentes a la ejecución del proyecto, definiendo el plan de prevención de riesgos y los medios necesarios.
+* **Explicación:** Identificación proactiva de los problemas técnicos, temporales y operativos que pueden surgir durante la construcción del MVP, estableciendo **Medidas Preventivas** (para evitar que ocurra) y **Acciones de Contingencia** (plan B si el riesgo se materializa).
   * **Tipologías de Riesgos de Ejecución:**
     * *Técnicos:* Incompatibilidad de librerías, fallos de compilación, sobrecostes de API, caídas de servidores.
     * *Temporales:* Subestimación de tiempo en tareas complejas, cuellos de botella por dependencias.
@@ -246,8 +246,8 @@ flowchart TD
 
 ### CE.f — Planificación Temporal y Asignación de Recursos Materiales y Humanos
 
-* **Objetivo Curricular:** Se ha planificado la asignación de recursos materiales y humanos según los tiempos de ejecución.
-* **Explicación Profunda:** Distribución equilibrada de la carga de trabajo técnica a lo largo de las semanas del Sprint 3, asegurando que los recursos hardware, software y la dedicación horaria del alumno/a se gestionan de forma sostenible mediante el tablero Kanban y el cronograma del proyecto.
+* **Objetivo:** Se ha planificado la asignación de recursos materiales y humanos según los tiempos de ejecución.
+* **Explicación:** Distribución equilibrada de la carga de trabajo técnica a lo largo de las semanas del Sprint 3, asegurando que los recursos hardware, software y la dedicación horaria del alumno/a se gestionan de forma sostenible mediante el tablero Kanban y el cronograma del proyecto.
   * **Elementos de la Planificación Temporal:**
     * *Estimación en Horas/Puntos:* Asignación de esfuerzo a cada tarea del MVP.
     * *Control de Carga de Trabajo:* Evitar sobreasignación en días críticos.
@@ -272,8 +272,8 @@ flowchart TD
 
 ### CE.g — Valoración Económica y Control de Costes por Sprint
 
-* **Objetivo Curricular:** Se ha hecho la valoración económica que da respuesta a las condiciones de la ejecución del proyecto.
-* **Explicación Profunda:** Control detallado del gasto real incurrido durante la fase de ejecución frente al presupuesto planificado en el Sprint 2, evaluando las desviaciones de costes de personal (horas invertidas), licencias consumidas e infraestructura cloud utilizada durante el desarrollo del MVP.
+* **Objetivo:** Se ha hecho la valoración económica que da respuesta a las condiciones de la ejecución del proyecto.
+* **Explicación:** Control detallado del gasto real incurrido durante la fase de ejecución frente al presupuesto planificado en el Sprint 2, evaluando las desviaciones de costes de personal (horas invertidas), licencias consumidas e infraestructura cloud utilizada durante el desarrollo del MVP.
   * **Conceptos del Control Económico del Sprint:**
     * *Coste Estimado vs. Coste Real:* Comparación entre la previsión presupuestaria y los gastos efectivos.
     * *Costes de Infraestructura Cloud/Dev:* Consumo real de instancias EC2/S3, bases de datos o pasarelas.
@@ -298,8 +298,8 @@ flowchart TD
 
 ### CE.h — Documentación Técnica de Ejecución y Plan de Intervención
 
-* **Objetivo Curricular:** Se ha definido y elaborado la documentación necesaria para la ejecución del proyecto.
-* **Explicación Profunda:** Compilación y redacción de toda la documentación técnica que respalda la construcción del MVP, incluyendo el manual de instalación/despliegue del entorno de desarrollo, especificación técnica de código/configuraciones y cuaderno de bitácora del plan de intervención.
+* **Objetivo:** Se ha definido y elaborado la documentación necesaria para la ejecución del proyecto.
+* **Explicación:** Compilación y redacción de toda la documentación técnica que respalda la construcción del MVP, incluyendo el manual de instalación/despliegue del entorno de desarrollo, especificación técnica de código/configuraciones y cuaderno de bitácora del plan de intervención.
   * **Documentos Técnicos de Ejecución:**
     * *Manual de Despliegue en Local (`README.md`):* Pasos para clonar, instalar dependencias, levantar variables de entorno y ejecutar la aplicación/infraestructura.
     * *Documentación de Código e Infraestructura:* Comentarios, especificaciones OpenAPI o ficheros de configuración documentados (`docker-compose.yml`, playbooks Ansible).
