@@ -113,25 +113,6 @@ Antes de comenzar la redacción del Capítulo 2 (RA2), el alumno/a debe haber sa
 
 ## 4. Desglose Criterio por Criterio (CE.a al CE.i)
 
-Cada uno de los 9 Criterios de Evaluación del RA2 pondera exactamente un **11.11% de la nota del Sprint 2**.
-
-```mermaid
-flowchart TD
-    subgraph RA2 ["Resultado de Aprendizaje 2 - Peso Total 100%"]
-        direction TD
-        A["CE.a Recopilación Información 11.11%"] --> B["CE.b Viabilidad Técnica 11.11%"]
-        B --> C["CE.c Fases y Cronograma 11.11%"]
-        C --> D["CE.d Objetivos y Alcance 11.11%"]
-        D --> E["CE.e Actividades y EDT 11.11%"]
-        E --> F["CE.f Recursos Materiales/Personales 11.11%"]
-        F --> G["CE.g Presupuesto y Costes 11.11%"]
-        G --> H["CE.h Diseño y Documentación 11.11%"]
-        H --> I["CE.i Control de Calidad 11.11%"]
-    end
-```
-
----
-
 ### CE.a — Recopilación e Investigación de Información Técnica del Proyecto
 
 * **Objetivo Curricular:** Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.
