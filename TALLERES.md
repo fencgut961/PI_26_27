@@ -1,7 +1,7 @@
 # 📱 Taller 1 (RA1): «De la Necesidad al Anteproyecto y Kick-off Ágil»
 
 **Duración:** 1 sesión (2 horas)  
-**Herramientas:** Miro / FigJam / Google Docs / GitHub Projects / Jira  
+**Herramientas:** **Miro** / FigJam / Google Docs / GitHub Projects / Jira  
 **Aplicación:** DAM · DAW · ASIR
 
 **Criterios trabajados (RA1):** Clasificación del sector productivo, identificación de necesidades del mercado, evaluación de oportunidades de negocio y elección de la tipología de proyecto.
