@@ -1,4 +1,4 @@
-# 🚀 Guía Metodológica: RA2 — Propuesta, Diseño y Análisis de Arquitectura del Proyecto
+# 🚀 RA2. Diseña proyectos relacionados con las competencias expresadas en el título, desarrollando explícitamente las fases que lo componen.
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Ámbito:** Cualquier Tipología de Proyecto Tecnológico (Desarrollo Software Web/Móvil/Desktop, Infraestructura Cloud/On-Premise, Redes Nacionales e Internacionales, Ciberseguridad/SOC, Data/IA, IoT o Sistemas Embebidos)  
