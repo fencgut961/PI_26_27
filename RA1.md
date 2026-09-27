@@ -1,4 +1,4 @@
-# 🚀 RA1. Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que puedan satisfacerlas.
+# 🚀 Guía Metodológica: RA1 — Estudio del Entorno Productivo y Demandas del Mercado
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Fase del Proyecto:** Kick-off & Sprint 1 | **Entregable:** Memoria Incremental v1.0  
@@ -29,27 +29,11 @@
 
 ## 1. Enfoque del Proyecto
 
-El módulo de Proyecto contempla cualquier tipología de solución tecnológica que el alumno/a decida desarrollar, adaptando los fundamentos de la gestión de proyectos de ingeniería a las distintas áreas del sector informático y de las telecomunicaciones:
+El módulo de Proyecto contempla cualquier tipología de solución tecnológica que el alumno/a decida desarrollar, adaptando los fundamentos de la gestión de proyectos de ingeniería a las distintas áreas y especialidades del sector:
 
-### 📱 Desarrollo de Software Multiplataforma (DAM)
-* **Aplicaciones Móviles:** Nativas (Kotlin, Swift) y soluciones multiplataforma (Flutter, React Native, Compose Multiplatform).
-* **Aplicaciones de Escritorio Multiplataforma:** Desarrollo mediante frameworks modernos basados en tecnologías web e híbridas (Electron, Tauri, Flutter Desktop).
-* **Aplicaciones Progresivas e Híbridas (PWA):** Soluciones instalables en dispositivo con acceso a hardware local y capacidades nativas.
-* **Inteligencia Artificial en Dispositivo:** Integración de modelos de IA local (*On-device AI* / Mobile LLMs).
-* **Sistemas Embebidos e IoT:** Desarrollo para hardware, sensores y dispositivos conectados (Rust, MicroPython).
-
-### 🌐 Desarrollo de Aplicaciones Web (DAW)
-* **Plataformas Web y SaaS:** Arquitecturas Full-Stack, SSR y Serverless (Next.js, Nuxt, SvelteKit).
-* **Progressive Web Apps (PWA):** Experiencias web avanzadas e instalables con soporte offline, almacenamiento local y notificaciones push.
-* **Arquitectura de Microservicios:** APIs modernas e interoperables (REST, GraphQL, gRPC).
-* **Inteligencia Artificial Generativa:** Integración de modelos LLM, agentes inteligentes y arquitecturas RAG.
-
-### 🖥️ Administración de Sistemas Informáticos y Redes (ASIR)
-* **Infraestructura Cloud y Multi-Cloud:** Despliegues y aprovisionamiento en AWS, Azure y GCP.
-* **Virtualización y Contenedores:** Entornos en Proxmox, VMware, Docker y orquestación con Kubernetes/K3s.
-* **Infraestructura como Código (IaC):** Automatización del aprovisionamiento con Terraform y Ansible.
-* **Redes y Telecomunicaciones:** Diseños de red WAN/SD-WAN, enrutamiento dinámico y enlaces dedicados.
-* **Ciberseguridad y Operaciones:** Arquitecturas Zero-Trust, bastionado de sistemas, observabilidad y servicios gestionados (MSPs).
+* **Desarrollo de Software Multiplataforma (DAM):** Aplicaciones móviles nativas (Kotlin, Swift) y soluciones multiplataforma (Flutter, React Native, Compose Multiplatform), aplicaciones de escritorio híbridas (Electron, Tauri), Progressive Web Apps (PWA), integración de IA local en dispositivo (*On-device AI*) o desarrollo para sistemas embebidos e IoT (Rust, MicroPython).
+* **Desarrollo de Aplicaciones Web (DAW):** Plataformas web SaaS, arquitecturas Full-Stack / SSR / Serverless (Next.js, Nuxt, SvelteKit), Progressive Web Apps (PWA), microservicios, APIs (REST, GraphQL, gRPC) e integración de servicios de Inteligencia Artificial Generativa y RAG.
+* **Administración de Sistemas Informáticos y Redes (ASIR):** Infraestructuras cloud y multi-cloud (AWS, Azure, GCP), virtualización (Proxmox, VMware), contenedores y orquestación (Docker, Kubernetes/K3s), Infraestructura como Código (Terraform, Ansible), redes WAN/SD-WAN, ciberseguridad Zero-Trust, observabilidad y servicios gestionados.
 
 ---
 
@@ -58,7 +42,7 @@ El módulo de Proyecto contempla cualquier tipología de solución tecnológica 
 A lo largo del curso, el alumno/a redacta un **único documento maestro (Memoria Incremental)** que evoluciona por versiones desde la `v1.0` hasta la `v4.0 FINAL`, acompañado en cada fase por una demostración práctica.
 
 ```mermaid
-flowchart LR
+flowchart TD
     classDef kickoff fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
     classDef sprint fill:#ffffff,stroke:#37474f,stroke-width:2px,color:#263238;
     classDef demo fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
@@ -71,21 +55,21 @@ flowchart LR
         S1["<b>Memoria v1.0</b><br/>Análisis Sector + 9 CEs"]:::sprint --> D1["<b>Demo Funcional 1</b><br/>Prueba de Concepto - PoC"]:::demo
     end
 
-    D1 --> S2_BOX
+    D1 --> S2
 
     subgraph S2_BOX ["Sprint 2: RA2 - Arquitectura y Diseño"]
         direction LR
         S2["<b>Memoria v2.0</b><br/>Cap. 1 + Cap. 2 Arquitectura"]:::sprint --> D2["<b>Demo Funcional 2</b><br/>UI / Topología / Esquema"]:::demo
     end
 
-    D2 --> S3_BOX
+    D2 --> S3
 
     subgraph S3_BOX ["Sprint 3: RA3 - Core MVP y Operaciones"]
         direction LR
         S3["<b>Memoria v3.0</b><br/>Cap. 1 a 3 + MVP"]:::sprint --> D3["<b>Demo Funcional 3</b><br/>MVP Operativo en Vivo"]:::demo
     end
 
-    D3 --> S4_BOX
+    D3 --> S4
 
     subgraph S4_BOX ["Sprint 4: RA4 - Despliegue y Cierre"]
         direction LR
@@ -114,7 +98,7 @@ Antes de comenzar a redactar el Sprint 1 o desarrollar código/configuraciones, 
 Cada uno de los 9 Criterios de Evaluación del RA1 pondera exactamente un **11.11% de la nota del Sprint 1**.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph RA1 ["Resultado de Aprendizaje 1 - Peso Total 100%"]
         direction LR
         A["CE.a Sector 11.11%"] --> B["CE.b Roles 11.11%"] --> C["CE.c Necesidades 11.11%"] --> D["CE.d Viabilidad 11.11%"] --> E["CE.e Alcance 11.11%"] --> F["CE.f Requisitos 11.11%"] --> G["CE.g Legal 11.11%"] --> H["CE.h Ayudas 11.11%"] --> I["CE.i Kanban 11.11%"]
@@ -135,7 +119,7 @@ flowchart LR
     * *Software Factories & Consultorías:* Desarrollo a medida de software móvil, web o de escritorio.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Sector_TIC ["Clasificación del Sector e Industria de Aplicación"]
         direction LR
         M1["<b>Modelos de Producto</b><br/>SaaS / B2B / B2C / Open Core"] --- M2["<b>Modelos de Infraestructura</b><br/>IaaS / PaaS / Hybrid Cloud"]
@@ -165,7 +149,7 @@ flowchart LR
     * *QA Engineer / SDET:* Diseña y ejecuta pruebas automatizadas de integración, rendimiento y seguridad.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Squad ["Estructura Organizativa del Equipo de Proyecto"]
         direction LR
         PO["<b>Product Owner / PM</b><br/>Visión y Prioridad"] --> ARCH["<b>Lead Architect / Tech Lead</b><br/>Diseño y Estándares"]
@@ -197,7 +181,7 @@ flowchart LR
     * *Costes Ineficientes:* Ineficiencias en facturación Cloud por falta de políticas FinOps o líneas dedicadas sobredimensionadas.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["<b>1. Dolencia / Problema Detectado</b><br/>Procesos manuales / Caídas de red / Vulnerabilidades"] --> B["<b>2. Análisis Causa Raíz</b><br/>Diagnóstico técnico de fallos"] --> C["<b>3. Propuesta de Valor</b><br/>Solución tecnológica justificada"]
 ```
 
@@ -219,7 +203,7 @@ flowchart LR
 El apartado se completa con la **Matriz DAFO / FODA** (Debilidades, Amenazas, Fortalezas, Oportunidades) y el análisis **PESTEL** (Factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales).
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph DAFO ["Análisis Estratégico DAFO"]
         direction LR
         subgraph Interno ["Análisis Interno"]
@@ -235,7 +219,7 @@ flowchart LR
         direction LR
         VT["<b>Viabilidad Técnica</b><br/>Madurez y Factibilidad"] --> VE["<b>Viabilidad Económica</b><br/>ROI y Control CAPEX/OPEX"] --> VO["<b>Viabilidad Operativa</b><br/>Sostenibilidad y Mantenimiento"]
     end
-    DAFO --> Viabilidad
+    F & D & O & A --> VT
 ```
 
 * **Guía de Redacción para la Memoria v1.0 (Sección 1.4):**
@@ -260,7 +244,7 @@ flowchart LR
     * *Out-of-Scope (Fuera de Alcance):* Elementos que **NO** se incluirán deliberadamente para evitar la dispersión de esfuerzos (*Scope Creep*).
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Alcance ["Delimitación de Fronteras del Proyecto"]
         direction LR
         NEC["<b>Necesidad Aprobada</b>"] --> INSCOPE["<b>EN ALCANCE (In-Scope)</b><br/>Funcionalidades, módulos, nodos y servicios a implementar"]
@@ -289,7 +273,7 @@ flowchart LR
   * **Selección del Stack Tecnológico / Medios:** Elección razonada de lenguajes, frameworks, sistemas operativos, hipervisores, hardware de red o proveedores cloud, justificando el descarte de alternativas.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Requisitos ["Ingeniería de Requisitos - ISO/IEC 25010"]
         direction LR
         RF["<b>Requisitos Funcionales (RF)</b><br/>Servicios, Capacidades y Funciones"]
@@ -299,7 +283,7 @@ flowchart LR
         direction LR
         ALT["<b>Análisis de Alternativas</b>"] --> BENCH["<b>Benchmarking Técnico</b>"] --> STACK["<b>Stack / Medios Seleccionados</b>"]
     end
-    Requisitos --> Eleccion
+    RF & RNF --> ALT
 ```
 
 * **Guía de Redacción para la Memoria v1.0 (Sección 1.6):**
@@ -325,7 +309,7 @@ flowchart LR
     * Cumplimiento de la *Ley de Teletrabajo*, registro de jornada y prevención de riesgos laborales (ergonomía PVD - Pantallas de Visualización de Datos).
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Marco_Legal ["Cumplimiento Normativo e Institucional"]
         direction LR
         PRIV["<b>Privacidad y Datos</b><br/>RGPD / LOPD-GDD"] --- SEC["<b>Ciberseguridad</b><br/>NIS2 / ENS / ISO 27001"]
@@ -352,7 +336,7 @@ flowchart LR
     * *Deducciones Fiscales por I+D+i:* Bonificaciones fiscales por desarrollo de software e investigación tecnológica.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Financiacion ["Ecosistema de Incentivos y Ayudas Públicas"]
         direction LR
         KD["<b>Kit Digital (NextGenEU)</b><br/>Subvención a la digitalización"] --- ENISA["<b>Préstamos ENISA</b><br/>Financiación sin avales para proyectos innovadores"] --- CDTI["<b>CDTI Neotec</b><br/>Ayudas a empresas tecnológicas"]
@@ -380,7 +364,7 @@ flowchart LR
     * Límites de trabajo en progreso (*WIP Limits*).
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Kanban_Flow ["Flujo de Trabajo Kanban en Tablero Digital"]
         direction LR
         BACKLOG["<b>1. Product Backlog</b><br/>Historias y Tarjetas"] --> SPRINT_BACKLOG["<b>2. Sprint Backlog</b><br/>Compromiso del Sprint"]
@@ -427,7 +411,7 @@ Al finalizar el Sprint 1, además de entregar el documento escrito de la **Memor
 La PoC no es el producto final ni una versión completa, sino la demostración técnica de que el entorno de desarrollo o trabajo está correctamente configurado, que los componentes base se comunican y que la arquitectura planteada es ejecutable sin bloqueos críticos antes de iniciar los Sprints de desarrollo e implementación intensiva.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph PoC_Types ["Prueba de Concepto - PoC según la Naturaleza Técnica del Proyecto"]
         direction LR
         P_SW["<b>1. Desarrollo Software</b><br/>Repo Git + Hello World / Servidor Local"]
