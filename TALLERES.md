@@ -114,7 +114,7 @@ Cada equipo presenta:
 # 🌐 Taller 2 (RA2): «Requisitos, Alcance y Diseño de la Solución»
 
 **Duración:** 1 sesión (2 horas)  
-**Herramientas:** Jira / GitHub Projects / Draw.io / Figma / Packet Tracer / GNS3 / Swagger / otras herramientas adecuadas al proyecto  
+**Herramientas:** Jira / GitHub Projects / **Draw.io** / Figma / **Packet Tracer** / **Excalidraw** / GNS3 / Swagger / otras herramientas adecuadas al proyecto  
 **Aplicación:** DAM · DAW · ASIR
 
 **Criterios trabajados (RA2):** Recopilación de información técnica, estudio de viabilidad, objetivos SMART, matriz de riesgos, recursos y diseño de arquitectura.
@@ -234,7 +234,7 @@ Comprueban que:
 # 🗓️ Taller 3 (RA3): «Planificación del Proyecto, EDT, Cronograma y Sprint»
 
 **Duración:** 1 sesión (2 horas)  
-**Herramientas:** GanttProject / GitHub Projects / Jira / Mermaid.js  
+**Herramientas:** GanttProject / GitHub Projects / **Jira** / Mermaid.js  
 **Aplicación:** DAM · DAW · ASIR
 
 **Criterios trabajados (RA3):** Secuenciación de actividades, dependencias, asignación de recursos, gestión de riesgos de ejecución y planificación temporal en Sprints.
@@ -343,7 +343,7 @@ Definen:
 # 🛠️ Taller 4 (RA4): «Pruebas, Incidencias, Correcciones y Control de Cambios»
 
 **Duración:** 1 sesión (2 horas)  
-**Herramientas:** GitHub Issues / Jira / Google Forms / Git / herramientas de pruebas adecuadas  
+**Herramientas:** **GitHub Issues** / Jira / Google Forms / Git / herramientas de pruebas adecuadas  
 **Aplicación:** DAM · DAW · ASIR
 
 **Criterios trabajados (RA4):** Definición de procedimientos de evaluación, indicadores de calidad, registro y solución de incidencias, gestión de cambios y evaluación con usuarios finales.
