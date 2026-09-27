@@ -1,9 +1,9 @@
-# 🚀 Guía Metodológica: RA1 — Estudio del Entorno Productivo y Demandas del Mercado
+# 🚀 RA1. Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que puedan satisfacerlas.
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Fase del Proyecto:** Kick-off & Sprint 1 | **Entregable:** Memoria Incremental v1.0  
 > **Rol del Alumno/a:** *Lead Developer / DevOps / Architect / SysAdmin* (Responsable Único del Proyecto)  
-> **Rol del Docente:** *Guía Metodológico, Orientador Técnico y Evaluador / Tribunal*
+> **Rol del Docente:** *PMP / Guía Metodológico / Orientador Técnico y Evaluador / Tribunal*
 
 ---
 
@@ -116,7 +116,7 @@ flowchart TD
     end
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.1):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Describir la estructura general del sector tecnológico y la vertical de mercado donde se encuadra el proyecto.
   2. Identificar el modelo de prestación de la solución propuesta (suscripción, pago por uso, licenciamiento, contrato de mantenimiento con SLA).
   3. Enumerar empresas u organizaciones de referencia en dicho ámbito (competidores directos o indirectos).
@@ -150,7 +150,7 @@ flowchart TD
     end
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.2):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Incluir el diagrama del organigrama técnico de la empresa tipo o departamento de TI/Ingeniería.
   2. Describir las funciones y responsabilidades de cada perfil profesional.
   3. Indicar los roles que asume el alumno/a en la ejecución de su proyecto unipersonal.
@@ -173,7 +173,7 @@ flowchart TD
     A["<b>1. Dolencia / Problema Detectado</b><br/>Procesos manuales / Caídas de red / Vulnerabilidades"] --> B["<b>2. Análisis Causa Raíz</b><br/>Diagnóstico técnico de fallos"] --> C["<b>3. Propuesta de Valor</b><br/>Solución tecnológica justificada"]
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.3):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Explicar el contexto de la problemática detectada.
   2. Detallar las consecuencias de no resolver el problema (pérdidas económicas, brechas de seguridad, ineficiencia operativa).
   3. Formular la propuesta de valor del proyecto como respuesta directa a la causa raíz.
@@ -210,7 +210,7 @@ flowchart TD
     F & D & O & A --> VT
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.4):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Presentar la **Matriz DAFO** rellenando cada cuadrante de forma específica para el proyecto.
   2. Justificar de forma explícita la **Viabilidad Técnica, Económica y Operativa**.
   3. Concluir el análisis estratégico explicando por qué la oportunidad debe ejecutarse.
@@ -240,7 +240,7 @@ flowchart TD
     end
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.5):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Clasificar la tipología del proyecto.
   2. Elaborar la tabla de alcance dividida en dos columnas claras: *En Alcance (In-Scope)* y *Fuera de Alcance (Out-of-Scope)*.
 
@@ -274,7 +274,7 @@ flowchart TD
     RF & RNF --> ALT
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.6):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Incluir la tabla codificada de Requisitos Funcionales (`RF-01`, `RF-02`...) con prioridad.
   2. Incluir la tabla codificada de Requisitos No Funcionales (`RNF-01`, `RNF-02`...).
   3. Justificar técnicamente el stack tecnológico o hardware seleccionado frente a otras alternativas probadas.
@@ -306,7 +306,7 @@ flowchart TD
     end
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.7):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Explicar cómo aplica el RGPD a los datos gestionados por la solución.
   2. Enumerar las licencias de software, componentes u otros elementos utilizados.
   3. Indicar el marco fiscal, laboral y las medidas de prevención de riesgos laborales (PRL).
@@ -331,7 +331,7 @@ flowchart TD
     end
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.8):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Identificar al menos dos programas de subvención o ayuda pública aplicables.
   2. Analizar requisitos de acceso, cuantías asignables y su impacto en la viabilidad económica de la propuesta.
 
@@ -385,7 +385,7 @@ gantt
     Defensa ante Tribunal            :milestone, t1, 2026-12-20, 1d
 ```
 
-* **Guía de Redacción para la Memoria v1.0 (Sección 1.9):**
+* **Guía de Redacción para la Memoria v1.0:**
   1. Explicar la metodología de Sprints y las reglas DoR y DoD establecidas.
   2. Incluir el enlace público al **Tablero Digital (GitHub Projects, Trello, Jira)**.
   3. Añadir capturas del *Product Backlog* inicial con las Historias de Usuario/Tarjetas Técnicas estimadas en *Story Points*.
