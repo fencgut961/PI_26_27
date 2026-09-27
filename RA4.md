@@ -110,14 +110,10 @@ Para poder abordar con garantías las actividades de control de calidad, evaluac
 
 ## 4. Desglose Criterio por Criterio (CE.a al CE.f)
 
-Cada Criterio de Evaluación del RA4 representa el **16.67% de la nota total del Sprint 4**.
-
----
-
 ### CE.a — Procedimiento de Evaluación de las Actividades e Intervenciones Realizadas
 
-* **Objetivo Curricular:** Se ha definido el procedimiento de evaluación de las actividades o intervenciones realizadas durante la ejecución del proyecto.
-* **Explicación Profunda:** El alumno/a debe establecer un protocolo formal para auditar y evaluar el grado de cumplimiento de las actividades planificadas en la EDT/WBS y en el tablero Kanban. No basta con ejecutar el trabajo; es obligatorio comparar lo planificado con lo ejecutado, analizando desviaciones temporales, procedimentales y de rendimiento técnico.
+* **Objetivo:** Se ha definido el procedimiento de evaluación de las actividades o intervenciones realizadas durante la ejecución del proyecto.
+* **Explicación:** El alumno/a debe establecer un protocolo formal para auditar y evaluar el grado de cumplimiento de las actividades planificadas en la EDT/WBS y en el tablero Kanban. No basta con ejecutar el trabajo; es obligatorio comparar lo planificado con lo ejecutado, analizando desviaciones temporales, procedimentales y de rendimiento técnico.
   * **Elementos del Procedimiento de Evaluación:**
     * *Revisiones de Sprint (Sprint Review / Retrospectiva):* Análisis periódico del cumplimiento del DoD (*Definition of Done*) en las tareas del backlog.
     * *Auditoría de Hitos:* Verificación del grado de consecución de los entregables parciales (Memoria v1.0 a v4.0 y Demos Funcionales 1 a 4).
@@ -142,8 +138,8 @@ flowchart TD
 
 ### CE.b — Definición e Identificación de Indicadores de Calidad y Métricas
 
-* **Objetivo Curricular:** Se han definido los indicadores de calidad para realizar la evaluación del proyecto.
-* **Explicación Profunda:** Establecimiento de un conjunto de indicadores clave de rendimiento y calidad (**KPIs**) cuantitativos y medibles que permitan determinar objetivamente si el producto software o la infraestructura cumple los estándares de ingeniería exigidos.
+* **Objetivo:** Se han definido los indicadores de calidad para realizar la evaluación del proyecto.
+* **Explicación:** Establecimiento de un conjunto de indicadores clave de rendimiento y calidad (**KPIs**) cuantitativos y medibles que permitan determinar objetivamente si el producto software o la infraestructura cumple los estándares de ingeniería exigidos.
   * **Categorías de Indicadores de Calidad:**
     * *Métricas de Rendimiento y Eficiencia:* Tiempos de respuesta (latencia), rendimiento de CPU/RAM, uso de ancho de banda y velocidad de carga.
     * *Métricas de Calidad de Código y Mantenibilidad:* Cobertura de pruebas unitarias (% coverage), densidad de defectos (bugs por cada 1.000 líneas de código) y cumplimiento de estándares de linter.
@@ -169,8 +165,8 @@ flowchart TD
 
 ### CE.c — Registro, Clasificación y Evaluación de Incidencias y Desviaciones
 
-* **Objetivo Curricular:** Se ha definido el procedimiento para el registro y evaluación de las incidencias que puedan presentarse durante la ejecución del proyecto.
-* **Explicación Profunda:** Definición de un procedimiento sistemático para capturar, documentar, categorizar y priorizar cualquier fallo, bug, error de configuración o desviación operacional que surja durante las pruebas o despliegues del proyecto.
+* **Objetivo:** Se ha definido el procedimiento para el registro y evaluación de las incidencias que puedan presentarse durante la ejecución del proyecto.
+* **Explicación:** Definición de un procedimiento sistemático para capturar, documentar, categorizar y priorizar cualquier fallo, bug, error de configuración o desviación operacional que surja durante las pruebas o despliegues del proyecto.
   * **Flujo de Registro e Identificación:**
     * *Herramientas de Registro:* Utilización de un sistema centralizado de gestión de tickets o incidencias (GitHub Issues, Jira, GitLab Issues o Trello).
     * *Campos Obligatorios del Registro:* ID de la incidencia, fecha/hora, componente afectado, entorno (Dev/Staging/Prod), pasos para reproducir, comportamiento esperado vs. obtenido y capturas/logs de error.
@@ -199,8 +195,8 @@ flowchart TD
 
 ### CE.d — Procedimiento y Protocolo para la Solución de Incidencias Registradas
 
-* **Objetivo Curricular:** Se ha definido el procedimiento para la solución de las incidencias registradas.
-* **Explicación Profunda:** Establecimiento del protocolo operativo paso a paso para investigar, corregir, probar y cerrar las incidencias previamente registradas, garantizando que ninguna corrección introduzca nuevos errores (*regresiones*).
+* **Objetivo:** Se ha definido el procedimiento para la solución de las incidencias registradas.
+* **Explicación:** Establecimiento del protocolo operativo paso a paso para investigar, corregir, probar y cerrar las incidencias previamente registradas, garantizando que ninguna corrección introduzca nuevos errores (*regresiones*).
   * **Fases del Protocolo de Resolución (Lifecycle de un Bug):**
     1. *Asignación:* Vinculación de la incidencia al responsable técnico correspondiente en el tablero Kanban.
     2. *Diagnóstico y Causa Raíz:* Análisis de logs, depuración (*debugging*) y reproducción del fallo en entorno aislado.
@@ -227,8 +223,8 @@ flowchart TD
 
 ### CE.e — Gestión y Registro de Cambios en Recursos, Alcance y Tareas (Change Management)
 
-* **Objetivo Curricular:** Se ha definido el procedimiento para la gestión y registro de los cambios en los recursos y en las tareas.
-* **Explicación Profunda:** Implantación de un proceso formal de **Gestión del Cambio (*Change Management*)** para controlar cualquier modificación en los requisitos iniciales, la asignación de recursos, los plazos de entrega o la arquitectura del proyecto, evitando el crecimiento descontrolado del alcance (*Scope Creep*).
+* **Objetivo:** Se ha definido el procedimiento para la gestión y registro de los cambios en los recursos y en las tareas.
+* **Explicación:** Implantación de un proceso formal de **Gestión del Cambio (*Change Management*)** para controlar cualquier modificación en los requisitos iniciales, la asignación de recursos, los plazos de entrega o la arquitectura del proyecto, evitando el crecimiento descontrolado del alcance (*Scope Creep*).
   * **Pasos de la Solicitud de Cambio:**
     * *Solicitud de Cambio (CR - Change Request):* Documentación formal del cambio solicitado, indicando el motivo, la justificación y los componentes afectados.
     * *Análisis de Impacto Tridimensional:* Evaluación de las repercusiones del cambio en **Tiempo** (días de retraso), **Coste** (presupuesto necesario) y **Alcance / Calidad**.
@@ -255,8 +251,8 @@ flowchart TD
 
 ### CE.f — Evaluación de Usuarios, Pruebas UAT, Feedback y Documentación Específica
 
-* **Objetivo Curricular:** Se ha establecido el procedimiento para la participación en la evaluación de los usuarios y se han elaborado documentos específicos.
-* **Explicación Profunda:** Diseño e implementación de las **Pruebas de Aceptación de Usuario (UAT - User Acceptance Testing)** y recopilación de retroalimentación (*feedback*) de usuarios finales o clientes piloto. Además, comprende la elaboración de la documentación técnica y de usuario consolidada para el cierre del proyecto.
+* **Objetivo:** Se ha establecido el procedimiento para la participación en la evaluación de los usuarios y se han elaborado documentos específicos.
+* **Explicación:** Diseño e implementación de las **Pruebas de Aceptación de Usuario (UAT - User Acceptance Testing)** y recopilación de retroalimentación (*feedback*) de usuarios finales o clientes piloto. Además, comprende la elaboración de la documentación técnica y de usuario consolidada para el cierre del proyecto.
   * **Componentes de la Evaluación de Usuarios:**
     * *Diseño de Guiones de Pruebas de Usuario:* Escenarios reales de uso donde el usuario final ejecuta tareas cotidianas sin asistencia técnica.
     * *Instrumentos de Recopilación de Feedback:* Cuestionarios normalizados de usabilidad (SUS - *System Usability Scale*), formularios CSAT y registros de observaciones directas.
