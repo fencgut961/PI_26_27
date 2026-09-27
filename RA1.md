@@ -1,4 +1,4 @@
-# 🚀 Guía Metodológica: RA1 — Estudio del Entorno Productivo y Demandas del Mercado
+# 🚀 RA1. Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que puedan satisfacerlas.
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Fase del Proyecto:** Kick-off & Sprint 1 | **Entregable:** Memoria Incremental v1.0  
