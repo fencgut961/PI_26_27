@@ -115,7 +115,7 @@ Antes de comenzar a redactar el Sprint 1 o desarrollar código/configuraciones, 
 
 ### CE.a — Clasificación del Sector y Entorno de Aplicación
 
-* **Objetivo Curricular:** Clasificar las empresas y organizaciones del sector por sus características organizativas y los productos o servicios que ofrecen.
+* **Objetivo:** Clasificar las empresas y organizaciones del sector por sus características organizativas y los productos o servicios que ofrecen.
 * **Explicación:** El alumno/a analiza el entorno económico e industrial donde se encuadra su solución. No se limita a definir "empresas informáticas", sino que examina la vertical de mercado (Finanzas, Salud, Logística, Retail, Industria 4.0, Telecomunicaciones) y el modelo de prestación de servicios:
   * **Modelos de Negocio y Servicio:**
     * *SaaS (Software as a Service):* Aplicaciones alojadas en la nube accesibles por suscripción (ej. plataformas de gestión, herramientas analíticas, ERPs web).
@@ -143,7 +143,7 @@ flowchart TD
 
 ### CE.b — Estructura Organizativa y Roles Técnicos
 
-* **Objetivo Curricular:** Caracterizar la empresa u organización tipo indicando la estructura organizativa y las funciones de cada departamento o área técnica.
+* **Objetivo:** Caracterizar la empresa u organización tipo indicando la estructura organizativa y las funciones de cada departamento o área técnica.
 * **Explicación:** Las organizaciones tecnológicas se estructuran en equipos multidisciplinares (*Product Squads / Equipos de Operaciones e Ingeniería*) orientados a aportar valor continuo:
   * **Definición de Roles:**
     * *Product Owner (PO) / Product Manager:* Define la visión de la solución, prioriza los requisitos y valida la entrega con el cliente.
@@ -177,7 +177,7 @@ flowchart TD
 
 ### CE.c — Detección de Necesidades y Dolencias
 
-* **Objetivo Curricular:** Identificar las necesidades más demandadas en el ámbito de actuación del proyecto.
+* **Objetivo:** Identificar las necesidades más demandadas en el ámbito de actuación del proyecto.
 * **Explicación:** El proyecto debe fundamentarse en la resolución de una problemática o ineficiencia real (*Pain Point*), aplicando metodologías de análisis de causa raíz (*5 Porqués*, *Diagrama de Ishikawa*):
   * **Categoría de Necesidades y Ejemplos:**
     * *Procesos Manuales e Ineficientes:* Ausencia de aplicaciones en movilidad para partes de trabajo en campo, portales web de autogestión lentos o falta de integración entre herramientas.
@@ -200,7 +200,7 @@ flowchart TD
 
 ### CE.d — Valoración de Oportunidades y Viabilidad
 
-* **Objetivo Curricular:** Valorar las oportunidades de negocio o mejora previsible en el sector mediante técnicas sistemáticas de análisis.
+* **Objetivo:** Valorar las oportunidades de negocio o mejora previsible en el sector mediante técnicas sistemáticas de análisis.
 * **Explicación:** Demostrar que la solución propuesta es viable evaluando sus tres dimensiones fundamentales:
   1. **Viabilidad Técnica:** Disponibilidad de tecnologías maduras, compatibilidad de entornos y capacidad del equipo para implementar la solución.
   2. **Viabilidad Económica / Financiera:** Justificación de costes de despliegue y operación (CAPEX/OPEX) mediante el retorno de inversión (ROI) o el ahorro generado.
@@ -237,7 +237,7 @@ flowchart TD
 
 ### CE.e — Definición de la Tipología de Proyecto y Alcance
 
-* **Objetivo Curricular:** Identificar el tipo de proyecto requerido para dar respuesta a la necesidad y determinar sus fronteras.
+* **Objetivo:** Identificar el tipo de proyecto requerido para dar respuesta a la necesidad y determinar sus fronteras.
 * **Explicación:** Aplicación del framework **Jobs-To-Be-Done (JTBD)** para acotar la tipología del proyecto y definir la línea base del alcance (*Scope Baseline*):
   * **Tipologías de Ejemplo:**
     * *Aplicación Móvil / Software Multiplataforma:* App nativa o híbrida con sincronización offline y notificaciones.
@@ -266,7 +266,7 @@ flowchart TD
 
 ### CE.f — Ingeniería de Requisitos y Elección Justificada del Stack
 
-* **Objetivo Curricular:** Determinar las características específicas del proyecto según los requerimientos y seleccionar los medios técnicos.
+* **Objetivo:** Determinar las características específicas del proyecto según los requerimientos y seleccionar los medios técnicos.
 * **Explicación:** Clasificación de requisitos bajo la norma internacional **ISO/IEC 25010** de calidad de producto tecnológico:
   * **Requisitos Funcionales (RF):** Capacidades o acciones concretas que debe ejecutar el sistema:
     * *Ejemplo Software:* Autenticación mediante tokens JWT, generación de informes PDF, captura de firma digital.
@@ -301,7 +301,7 @@ flowchart TD
 
 ### CE.g — Marco Legal, Fiscal, Laboral, PRL y Ciberseguridad
 
-* **Objetivo Curricular:** Determinar las obligaciones fiscales, laborales, de prevención de riesgos y ciberseguridad.
+* **Objetivo:** Determinar las obligaciones fiscales, laborales, de prevención de riesgos y ciberseguridad.
 * **Explicación:** Identificación de la normativa que afecta al desarrollo y operación del proyecto:
   * **Ciberseguridad, Privacidad y Regulación:**
     * *RGPD / LOPD-GDD:* Protección de datos personales, privacidad desde el diseño (*Privacy by Design*) y gestión de consentimientos.
@@ -333,7 +333,7 @@ flowchart TD
 
 ### CE.h — Ayudas, Subvenciones e Incentivos a la Innovación
 
-* **Objetivo Curricular:** Identificar posibles ayudas o subvenciones para la incorporación de nuevas tecnologías.
+* **Objetivo:** Identificar posibles ayudas o subvenciones para la incorporación de nuevas tecnologías.
 * **Explicación:** Análisis de vías de financiación pública e incentivos a la innovación aplicables al proyecto:
   * **Programas de Financiación Relevantes:**
     * *Kit Digital (Fondos NextGenerationEU):* Subvenciones para la adopción de herramientas digitales, sitios web, comercio electrónico, gestión de procesos en la nube y ciberseguridad.
@@ -357,7 +357,7 @@ flowchart TD
 
 ### CE.i — Guion de Trabajo, Backlog y Metodología Ágil
 
-* **Objetivo Curricular:** Elaborar el guion de trabajo que se va a seguir para la elaboración del proyecto.
+* **Objetivo:** Elaborar el guion de trabajo que se va a seguir para la elaboración del proyecto.
 * **Explicación:** Organización del trabajo por Sprints y configuración de herramientas digitales de gestión:
   * **Estructura de Historias de Usuario / Tarjetas Técnicas:**
     $$\text{Como [Rol / Actor / Sistema]} \longrightarrow \text{Quiero [Acción / Configuración]} \longrightarrow \text{Para [Beneficio / Valor]}$$
