@@ -112,10 +112,6 @@ Antes de iniciar las actividades del Sprint 3, el alumno/a debe haber superado l
 
 ## 4. Desglose Criterio por Criterio (CE.a al CE.h)
 
-A continuación, se detalla la guía de aplicación técnica para cada uno de los 8 Criterios de Evaluación del RA3 (con una ponderación del **12.5% cada uno** dentro de la nota del Sprint 3):
-
----
-
 ### CE.a — Secuenciación de Tareas y Dependencias de Implementation
 
 * **Objetivo Curricular:** Se han secuenciado las tareas en función de las necesidades de implementación.
