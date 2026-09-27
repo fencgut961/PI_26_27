@@ -31,9 +31,27 @@
 
 El módulo de Proyecto contempla cualquier tipología de solución tecnológica que el alumno/a decida desarrollar, adaptando los fundamentos de la gestión de proyectos de ingeniería a las distintas áreas y especialidades del sector:
 
-* **Desarrollo de Software Multiplataforma (DAM):** Aplicaciones móviles nativas (Kotlin, Swift) y soluciones multiplataforma (Flutter, React Native, Compose Multiplatform), aplicaciones de escritorio híbridas (Electron, Tauri), Progressive Web Apps (PWA), integración de IA local en dispositivo (*On-device AI*) o desarrollo para sistemas embebidos e IoT (Rust, MicroPython).
-* **Desarrollo de Aplicaciones Web (DAW):** Plataformas web SaaS, arquitecturas Full-Stack / SSR / Serverless (Next.js, Nuxt, SvelteKit), Progressive Web Apps (PWA), microservicios, APIs (REST, GraphQL, gRPC) e integración de servicios de Inteligencia Artificial Generativa y RAG.
-* **Administración de Sistemas Informáticos y Redes (ASIR):** Infraestructuras cloud y multi-cloud (AWS, Azure, GCP), virtualización (Proxmox, VMware), contenedores y orquestación (Docker, Kubernetes/K3s), Infraestructura como Código (Terraform, Ansible), redes WAN/SD-WAN, ciberseguridad Zero-Trust, observabilidad y servicios gestionados.
+### 📱 Desarrollo de Software Multiplataforma (DAM)
+* Aplicaciones móviles nativas (Kotlin, Swift) y soluciones multiplataforma (Flutter, React Native, Compose Multiplatform).
+* Aplicaciones de escritorio híbridas (Electron, Tauri).
+* Progressive Web Apps (PWA).
+* Integración de IA local en dispositivo (On-device AI).
+* Desarrollo para sistemas embebidos e IoT (Rust, MicroPython).
+
+### 🌐 Desarrollo de Aplicaciones Web (DAW)
+* Plataformas web SaaS.
+* Arquitecturas Full-Stack / SSR / Serverless (Next.js, Nuxt, SvelteKit).
+* Progressive Web Apps (PWA).
+* Microservicios y APIs (REST, GraphQL, gRPC).
+* Integración de servicios de Inteligencia Artificial Generativa y RAG.
+
+### 🖥️ Administración de Sistemas Informáticos y Redes (ASIR)
+* Infraestructuras cloud y multi-cloud (AWS, Azure, GCP).
+* Virtualización (Proxmox, VMware).
+* Contenedores y orquestación (Docker, Kubernetes/K3s).
+* Infraestructura como Código (Terraform, Ansible).
+* Redes WAN/SD-WAN.
+* Ciberseguridad Zero-Trust, observabilidad y servicios gestionados.
 
 ---
 
