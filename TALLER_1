@@ -1,0 +1,679 @@
+# 📱 Taller 1 (RA1): De la necesidad al anteproyecto y Kick-off ágil
+
+ **Duración:** 1 sesión — 2 horas\
+ **Aplicación:** DAM · DAW · ASIR\
+ **Herramienta principal:** Miro — plantilla **«Inicio de proyecto»**\
+ **Trabajo:** equipos de 3–5 personas\
+ **Entregable:** tablero Miro completo \+ presentación final
+
+---
+
+ ## 🎯 Objetivo del taller
+
+ En este taller trabajaréis como un **equipo tecnológico** que debe transformar una necesidad real en una propuesta de proyecto.
+
+ Partiréis de un problema relacionado con una empresa, organización, sector o grupo de usuarios y avanzaréis hasta definir:
+
+ - La necesidad detectada.
+- El problema que se quiere solucionar.
+- Los usuarios afectados.
+- Las soluciones existentes.
+- Una oportunidad de mejora.
+- Una propuesta tecnológica.
+- La tipología del proyecto.
+- Su viabilidad inicial.
+- Las responsabilidades del equipo.
+- Los roles de trabajo.
+- Las primeras tareas.
+- Un primer Kick-off del proyecto.
+
+ Todo el trabajo se realizará **directamente sobre el tablero de Miro proporcionado**, utilizando la plantilla **«Inicio de proyecto»**.
+
+ > **Importante:** no tenéis que crear otro tablero ni otro documento. El tablero de Miro será vuestro espacio de trabajo y vuestro entregable.
+
+---
+
+ # 🗺️ Recorrido del taller
+
+ Trabajaréis siguiendo las zonas de la plantilla en este orden:
+
+ **🏷️ Título**\
+ ↓\
+ **👥 Equipo**\
+ ↓\
+ **🧩 Necesidad y problema**\
+ ↓\
+ **🔎 Benchmarking**\
+ ↓\
+ **📋 Anteproyecto**\
+ ↓\
+ **👥 Responsabilidades y roles**\
+ ↓\
+ **🚀 Primeros pasos**\
+ ↓\
+ **🎤 Kick-off**
+
+---
+
+ # 🏷️ ZONA 1 — TÍTULO
+
+ ### Identificamos nuestro proyecto
+
+ Comenzad completando la zona **Título** de la plantilla.
+
+ Indicad:
+
+ - **Nombre del proyecto.**
+- **Nombre o número del equipo.**
+- **Integrantes.**
+- **Sector o contexto elegido.**
+
+ El nombre puede ser provisional. Lo importante es que permita identificar vuestro proyecto.
+
+ ### ⏱️ Tiempo: 2 minutos
+
+---
+
+ # 👥 ZONA 2 — ANFITRIONES → NUESTRO EQUIPO
+
+ La plantilla denomina esta zona **«Anfitriones»**. En este taller la utilizaremos para presentar a los integrantes del equipo.
+
+ Para cada persona indicad:
+
+ - Nombre.
+- Conocimientos o habilidades que puede aportar.
+- Área que le interesa especialmente.
+
+ Por ejemplo:
+
+ | Integrante | Conocimientos / intereses |
+| --- | --- |
+| Ana | Desarrollo web |
+| Luis | Redes e infraestructura |
+| Marta | Diseño y UX |
+| Pablo | Bases de datos |
+
+### ⚠️ Importante
+
+ **Todavía no asignéis los roles de Product Owner, Scrum Master, etc.**
+
+ Primero vamos a analizar qué necesita nuestro proyecto y después decidiremos cómo organizar el equipo.
+
+ ### ⏱️ Tiempo: 3 minutos
+
+---
+
+ # 🧩 ZONA 3 — OBJETIVOS Y CONTEXTO
+
+ ## 1\. Identificamos una necesidad
+
+ Esta será la primera parte importante del taller.
+
+ Elegid un **sector o contexto** en el que exista una necesidad que pueda ser mejorada mediante tecnología.
+
+ ### Posibles sectores
+
+ - Comercio.
+- Educación.
+- Sanidad.
+- Hostelería.
+- Turismo.
+- Administración.
+- Logística.
+- Industria.
+- Empresas de servicios.
+- Otros.
+
+ Podéis trabajar con una empresa real o con un escenario ficticio, siempre que sea **realista y concreto**.
+
+---
+
+ ## 🔴 ¿Qué problema existe?
+
+ Describid una situación concreta que pueda mejorarse.
+
+ No indiquéis solamente:
+
+ > «Las empresas tienen problemas para gestionar sus clientes».
+
+ Intentad concretar:
+
+ > «Una pequeña empresa de servicios gestiona las citas de sus clientes mediante llamadas telefónicas y mensajes de WhatsApp, lo que dificulta conocer la disponibilidad y provoca errores en las reservas».
+
+---
+
+ ## 👥 ¿A quién afecta?
+
+ Identificad las personas, organizaciones o colectivos afectados:
+
+ - Clientes.
+- Trabajadores.
+- Administradores.
+- Empresas.
+- Usuarios finales.
+- Proveedores.
+- Otros.
+
+---
+
+ ## 🔎 ¿Cómo se resuelve actualmente?
+
+ Explicad qué hacen actualmente para solucionar o gestionar el problema.
+
+---
+
+ ## ⚠️ ¿Qué consecuencias tiene?
+
+ Identificad las principales consecuencias.
+
+ Por ejemplo:
+
+ - Pérdida de tiempo.
+- Costes.
+- Errores.
+- Procesos manuales.
+- Mala experiencia de usuario.
+- Falta de información.
+- Problemas de comunicación.
+- Problemas de seguridad.
+- Dificultades de gestión.
+
+---
+
+ ## 💡 ¿Puede mejorarse mediante tecnología?
+
+ Explicad brevemente qué podría aportar una solución tecnológica.
+
+---
+
+ ## 🎯 Concretamos el problema
+
+ Al terminar esta parte, debéis completar:
+
+ > **«Hemos detectado que \_\_\_\_\_\_\_\_\_\_ tiene dificultades para \_\_\_\_\_\_\_\_\_\_, lo que provoca \_\_\_\_\_\_\_\_\_\_.»**
+
+ Esta frase debe quedar visible en vuestro tablero.
+
+ ### ⏱️ Tiempo: 25 minutos
+
+---
+
+ # 🔎 ZONA 4 — TEXTO \+ IMAGEN
+
+ ## 2\. ¿Qué existe actualmente?
+
+ Antes de diseñar nuestra solución debemos investigar qué soluciones existen.
+
+ Cada equipo investigará **al menos 2 soluciones reales** relacionadas con el problema seleccionado.
+
+ Pueden ser:
+
+ - Aplicaciones.
+- Páginas web.
+- Plataformas.
+- Productos.
+- Servicios.
+- Soluciones empresariales.
+
+ No tienen que ser idénticas a vuestra propuesta, pero deben estar relacionadas con el problema.
+
+---
+
+ ## 📊 Analizamos las soluciones
+
+ Para cada solución investigad, cuando sea posible:
+
+ ### Solución 1
+
+ - Nombre.
+- ¿Qué ofrece?
+- Funcionalidades principales.
+- Público objetivo.
+- Ventajas.
+- Limitaciones.
+- Precio o modelo de negocio.
+- Tecnología o infraestructura identificable.
+
+ ### Solución 2
+
+ Analizad los mismos aspectos.
+
+ Podéis utilizar la zona **Texto + imagen** para incluir:
+
+ - Texto.
+- Capturas.
+- Imágenes.
+- Logotipos.
+- Enlaces o referencias.
+
+---
+
+ ## ⭐ Buscamos nuestra oportunidad
+
+ Después del análisis, responded:
+
+ > **¿Qué podríamos aportar nosotros que no esté suficientemente resuelto por las soluciones existentes?**
+
+ No es necesario inventar algo completamente nuevo.
+
+ Podéis diferenciaros mediante:
+
+ - Una funcionalidad.
+- Una mejor experiencia de usuario.
+- Automatización.
+- Personalización.
+- Integración con otros sistemas.
+- Adaptación a un sector concreto.
+- Mayor accesibilidad.
+- Simplificación del proceso.
+- Otro elemento relevante.
+
+ Esta respuesta será vuestro **valor diferencial**.
+
+ ### ⏱️ Tiempo: 25 minutos
+
+---
+
+ # 📋 ZONA 5 — PREGUNTAS Y RESPUESTAS
+
+ ## 3\. Construimos nuestro anteproyecto
+
+ Ahora transformaréis toda la información anterior en una propuesta concreta.
+
+ Utilizad la zona **Preguntas y respuestas** de la plantilla.
+
+---
+
+ ### ❓ ¿Qué problema queremos solucionar?
+
+ Describid de forma clara el problema.
+
+---
+
+ ### ❓ ¿Quién utilizará nuestra solución?
+
+ Definid los usuarios o destinatarios.
+
+---
+
+ ### ❓ ¿Qué solución tecnológica proponemos?
+
+ Explicad qué queréis desarrollar, implantar o configurar.
+
+ No es necesario realizar todavía un diseño técnico detallado.
+
+---
+
+ ### ❓ ¿Qué tipología de proyecto es?
+
+ Seleccionad una o varias:
+
+ - ☐ Desarrollo de software.
+- ☐ Desarrollo web.
+- ☐ Aplicación móvil.
+- ☐ Infraestructura y sistemas.
+- ☐ Redes y comunicaciones.
+- ☐ Servicios Cloud.
+- ☐ Automatización de procesos.
+- ☐ Solución híbrida.
+- ☐ Otra.
+
+---
+
+ ### ❓ ¿Cuál es nuestro valor diferencial?
+
+ Explicad qué aporta vuestra propuesta frente a las soluciones analizadas.
+
+---
+
+ ## 🛠️ Viabilidad técnica inicial
+
+ Responded brevemente:
+
+ - ¿Qué tecnologías podríamos necesitar?
+- ¿Qué infraestructura?
+- ¿Qué conocimientos?
+- ¿Qué recursos?
+- ¿Qué dificultades técnicas podemos encontrar?
+
+ No es necesario realizar todavía una arquitectura completa.
+
+---
+
+ ## 💰 Viabilidad económica inicial
+
+ Identificad los principales costes potenciales:
+
+ - Hardware.
+- Software.
+- Licencias.
+- Servicios Cloud.
+- Servidores.
+- Desarrollo.
+- Mantenimiento.
+- Otros recursos.
+
+ No es necesario realizar un presupuesto detallado.
+
+---
+
+ ## ⚖️ Aspectos legales básicos
+
+ Identificad aquellos aspectos legales que puedan afectar al proyecto.
+
+ Por ejemplo:
+
+ - Protección de datos.
+- Privacidad.
+- Propiedad intelectual.
+- Licencias de software.
+- Seguridad.
+- Accesibilidad.
+
+ ### ⏱️ Tiempo: 25 minutos
+
+---
+
+ # 👥 ZONA 6 — CO-CREAR UN PLAN DE PROYECTO DE ALTO NIVEL
+
+ ## 4\. Construimos nuestro equipo
+
+ Ahora que sabemos qué queremos hacer, vamos a decidir **qué necesita el equipo para poder hacerlo**.
+
+ ### 🧩 Paso 1 — ¿Qué necesita nuestro proyecto?
+
+ Identificad mediante post-its las responsabilidades necesarias.
+
+ Podéis considerar:
+
+ - Análisis de requisitos.
+- Gestión del producto.
+- Desarrollo.
+- Diseño UX/UI.
+- Base de datos.
+- Infraestructura.
+- Cloud.
+- Redes.
+- Seguridad.
+- Pruebas.
+- Documentación.
+- Comunicación.
+
+ **No tenéis que utilizar todas.**
+
+ Elegid las que tengan sentido para vuestro proyecto.
+
+---
+
+ ## 👤 Paso 2 — ¿Quién puede asumir cada responsabilidad?
+
+ Asignad las responsabilidades entre los integrantes.
+
+ Una persona puede asumir varias responsabilidades y una responsabilidad puede ser compartida.
+
+ Tened en cuenta:
+
+ - Conocimientos.
+- Intereses.
+- Características del proyecto.
+- Necesidades técnicas.
+
+---
+
+ ## 🎭 Paso 3 — Asignamos los roles
+
+ Ahora asignad los principales roles del equipo:
+
+ | Rol | Persona |
+| --- | --- |
+| Product Owner |  |
+| Scrum Master |  |
+| Responsable técnico |  |
+| Desarrollo |  |
+| Pruebas |  |
+| Documentación |  |
+| Infraestructura |  |
+
+### Roles
+
+ **Product Owner:** representa las necesidades del usuario o cliente y ayuda a priorizar el trabajo.
+
+ **Scrum Master:** facilita la organización y dinámica de trabajo del equipo.
+
+ **Responsable técnico:** ayuda en las decisiones tecnológicas y en la coordinación técnica.
+
+ **Desarrollo:** participa en la implementación de la solución.
+
+ **Pruebas:** comprueba que la solución funciona y cumple los requisitos.
+
+ **Documentación:** organiza y mantiene la documentación.
+
+ **Infraestructura:** se ocupa de sistemas, redes, Cloud o despliegues cuando sea necesario.
+
+ > **Importante:** no todos los proyectos necesitan todos los roles. Una persona puede asumir varios y un rol puede ser compartido.
+
+---
+
+ ## 💭 Justificamos nuestro reparto
+
+ Responded brevemente:
+
+ > **¿Por qué hemos organizado el equipo de esta manera?**
+
+ ### ⏱️ Tiempo: 15 minutos
+
+---
+
+ # 🚀 ZONA 7 — CRONOGRAMA DE PRÓXIMOS PASOS
+
+ ## 5\. ¿Cómo empezamos?
+
+ Ahora tenemos:
+
+ - Un problema.
+- Una propuesta.
+- Un equipo.
+- Un reparto de responsabilidades.
+
+ Nos falta decidir **qué vamos a hacer primero**.
+
+ Definid entre **5 y 8 primeras tareas**.
+
+ Por ejemplo:
+
+ - Definir requisitos.
+- Diseñar la interfaz.
+- Investigar tecnologías.
+- Diseñar la base de datos.
+- Crear un prototipo.
+- Preparar la infraestructura.
+- Diseñar las pruebas.
+- Analizar una API.
+
+ Las tareas deben estar relacionadas con vuestro proyecto.
+
+---
+
+ ## 🔴 AHORA
+
+ ¿Qué tenemos que hacer primero?
+
+ ## 🟡 DESPUÉS
+
+ ¿Qué haremos a continuación?
+
+ ## 🟢 MÁS ADELANTE
+
+ ¿Qué puede esperar?
+
+---
+
+ ## 🎯 Nuestro primer objetivo
+
+ Completad:
+
+ > **«Nuestro primer objetivo será \_\_\_\_\_\_\_\_\_\_.»**
+
+ Esta zona constituye vuestro **plan inicial de trabajo**.
+
+ No necesitamos todavía GitHub Projects ni Jira: para este taller, el propio Miro funciona como nuestro espacio de planificación.
+
+ ### ⏱️ Tiempo: 10 minutos
+
+---
+
+ # 🎤 ZONA 8 — SEGUIMIENTO DEL PROYECTO
+
+ ## 6\. Mini Kick-off
+
+ Llegamos al final.
+
+ Utilizad esta zona para preparar vuestra presentación.
+
+ Cada equipo tendrá aproximadamente **1–2 minutos**.
+
+ Debéis explicar:
+
+ ### 🔴 1. Problema
+
+ > ¿Qué problema hemos detectado?
+
+ ### 👥 2. Usuario
+
+ > ¿A quién afecta?
+
+ ### 💡 3. Solución
+
+ > ¿Qué proponemos?
+
+ ### ⭐ 4. Valor diferencial
+
+ > ¿Qué aporta nuestra propuesta?
+
+ ### 👥 5. Equipo
+
+ > ¿Cómo nos hemos organizado?
+
+ ### 🚀 6. Primer paso
+
+ > ¿Qué vamos a hacer primero?
+
+---
+
+ # 📦 ENTREGABLE FINAL
+
+ Al finalizar el taller, **el tablero de Miro completo será el entregable**.
+
+ Debe contener:
+
+ ### 🏷️ Zona 1 — Título
+
+ - Nombre del proyecto.
+- Equipo.
+- Integrantes.
+- Sector.
+
+ ### 👥 Zona 2 — Equipo
+
+ - Integrantes.
+- Conocimientos/intereses.
+
+ ### 🧩 Zona 3 — Necesidad y contexto
+
+ - Sector.
+- Problema.
+- Usuarios.
+- Situación actual.
+- Consecuencias.
+- Oportunidad tecnológica.
+
+ ### 🔎 Zona 4 — Benchmarking
+
+ - 2 soluciones existentes.
+- Funcionalidades.
+- Público objetivo.
+- Ventajas.
+- Limitaciones.
+- Precio/modelo.
+- Tecnología cuando sea identificable.
+- Valor diferencial.
+
+ ### 📋 Zona 5 — Anteproyecto
+
+ - Problema.
+- Usuarios.
+- Solución.
+- Tipología.
+- Valor diferencial.
+- Viabilidad técnica.
+- Viabilidad económica.
+- Aspectos legales.
+
+ ### 👥 Zona 6 — Equipo y roles
+
+ - Necesidades del proyecto.
+- Responsabilidades.
+- Reparto.
+- Roles.
+- Justificación del reparto.
+
+ ### 🚀 Zona 7 — Próximos pasos
+
+ - 5–8 tareas.
+- Prioridad.
+- Primer objetivo.
+
+ ### 🎤 Zona 8 — Kick-off
+
+ - Problema.
+- Usuario.
+- Solución.
+- Valor diferencial.
+- Equipo.
+- Primer paso.
+
+---
+
+ # ⏱️ Distribución de las 2 horas
+
+ | Tiempo | Actividad | Zona Miro |
+| --- | --- | --- |
+| 0–5 min | Equipo y contexto inicial | 1–2 |
+| 5–30 min | Identificación de la necesidad | 3 |
+| 30–55 min | Benchmarking | 4 |
+| 55–80 min | Anteproyecto y viabilidad | 5 |
+| 80–95 min | Equipo, responsabilidades y roles | 6 |
+| 95–105 min | Primeras tareas | 7 |
+| 105–120 min | Kick-off y presentaciones | 8 |
+
+---
+
+ # 🎯 Resultado final del taller
+
+ Al terminar, vuestro equipo habrá recorrido este proceso:
+
+ > **🧩 NECESIDAD**\
+>  ↓\
+>  **🔴 PROBLEMA**\
+>  ↓\
+>  **🔎 BENCHMARKING**\
+>  ↓\
+>  **💡 OPORTUNIDAD**\
+>  ↓\
+>  **📋 ANTEPROYECTO**\
+>  ↓\
+>  **👥 EQUIPO Y RESPONSABILIDADES**\
+>  ↓\
+>  **🎭 ROLES**\
+>  ↓\
+>  **🚀 PRIMERAS TAREAS**\
+>  ↓\
+>  **🎤 KICK-OFF**
+
+ ### 🏁 Reto final
+
+ Al acabar, vuestro equipo debería ser capaz de explicar su proyecto en una sola frase:
+
+ > **«Hemos detectado que \[usuario/empresa\] tiene el problema de \[problema\]. Proponemos \[solución tecnológica\], que aporta \[valor diferencial\], y empezaremos trabajando en \[primer paso\].»**
+
+ **El objetivo no es desarrollar todavía la solución.** El objetivo es demostrar que sois capaces de **identificar una necesidad, analizar una oportunidad, proponer un proyecto tecnológico, valorar su viabilidad inicial y organizar un equipo para comenzar a trabajar en él**.
