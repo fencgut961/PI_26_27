@@ -1,310 +1,505 @@
-# 📱 Taller 1 (RA1): De la necesidad al anteproyecto y Kick-off ágil
+# 📱 TALLER 1 (RA1) — De la necesidad al anteproyecto y Kick-off ágil
 
- **Duración:** 1 sesión — 2 horas\
- **Aplicación:** DAM · DAW · ASIR\
+ **Duración:** 2 horas\
+ **Módulos:** DAM · DAW · ASIR\
+ **Modalidad:** Trabajo cooperativo\
  **Herramienta principal:** Miro — plantilla **«Inicio de proyecto»**\
- **Trabajo:** equipos de 3–5 personas\
- **Entregable:** tablero Miro completo \+ presentación final
+ **Producto final:** Anteproyecto tecnológico \+ organización inicial del equipo + planificación inicial + presentación de Kick-off
 
 ---
 
- ## 🎯 Objetivo del taller
+ # 1. 🧭 Situación profesional
 
- En este taller trabajaréis como un **equipo tecnológico** que debe transformar una necesidad real en una propuesta de proyecto.
+ Imaginad que sois un **equipo de una empresa tecnológica** que recibe un encargo de un posible cliente.
 
- Partiréis de un problema relacionado con una empresa, organización, sector o grupo de usuarios y avanzaréis hasta definir:
+ El cliente tiene una necesidad o problema relacionado con su actividad y considera que una solución tecnológica podría ayudarle, pero **todavía no sabe exactamente qué solución necesita**.
 
- - La necesidad detectada.
-- El problema que se quiere solucionar.
-- Los usuarios afectados.
-- Las soluciones existentes.
-- Una oportunidad de mejora.
-- Una propuesta tecnológica.
-- La tipología del proyecto.
-- Su viabilidad inicial.
-- Las responsabilidades del equipo.
-- Los roles de trabajo.
-- Las primeras tareas.
-- Un primer Kick-off del proyecto.
+ Vuestra empresa os encarga realizar una primera fase de análisis para determinar:
 
- Todo el trabajo se realizará **directamente sobre el tablero de Miro proporcionado**, utilizando la plantilla **«Inicio de proyecto»**.
+ - Qué problema existe realmente.
+- A quién afecta.
+- Cómo se resuelve actualmente.
+- Qué soluciones existen en el mercado.
+- Qué oportunidad de mejora puede existir.
+- Qué solución tecnológica podría proponerse.
+- Si la propuesta parece viable inicialmente.
+- Qué tipo de proyecto sería necesario.
+- Qué perfiles necesita el equipo.
+- Cómo organizaríais el trabajo.
+- Cuáles serían los primeros pasos del proyecto.
 
- > **Importante:** no tenéis que crear otro tablero ni otro documento. El tablero de Miro será vuestro espacio de trabajo y vuestro entregable.
+ No tenéis que desarrollar todavía la solución.
 
----
-
- # 🗺️ Recorrido del taller
-
- Trabajaréis siguiendo las zonas de la plantilla en este orden:
-
- **🏷️ Título**\
- ↓\
- **👥 Equipo**\
- ↓\
- **🧩 Necesidad y problema**\
- ↓\
- **🔎 Benchmarking**\
- ↓\
- **📋 Anteproyecto**\
- ↓\
- **👥 Responsabilidades y roles**\
- ↓\
- **🚀 Primeros pasos**\
- ↓\
- **🎤 Kick-off**
+ Vuestra misión es elaborar un **anteproyecto suficientemente sólido como para poder presentarlo al cliente y comenzar posteriormente su desarrollo**.
 
 ---
 
- # 🏷️ ZONA 1 — TÍTULO
+ # 2\. 🎯 Objetivo del taller
 
- ### Identificamos nuestro proyecto
+ Al finalizar la actividad, vuestro equipo deberá haber transformado una **necesidad o problema** en una **propuesta de proyecto tecnológico estructurada**.
+
+ El proceso será:
+
+ > **NECESIDAD → PROBLEMA → INVESTIGACIÓN → OPORTUNIDAD → ANTEPROYECTO → EQUIPO → PLAN INICIAL → KICK-OFF**
+
+ Trabajaréis directamente sobre el tablero Miro proporcionado.
+
+ > **Importante:** el tablero Miro será vuestro espacio de trabajo durante toda la actividad y constituirá el entregable principal. No es necesario crear un documento independiente.
+
+---
+
+ # 3\. 👥 Organización del equipo
+
+ Formad equipos de **3 a 5 personas**.
+
+ Durante el taller trabajaréis como si fuerais un equipo profesional.
+
+ No se trata simplemente de repartir preguntas entre los integrantes. El objetivo es **tomar decisiones conjuntamente**, justificar vuestras elecciones y construir una propuesta coherente.
+
+ Cada integrante deberá participar en:
+
+ - La identificación del problema.
+- La investigación.
+- La definición de la solución.
+- La organización del equipo.
+- La planificación inicial.
+- La presentación final.
+
+---
+
+ # 4\. 🧩 REGLAS DEL PROYECTO
+
+ Para que el trabajo tenga un enfoque profesional, vuestra propuesta deberá cumplir estas condiciones:
+
+ ### 1\. El problema debe ser concreto
+
+ Evitar problemas excesivamente generales como:
+
+ > «Queremos mejorar la educación».
+
+ Es preferible:
+
+ > «Los alumnos de un centro tienen dificultades para conocer en tiempo real los cambios de aula y horarios, lo que provoca consultas constantes a secretaría».
+
+---
+
+ ### 2\. Debe existir un usuario identificable
+
+ Debéis poder responder claramente:
+
+ > **¿Quién tiene este problema?**
+
+---
+
+ ### 3\. Debéis investigar antes de proponer
+
+ No podéis decidir directamente:
+
+ > «Vamos a hacer una aplicación».
+
+ Primero debéis investigar qué soluciones existen y qué necesidades no están suficientemente cubiertas.
+
+---
+
+ ### 4\. La solución debe ser tecnológica
+
+ La propuesta debe poder relacionarse con alguno de estos ámbitos:
+
+ - Desarrollo de software.
+- Desarrollo web.
+- Aplicación móvil.
+- Sistemas.
+- Infraestructura.
+- Redes.
+- Cloud.
+- Automatización.
+- IoT.
+- Solución híbrida.
+- Otra solución tecnológica justificada.
+
+---
+
+ ### 5\. Las decisiones deben estar justificadas
+
+ No basta con decir:
+
+ > «Nuestra aplicación será mejor».
+
+ Debéis explicar **por qué**.
+
+---
+
+ # 🟦 ZONA 1 — TÍTULO
+
+ # 🏷️ 1. IDENTIFICACIÓN DEL PROYECTO
 
  Comenzad completando la zona **Título** de la plantilla.
 
- Indicad:
+ Esta zona funcionará como la portada de vuestro proyecto.
 
- - **Nombre del proyecto.**
-- **Nombre o número del equipo.**
-- **Integrantes.**
-- **Sector o contexto elegido.**
+ ### Debéis indicar:
 
- El nombre puede ser provisional. Lo importante es que permita identificar vuestro proyecto.
+ **Nombre del proyecto**
 
- ### ⏱️ Tiempo: 2 minutos
+ Elegid un nombre breve y reconocible.
 
----
+ **Equipo**
 
- # 👥 ZONA 2 — ANFITRIONES → NUESTRO EQUIPO
+ Número o nombre del equipo.
 
- La plantilla denomina esta zona **«Anfitriones»**. En este taller la utilizaremos para presentar a los integrantes del equipo.
+ **Integrantes**
 
- Para cada persona indicad:
+ Nombre de todos los miembros.
 
- - Nombre.
-- Conocimientos o habilidades que puede aportar.
-- Área que le interesa especialmente.
+ **Sector / contexto**
 
  Por ejemplo:
 
- | Integrante | Conocimientos / intereses |
-| --- | --- |
-| Ana | Desarrollo web |
-| Luis | Redes e infraestructura |
-| Marta | Diseño y UX |
-| Pablo | Bases de datos |
+ - Educación.
+- Comercio.
+- Hostelería.
+- Sanidad.
+- Industria.
+- Administración.
+- Logística.
+- Servicios.
+- Turismo.
+- Otro.
 
-### ⚠️ Importante
+ ### 🎯 Resultado esperado
 
- **Todavía no asignéis los roles de Product Owner, Scrum Master, etc.**
+ Alguien que vea esta zona debe poder saber rápidamente:
 
- Primero vamos a analizar qué necesita nuestro proyecto y después decidiremos cómo organizar el equipo.
-
- ### ⏱️ Tiempo: 3 minutos
+ > **¿Qué proyecto estamos realizando y quién lo está desarrollando?**
 
 ---
 
- # 🧩 ZONA 3 — OBJETIVOS Y CONTEXTO
+ # 🟦 ZONA 2 — ANFITRIONES
 
- ## 1\. Identificamos una necesidad
+ # 👥 2. NUESTRO EQUIPO
 
- Esta será la primera parte importante del taller.
+ La plantilla denomina esta zona **«Anfitriones»**.
 
- Elegid un **sector o contexto** en el que exista una necesidad que pueda ser mejorada mediante tecnología.
+ En nuestro proyecto la utilizaremos para presentar al equipo.
 
- ### Posibles sectores
+ Para cada integrante indicad:
+
+ ### 👤 Nombre
+
+ ¿Quién forma parte del equipo?
+
+ ### 🧠 Conocimientos / habilidades
+
+ ¿Qué puede aportar al proyecto?
+
+ Ejemplos:
+
+ - Programación.
+- Bases de datos.
+- Redes.
+- Sistemas.
+- Cloud.
+- Diseño.
+- UX/UI.
+- Documentación.
+- Comunicación.
+- Organización.
+
+ ### 💡 Intereses
+
+ ¿Qué área del proyecto le interesa especialmente?
+
+---
+
+ ### ⚠️ Todavía no repartáis los roles
+
+ En esta primera zona **no asignéis todavía Product Owner, Scrum Master, etc.**
+
+ Primero vamos a descubrir qué necesita el proyecto.
+
+---
+
+ # 🟦 ZONA 3 — OBJETIVOS Y CONTEXTO
+
+ # 🧩 3. IDENTIFICAMOS LA NECESIDAD
+
+ Esta es una de las zonas más importantes del taller.
+
+ Vuestra empresa tecnológica necesita conocer el contexto antes de proponer una solución.
+
+---
+
+ ## 3.1. 🏢 Sector y contexto
+
+ Elegid un sector.
+
+ Algunas posibilidades:
 
  - Comercio.
 - Educación.
 - Sanidad.
 - Hostelería.
-- Turismo.
 - Administración.
 - Logística.
 - Industria.
-- Empresas de servicios.
-- Otros.
+- Turismo.
+- Servicios.
+- Otro.
 
- Podéis trabajar con una empresa real o con un escenario ficticio, siempre que sea **realista y concreto**.
+ Definid brevemente el contexto.
 
----
+ Por ejemplo:
 
- ## 🔴 ¿Qué problema existe?
-
- Describid una situación concreta que pueda mejorarse.
-
- No indiquéis solamente:
-
- > «Las empresas tienen problemas para gestionar sus clientes».
-
- Intentad concretar:
-
- > «Una pequeña empresa de servicios gestiona las citas de sus clientes mediante llamadas telefónicas y mensajes de WhatsApp, lo que dificulta conocer la disponibilidad y provoca errores en las reservas».
+ > «Pequeña empresa de mantenimiento que recibe solicitudes de clientes por teléfono, correo electrónico y WhatsApp».
 
 ---
 
- ## 👥 ¿A quién afecta?
+ ## 3.2. 🔴 Necesidad detectada
 
- Identificad las personas, organizaciones o colectivos afectados:
+ Responded:
 
- - Clientes.
+ > **¿Qué necesidad hemos identificado?**
+
+ Describid qué necesita mejorar la empresa, organización o usuario.
+
+---
+
+ ## 3.3. 🚨 Problema
+
+ Responded:
+
+ > **¿Qué problema concreto existe actualmente?**
+
+ Intentad describir una situación realista y observable.
+
+---
+
+ ## 3.4. 👥 Usuarios afectados
+
+ Identificad:
+
+ - Usuarios principales.
+- Clientes.
 - Trabajadores.
 - Administradores.
 - Empresas.
-- Usuarios finales.
-- Proveedores.
-- Otros.
+- Otros afectados.
+
+ Responded:
+
+ > **¿Quién sufre directamente este problema?**
 
 ---
 
- ## 🔎 ¿Cómo se resuelve actualmente?
+ ## 3.5. 🔎 Situación actual
 
- Explicad qué hacen actualmente para solucionar o gestionar el problema.
+ Responded:
+
+ > **¿Cómo se resuelve actualmente?**
+
+ Podéis encontrar:
+
+ - Procesos manuales.
+- Hojas de cálculo.
+- Correo electrónico.
+- Aplicaciones genéricas.
+- Sistemas antiguos.
+- Comunicación telefónica.
+- Diferentes herramientas desconectadas.
 
 ---
 
- ## ⚠️ ¿Qué consecuencias tiene?
+ ## 3.6. ⚠️ Consecuencias
 
- Identificad las principales consecuencias.
+ Identificad qué ocurre como consecuencia del problema.
 
  Por ejemplo:
 
  - Pérdida de tiempo.
 - Costes.
 - Errores.
-- Procesos manuales.
+- Duplicación de trabajo.
+- Información perdida.
 - Mala experiencia de usuario.
-- Falta de información.
 - Problemas de comunicación.
+- Falta de trazabilidad.
 - Problemas de seguridad.
-- Dificultades de gestión.
 
 ---
 
- ## 💡 ¿Puede mejorarse mediante tecnología?
+ ## 3.7. 💡 Oportunidad tecnológica
 
- Explicad brevemente qué podría aportar una solución tecnológica.
+ Responded:
+
+ > **¿Podría mejorarse esta situación mediante tecnología?**
+
+ Explicad brevemente cómo.
 
 ---
 
- ## 🎯 Concretamos el problema
+ ## 3.8. 🎯 Definimos el problema
 
- Al terminar esta parte, debéis completar:
+ Finalmente, construid una frase que sintetice vuestra situación:
 
  > **«Hemos detectado que \_\_\_\_\_\_\_\_\_\_ tiene dificultades para \_\_\_\_\_\_\_\_\_\_, lo que provoca \_\_\_\_\_\_\_\_\_\_.»**
 
- Esta frase debe quedar visible en vuestro tablero.
-
- ### ⏱️ Tiempo: 25 minutos
+ Esta frase será la **definición inicial del problema del proyecto**.
 
 ---
 
- # 🔎 ZONA 4 — TEXTO \+ IMAGEN
+ # 🟦 ZONA 4 — TEXTO \+ IMAGEN
 
- ## 2\. ¿Qué existe actualmente?
+ # 🔎 4. INVESTIGACIÓN Y BENCHMARKING
 
- Antes de diseñar nuestra solución debemos investigar qué soluciones existen.
+ Ahora que conocemos el problema, debemos averiguar:
 
- Cada equipo investigará **al menos 2 soluciones reales** relacionadas con el problema seleccionado.
+ > **¿Alguien ha intentado solucionar esto anteriormente?**
 
- Pueden ser:
+ Investigad **al menos dos soluciones reales** relacionadas con vuestra necesidad.
 
- - Aplicaciones.
-- Páginas web.
-- Plataformas.
-- Productos.
-- Servicios.
-- Soluciones empresariales.
-
- No tienen que ser idénticas a vuestra propuesta, pero deben estar relacionadas con el problema.
+ No es necesario que sean idénticas a vuestra idea.
 
 ---
 
- ## 📊 Analizamos las soluciones
+ ## 4.1. 🔎 Solución existente 1
 
- Para cada solución investigad, cuando sea posible:
+ Investigad:
 
- ### Solución 1
+ ### ¿Qué es?
 
- - Nombre.
-- ¿Qué ofrece?
-- Funcionalidades principales.
+ ### ¿Qué problema resuelve?
+
+ ### ⚙️ ¿Qué funcionalidades ofrece?
+
+ ### 👥 ¿A quién está dirigida?
+
+ ### ✅ ¿Qué ventajas presenta?
+
+ ### ⚠️ ¿Qué limitaciones presenta?
+
+ ### 💰 ¿Cuál es su precio o modelo de negocio?
+
+ Cuando sea posible:
+
+ ### 🛠️ ¿Qué tecnologías o infraestructura utiliza?
+
+---
+
+ ## 4.2. 🔎 Solución existente 2
+
+ Realizad el mismo análisis:
+
+ - Qué ofrece.
+- Funcionalidades.
 - Público objetivo.
 - Ventajas.
 - Limitaciones.
-- Precio o modelo de negocio.
-- Tecnología o infraestructura identificable.
-
- ### Solución 2
-
- Analizad los mismos aspectos.
-
- Podéis utilizar la zona **Texto + imagen** para incluir:
-
- - Texto.
-- Capturas.
-- Imágenes.
-- Logotipos.
-- Enlaces o referencias.
+- Precio/modelo de negocio.
+- Tecnología o infraestructura cuando pueda identificarse.
 
 ---
 
- ## ⭐ Buscamos nuestra oportunidad
+ ## 4.3. 📊 Comparación
 
- Después del análisis, responded:
+ Comparad ambas soluciones.
 
- > **¿Qué podríamos aportar nosotros que no esté suficientemente resuelto por las soluciones existentes?**
+ Podéis utilizar una tabla:
 
- No es necesario inventar algo completamente nuevo.
+ | Aspecto | Solución 1 | Solución 2 |
+| --- | --- | --- |
+| Funcionalidades |  |  |
+| Usuarios |  |  |
+| Ventajas |  |  |
+| Limitaciones |  |  |
+| Precio/modelo |  |  |
+| Tecnología |  |  |
 
- Podéis diferenciaros mediante:
+---
 
- - Una funcionalidad.
-- Una mejor experiencia de usuario.
+ ## 4.4. ⭐ Oportunidad
+
+ Ahora viene una de las decisiones importantes del proyecto.
+
+ Responded:
+
+ > **¿Qué necesidad no está suficientemente cubierta?**
+
+ Y después:
+
+ > **¿Qué podríamos aportar nosotros?**
+
+ Puede ser:
+
+ - Una nueva funcionalidad.
+- Una mejor experiencia.
+- Mayor personalización.
 - Automatización.
-- Personalización.
-- Integración con otros sistemas.
-- Adaptación a un sector concreto.
-- Mayor accesibilidad.
-- Simplificación del proceso.
-- Otro elemento relevante.
+- Integración.
+- Adaptación a un sector.
+- Accesibilidad.
+- Seguridad.
+- Simplicidad.
+- Menor complejidad.
+- Otro elemento justificado.
 
- Esta respuesta será vuestro **valor diferencial**.
+ ### 🎯 Definid vuestro valor diferencial
 
- ### ⏱️ Tiempo: 25 minutos
-
----
-
- # 📋 ZONA 5 — PREGUNTAS Y RESPUESTAS
-
- ## 3\. Construimos nuestro anteproyecto
-
- Ahora transformaréis toda la información anterior en una propuesta concreta.
-
- Utilizad la zona **Preguntas y respuestas** de la plantilla.
+ > **«Nuestra propuesta se diferencia porque \_\_\_\_\_\_\_\_\_\_.»**
 
 ---
 
- ### ❓ ¿Qué problema queremos solucionar?
+ # 🟦 ZONA 5 — PREGUNTAS Y RESPUESTAS
 
- Describid de forma clara el problema.
+ # 📋 5. CONSTRUIMOS EL ANTEPROYECTO
 
----
+ Ahora debéis convertir todo el análisis anterior en una **propuesta de proyecto tecnológico**.
 
- ### ❓ ¿Quién utilizará nuestra solución?
-
- Definid los usuarios o destinatarios.
+ Esta zona representa vuestro **anteproyecto**.
 
 ---
 
- ### ❓ ¿Qué solución tecnológica proponemos?
+ ## 5.1. 🏷️ Nombre del proyecto
 
- Explicad qué queréis desarrollar, implantar o configurar.
-
- No es necesario realizar todavía un diseño técnico detallado.
+ Confirmad el nombre elegido.
 
 ---
 
- ### ❓ ¿Qué tipología de proyecto es?
+ ## 5.2. 🔴 Problema que queremos solucionar
+
+ Redactad una descripción clara y concreta.
+
+---
+
+ ## 5.3. 👥 Usuarios / destinatarios
+
+ Definid:
+
+ - Usuario principal.
+- Usuarios secundarios, si existen.
+- Cliente u organización.
+
+---
+
+ ## 5.4. 💡 Solución tecnológica propuesta
+
+ Explicad:
+
+ > **¿Qué queremos desarrollar o implantar?**
+
+ Indicad qué tipo de solución imagináis y qué función principal tendrá.
+
+ No es necesario desarrollar todavía:
+
+ - Código.
+- Arquitectura detallada.
+- Diseño completo.
+- Base de datos definitiva.
+
+ Estamos realizando un **anteproyecto**, no el desarrollo.
+
+---
+
+ ## 5.5. 🛠️ Tipología del proyecto
 
  Seleccionad una o varias:
 
@@ -315,34 +510,51 @@
 - ☐ Redes y comunicaciones.
 - ☐ Servicios Cloud.
 - ☐ Automatización de procesos.
+- ☐ IoT.
 - ☐ Solución híbrida.
 - ☐ Otra.
 
----
+ ### Justificad vuestra elección
 
- ### ❓ ¿Cuál es nuestro valor diferencial?
-
- Explicad qué aporta vuestra propuesta frente a las soluciones analizadas.
+ > **«Consideramos que nuestro proyecto pertenece a esta tipología porque...»**
 
 ---
 
- ## 🛠️ Viabilidad técnica inicial
+ ## 5.6. ⭐ Valor diferencial
 
- Responded brevemente:
+ Explicad:
 
- - ¿Qué tecnologías podríamos necesitar?
-- ¿Qué infraestructura?
-- ¿Qué conocimientos?
-- ¿Qué recursos?
-- ¿Qué dificultades técnicas podemos encontrar?
-
- No es necesario realizar todavía una arquitectura completa.
+ > **¿Por qué alguien utilizaría nuestra propuesta en lugar de las soluciones analizadas?**
 
 ---
 
- ## 💰 Viabilidad económica inicial
+ ## 5.7. 🛠️ Viabilidad técnica inicial
 
- Identificad los principales costes potenciales:
+ Realizad una primera valoración.
+
+ ### Tecnologías
+
+ ¿Qué tecnologías podríamos necesitar?
+
+ ### Infraestructura
+
+ ¿Qué recursos técnicos serían necesarios?
+
+ ### Conocimientos
+
+ ¿Qué conocimientos debería tener el equipo?
+
+ ### Dificultades
+
+ ¿Qué aspectos podrían resultar técnicamente complicados?
+
+ No buscamos todavía una solución definitiva.
+
+---
+
+ ## 5.8. 💰 Viabilidad económica inicial
+
+ Identificad posibles costes:
 
  - Hardware.
 - Software.
@@ -351,46 +563,58 @@
 - Servidores.
 - Desarrollo.
 - Mantenimiento.
-- Otros recursos.
+- Otros.
 
- No es necesario realizar un presupuesto detallado.
+ No es necesario realizar un presupuesto exacto.
+
+ El objetivo es responder:
+
+ > **¿Parece razonable abordar económicamente este proyecto? ¿Qué costes debemos estudiar posteriormente?**
 
 ---
 
- ## ⚖️ Aspectos legales básicos
+ ## 5.9. ⚖️ Aspectos legales básicos
 
- Identificad aquellos aspectos legales que puedan afectar al proyecto.
+ Identificad aquellos aspectos que podrían afectar al proyecto.
 
  Por ejemplo:
 
  - Protección de datos.
 - Privacidad.
 - Propiedad intelectual.
-- Licencias de software.
+- Licencias.
 - Seguridad.
 - Accesibilidad.
+- Uso de datos personales.
+- Uso de imágenes o contenidos de terceros.
 
- ### ⏱️ Tiempo: 25 minutos
+ No es necesario realizar un estudio jurídico completo.
 
 ---
 
- # 👥 ZONA 6 — CO-CREAR UN PLAN DE PROYECTO DE ALTO NIVEL
+ # 🟦 ZONA 6 — CO-CREAR UN PLAN DE PROYECTO DE ALTO NIVEL
 
- ## 4\. Construimos nuestro equipo
+ # 👥 6. ORGANIZAMOS EL EQUIPO
 
- Ahora que sabemos qué queremos hacer, vamos a decidir **qué necesita el equipo para poder hacerlo**.
+ Ahora ya conocemos nuestro proyecto.
 
- ### 🧩 Paso 1 — ¿Qué necesita nuestro proyecto?
+ Por tanto, podemos decidir:
 
- Identificad mediante post-its las responsabilidades necesarias.
+ > **¿Qué necesitamos para llevarlo a cabo?**
 
- Podéis considerar:
+---
+
+ ## 6.1. 🧩 Necesidades del proyecto
+
+ Identificad las responsabilidades que serán necesarias.
+
+ Por ejemplo:
 
  - Análisis de requisitos.
 - Gestión del producto.
 - Desarrollo.
 - Diseño UX/UI.
-- Base de datos.
+- Bases de datos.
 - Infraestructura.
 - Cloud.
 - Redes.
@@ -399,281 +623,311 @@
 - Documentación.
 - Comunicación.
 
- **No tenéis que utilizar todas.**
-
- Elegid las que tengan sentido para vuestro proyecto.
+ No es necesario utilizar todas.
 
 ---
 
- ## 👤 Paso 2 — ¿Quién puede asumir cada responsabilidad?
+ ## 6.2. 👤 Reparto de responsabilidades
 
- Asignad las responsabilidades entre los integrantes.
+ Relacionad las responsabilidades con los integrantes.
 
- Una persona puede asumir varias responsabilidades y una responsabilidad puede ser compartida.
+ Ejemplo:
 
- Tened en cuenta:
-
- - Conocimientos.
-- Intereses.
-- Características del proyecto.
-- Necesidades técnicas.
-
----
-
- ## 🎭 Paso 3 — Asignamos los roles
-
- Ahora asignad los principales roles del equipo:
-
- | Rol | Persona |
+ | Responsabilidad | Persona |
 | --- | --- |
-| Product Owner |  |
-| Scrum Master |  |
-| Responsable técnico |  |
-| Desarrollo |  |
-| Pruebas |  |
-| Documentación |  |
-| Infraestructura |  |
+| Análisis | Ana |
+| Desarrollo | Pablo |
+| Infraestructura | Luis |
+| Pruebas | Marta |
 
-### Roles
+Una persona puede tener varias responsabilidades.
 
- **Product Owner:** representa las necesidades del usuario o cliente y ayuda a priorizar el trabajo.
-
- **Scrum Master:** facilita la organización y dinámica de trabajo del equipo.
-
- **Responsable técnico:** ayuda en las decisiones tecnológicas y en la coordinación técnica.
-
- **Desarrollo:** participa en la implementación de la solución.
-
- **Pruebas:** comprueba que la solución funciona y cumple los requisitos.
-
- **Documentación:** organiza y mantiene la documentación.
-
- **Infraestructura:** se ocupa de sistemas, redes, Cloud o despliegues cuando sea necesario.
-
- > **Importante:** no todos los proyectos necesitan todos los roles. Una persona puede asumir varios y un rol puede ser compartido.
+ Una responsabilidad puede ser compartida.
 
 ---
 
- ## 💭 Justificamos nuestro reparto
+ ## 6.3. 🎭 Roles del equipo
 
- Responded brevemente:
+ Ahora asignad los roles que tengan sentido para vuestro proyecto.
 
- > **¿Por qué hemos organizado el equipo de esta manera?**
+ ### Product Owner
 
- ### ⏱️ Tiempo: 15 minutos
+ Responsable de representar las necesidades del usuario/cliente y ayudar a priorizar el trabajo.
 
----
+ ### Scrum Master
 
- # 🚀 ZONA 7 — CRONOGRAMA DE PRÓXIMOS PASOS
+ Facilita la organización y dinámica del equipo.
 
- ## 5\. ¿Cómo empezamos?
+ ### Responsable técnico
 
- Ahora tenemos:
+ Ayuda a coordinar las decisiones técnicas.
 
- - Un problema.
-- Una propuesta.
-- Un equipo.
-- Un reparto de responsabilidades.
+ ### Responsable de desarrollo
 
- Nos falta decidir **qué vamos a hacer primero**.
+ Coordina o participa en la implementación.
 
- Definid entre **5 y 8 primeras tareas**.
+ ### Responsable de pruebas
 
- Por ejemplo:
+ Planifica y realiza las comprobaciones de calidad.
 
- - Definir requisitos.
-- Diseñar la interfaz.
-- Investigar tecnologías.
-- Diseñar la base de datos.
-- Crear un prototipo.
-- Preparar la infraestructura.
-- Diseñar las pruebas.
-- Analizar una API.
+ ### Responsable de documentación
 
- Las tareas deben estar relacionadas con vuestro proyecto.
+ Organiza la documentación del proyecto.
+
+ ### Responsable de infraestructura
+
+ Gestiona sistemas, redes, Cloud o despliegues cuando sea necesario.
 
 ---
 
- ## 🔴 AHORA
-
- ¿Qué tenemos que hacer primero?
-
- ## 🟡 DESPUÉS
-
- ¿Qué haremos a continuación?
-
- ## 🟢 MÁS ADELANTE
-
- ¿Qué puede esperar?
-
----
-
- ## 🎯 Nuestro primer objetivo
+ ## 6.4. 👥 Matriz de roles
 
  Completad:
 
- > **«Nuestro primer objetivo será \_\_\_\_\_\_\_\_\_\_.»**
+ | Rol | Integrante | Responsabilidades principales |
+| --- | --- | --- |
+| Product Owner |  |  |
+| Scrum Master |  |  |
+| Responsable técnico |  |  |
+| Desarrollo |  |  |
+| Pruebas |  |  |
+| Documentación |  |  |
+| Infraestructura |  |  |
 
- Esta zona constituye vuestro **plan inicial de trabajo**.
-
- No necesitamos todavía GitHub Projects ni Jira: para este taller, el propio Miro funciona como nuestro espacio de planificación.
-
- ### ⏱️ Tiempo: 10 minutos
+> ⚠️ Los roles pueden combinarse. No es necesario que haya una persona diferente para cada rol.
 
 ---
 
- # 🎤 ZONA 8 — SEGUIMIENTO DEL PROYECTO
+ ## 6.5. 💭 Justificación
 
- ## 6\. Mini Kick-off
+ Responded:
 
- Llegamos al final.
+ > **¿Por qué hemos organizado el equipo de esta manera?**
 
- Utilizad esta zona para preparar vuestra presentación.
+ Debéis relacionar el reparto con las necesidades reales del proyecto.
 
- Cada equipo tendrá aproximadamente **1–2 minutos**.
+---
 
- Debéis explicar:
+ # 🟦 ZONA 7 — CRONOGRAMA DE PRÓXIMOS PASOS
 
- ### 🔴 1. Problema
+ # 🚀 7. PLANIFICAMOS EL INICIO
+
+ Tenemos una propuesta y tenemos un equipo.
+
+ Ahora debemos responder:
+
+ > **¿Qué hacemos mañana si el cliente aprueba nuestro anteproyecto?**
+
+---
+
+ ## 7.1. 📝 Primeras tareas
+
+ Definid entre **5 y 8 tareas** necesarias para comenzar.
+
+ Ejemplos:
+
+ - Recoger requisitos.
+- Entrevistar usuarios.
+- Diseñar prototipo.
+- Investigar tecnologías.
+- Diseñar base de datos.
+- Analizar infraestructura.
+- Crear arquitectura inicial.
+- Diseñar pruebas.
+
+ Las tareas deben ser **acciones concretas**, no conceptos generales.
+
+ ❌ «Desarrollo»
+
+ ✅ «Diseñar el modelo inicial de datos»
+
+---
+
+ ## 7.2. 🔴 AHORA
+
+ Colocad aquí las tareas que deberían realizarse primero.
+
+---
+
+ ## 7.3. 🟡 DESPUÉS
+
+ Colocad las tareas que vendrían a continuación.
+
+---
+
+ ## 7.4. 🟢 MÁS ADELANTE
+
+ Colocad tareas que todavía no son prioritarias.
+
+---
+
+ ## 7.5. 🎯 Primer objetivo
+
+ Definid:
+
+ > **«Nuestro primer objetivo será \_\_\_\_\_\_\_\_\_\_.»**
+
+ Debe ser algo concreto y alcanzable.
+
+---
+
+ # 🟦 ZONA 8 — SEGUIMIENTO DEL PROYECTO
+
+ # 🎤 8. MINI KICK-OFF
+
+ Ha llegado el momento de presentar el proyecto como si vuestro equipo acabara de iniciar oficialmente el trabajo.
+
+ Preparad una presentación de **1–2 minutos**.
+
+---
+
+ ## 8.1. 🔴 El problema
 
  > ¿Qué problema hemos detectado?
 
- ### 👥 2. Usuario
+---
+
+ ## 8.2. 👥 Los usuarios
 
  > ¿A quién afecta?
 
- ### 💡 3. Solución
+---
+
+ ## 8.3. 💡 Nuestra solución
 
  > ¿Qué proponemos?
 
- ### ⭐ 4. Valor diferencial
+---
+
+ ## 8.4. ⭐ Nuestro valor diferencial
 
  > ¿Qué aporta nuestra propuesta?
 
- ### 👥 5. Equipo
+---
+
+ ## 8.5. 👥 Nuestro equipo
 
  > ¿Cómo nos hemos organizado?
 
- ### 🚀 6. Primer paso
+---
+
+ ## 8.6. 🚀 Nuestro primer paso
 
  > ¿Qué vamos a hacer primero?
 
 ---
 
+ # 🎤 PRESENTACIÓN FINAL
+
+ La presentación deberá responder de forma breve a:
+
+ > **¿Qué problema hemos encontrado?**\
+>  **¿Para quién?**\
+>  **¿Qué proponemos?**\
+>  **¿Por qué puede aportar valor?**\
+>  **¿Cómo nos hemos organizado?**\
+>  **¿Qué haremos primero?**
+
+ No es necesario explicar todos los post-its del tablero.
+
+ El objetivo es demostrar que podéis **defender vuestra propuesta como un equipo profesional ante un cliente o responsable de proyecto**.
+
+---
+
  # 📦 ENTREGABLE FINAL
 
- Al finalizar el taller, **el tablero de Miro completo será el entregable**.
+ Al finalizar la sesión, vuestro **tablero de Miro será el entregable principal**.
 
- Debe contener:
+ Debe quedar suficientemente organizado y completo para que otra persona pueda entender el proyecto sin que tengáis que explicárselo previamente.
 
- ### 🏷️ Zona 1 — Título
+ ### El tablero deberá contener:
 
- - Nombre del proyecto.
-- Equipo.
-- Integrantes.
-- Sector.
-
- ### 👥 Zona 2 — Equipo
-
- - Integrantes.
-- Conocimientos/intereses.
-
- ### 🧩 Zona 3 — Necesidad y contexto
-
- - Sector.
-- Problema.
-- Usuarios.
-- Situación actual.
-- Consecuencias.
-- Oportunidad tecnológica.
-
- ### 🔎 Zona 4 — Benchmarking
-
- - 2 soluciones existentes.
-- Funcionalidades.
-- Público objetivo.
-- Ventajas.
-- Limitaciones.
-- Precio/modelo.
-- Tecnología cuando sea identificable.
-- Valor diferencial.
-
- ### 📋 Zona 5 — Anteproyecto
-
- - Problema.
-- Usuarios.
-- Solución.
-- Tipología.
-- Valor diferencial.
-- Viabilidad técnica.
-- Viabilidad económica.
-- Aspectos legales.
-
- ### 👥 Zona 6 — Equipo y roles
-
- - Necesidades del proyecto.
-- Responsabilidades.
-- Reparto.
-- Roles.
-- Justificación del reparto.
-
- ### 🚀 Zona 7 — Próximos pasos
-
- - 5–8 tareas.
-- Prioridad.
-- Primer objetivo.
-
- ### 🎤 Zona 8 — Kick-off
-
- - Problema.
-- Usuario.
-- Solución.
-- Valor diferencial.
-- Equipo.
-- Primer paso.
+ | Zona | Contenido obligatorio |
+| --- | --- |
+| **Título** | Nombre, equipo, integrantes y sector |
+| **Anfitriones** | Conocimientos/intereses de los integrantes |
+| **Objetivos y contexto** | Necesidad, problema, usuarios, situación actual, consecuencias y oportunidad |
+| **Texto + imagen** | Benchmarking de 2 soluciones + comparación \+ valor diferencial |
+| **Preguntas y respuestas** | Anteproyecto, tipología, solución y viabilidad |
+| **Co-crear un plan de proyecto de alto nivel** | Responsabilidades, reparto y roles |
+| **Cronograma de próximos pasos** | 5–8 tareas priorizadas |
+| **Seguimiento del proyecto** | Preparación del Mini Kick-off |
 
 ---
 
- # ⏱️ Distribución de las 2 horas
+ # ⏱️ PLANIFICACIÓN DE LAS 2 HORAS
 
- | Tiempo | Actividad | Zona Miro |
+ | Tiempo | Actividad | Zona |
 | --- | --- | --- |
-| 0–5 min | Equipo y contexto inicial | 1–2 |
-| 5–30 min | Identificación de la necesidad | 3 |
-| 30–55 min | Benchmarking | 4 |
-| 55–80 min | Anteproyecto y viabilidad | 5 |
-| 80–95 min | Equipo, responsabilidades y roles | 6 |
-| 95–105 min | Primeras tareas | 7 |
-| 105–120 min | Kick-off y presentaciones | 8 |
+| **0–5 min** | Identificación del equipo y proyecto | Título + Anfitriones |
+| **5–30 min** | Necesidad y problema | Objetivos y contexto |
+| **30–55 min** | Investigación y benchmarking | Texto + imagen |
+| **55–80 min** | Anteproyecto y viabilidad | Preguntas y respuestas |
+| **80–95 min** | Organización del equipo y roles | Plan de proyecto |
+| **95–105 min** | Primeras tareas | Cronograma |
+| **105–120 min** | Kick-off y presentaciones | Seguimiento |
 
 ---
 
- # 🎯 Resultado final del taller
+ # ✅ CRITERIOS DE CALIDAD DEL PROYECTO
 
- Al terminar, vuestro equipo habrá recorrido este proceso:
+ Antes de finalizar, revisad vuestro tablero.
 
- > **🧩 NECESIDAD**\
->  ↓\
->  **🔴 PROBLEMA**\
->  ↓\
->  **🔎 BENCHMARKING**\
->  ↓\
->  **💡 OPORTUNIDAD**\
->  ↓\
->  **📋 ANTEPROYECTO**\
->  ↓\
->  **👥 EQUIPO Y RESPONSABILIDADES**\
->  ↓\
->  **🎭 ROLES**\
->  ↓\
->  **🚀 PRIMERAS TAREAS**\
->  ↓\
->  **🎤 KICK-OFF**
+ ### 🧩 Problema
 
- ### 🏁 Reto final
+ - [ ] ¿El problema está claramente definido?
+- [ ] ¿Sabemos a quién afecta?
+- [ ] ¿Hemos explicado cómo se resuelve actualmente?
 
- Al acabar, vuestro equipo debería ser capaz de explicar su proyecto en una sola frase:
+ ### 🔎 Investigación
 
- > **«Hemos detectado que \[usuario/empresa\] tiene el problema de \[problema\]. Proponemos \[solución tecnológica\], que aporta \[valor diferencial\], y empezaremos trabajando en \[primer paso\].»**
+ - [ ] ¿Hemos analizado dos soluciones reales?
+- [ ] ¿Hemos identificado ventajas y limitaciones?
+- [ ] ¿Hemos encontrado una oportunidad?
 
- **El objetivo no es desarrollar todavía la solución.** El objetivo es demostrar que sois capaces de **identificar una necesidad, analizar una oportunidad, proponer un proyecto tecnológico, valorar su viabilidad inicial y organizar un equipo para comenzar a trabajar en él**.
+ ### 📋 Anteproyecto
+
+ - [ ] ¿La solución responde realmente al problema?
+- [ ] ¿Hemos definido los usuarios?
+- [ ] ¿Hemos elegido una tipología?
+- [ ] ¿Hemos analizado la viabilidad?
+- [ ] ¿Hemos identificado aspectos legales?
+
+ ### 👥 Equipo
+
+ - [ ] ¿Hemos identificado las responsabilidades necesarias?
+- [ ] ¿El reparto tiene sentido?
+- [ ] ¿Los roles están asignados?
+- [ ] ¿Podemos justificar el reparto?
+
+ ### 🚀 Plan inicial
+
+ - [ ] ¿Tenemos entre 5 y 8 tareas?
+- [ ] ¿Están priorizadas?
+- [ ] ¿Sabemos cuál es nuestro primer objetivo?
+
+ ### 🎤 Kick-off
+
+ - [ ] ¿Podemos explicar el proyecto en 1–2 minutos?
+- [ ] ¿Todos los integrantes conocen el proyecto?
+- [ ] ¿Podemos explicar qué vamos a hacer primero?
+
+---
+
+ # 🏁 RETO FINAL
+
+ Imaginad que el cliente entra ahora mismo en la sala y os pregunta:
+
+ > **«Tenéis dos minutos. Explicadme qué problema habéis detectado, a quién afecta, qué proponéis y cómo vais a empezar.»**
+
+ Vuestro equipo debe ser capaz de responder:
+
+ > **«Hemos detectado que \[usuario/empresa\] tiene el problema de \[problema\]. Actualmente \[situación actual\], lo que provoca \[consecuencia\]. Después de analizar \[soluciones existentes\], hemos identificado la oportunidad de \[oportunidad\]. Por ello proponemos \[solución\], cuyo valor diferencial es \[diferencial\]. Nuestro equipo se organizará mediante \[roles/responsabilidades\] y comenzaremos por \[primer paso\].»**
+
+ ### 🎯 Resultado esperado
+
+ Al terminar el taller no tendréis todavía un producto desarrollado. Tendréis algo anterior y fundamental:
+
+ > **un proyecto tecnológico definido, una necesidad justificada, una propuesta inicial, un equipo organizado y un primer plan de trabajo.**
+
+ Ese será vuestro **punto de partida para las siguientes fases del proyecto**.
