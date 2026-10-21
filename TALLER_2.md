@@ -339,14 +339,6 @@ Si encontráis contradicciones, corregidlas antes de finalizar.
 | 6 | Revisión y cierre | 10 min |
 | **Total** | | **120 min** |
 
-## 🏁 Reto final
-
-Imaginad que otro equipo debe implementar vuestra propuesta sin haber participado en su diseño.
-
-¿Podría entender qué debe hacer el sistema, qué requisitos debe cumplir, cómo se relacionan sus componentes y qué recursos necesita?
-
-El objetivo es transformar un problema en una **propuesta técnica inicial, estructurada, justificada y viable**.
-
 ## 🎤 9. Puesta en común y exposición final
 
 **Duración:** Máximo 5 minutos por equipo.
@@ -363,3 +355,13 @@ La exposición debe incluir:
 No es necesario preparar una presentación adicional ni entregar documentación. El equipo puede utilizar directamente los diagramas, esquemas y anotaciones elaborados durante la sesión.
 
 **Importante:** todos los miembros del equipo deben participar en la exposición y ser capaces de justificar las decisiones técnicas adoptadas.
+
+---
+
+## 🏁 Reto final
+
+Imaginad que otro equipo debe implementar vuestra propuesta sin haber participado en su diseño.
+
+¿Podría entender qué debe hacer el sistema, qué requisitos debe cumplir, cómo se relacionan sus componentes y qué recursos necesita?
+
+El objetivo es transformar un problema en una **propuesta técnica inicial, estructurada, justificada y viable**.
