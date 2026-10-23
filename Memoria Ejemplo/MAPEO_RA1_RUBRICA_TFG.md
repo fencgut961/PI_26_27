@@ -22,9 +22,3 @@
 | **CE.i: Guión de trabajo de la memoria** | Planificación clara de la memoria estructurada por fases (Sprints de desarrollo, fases de despliegue/administración, etc.) con entregables definidos. | Capítulo 2 (2.2.3); Capítulo 3 (3.1, 3.3) | Establece la planificación ágil del proyecto mediante scripts de automatización (`make.bat`), pipelines de integración continua en GitHub Actions y estrategia de ramas por Sprints. |
 
 ---
-
-## 📌 Resumen de Aplicación Pedagógica
-
-1. **Garantía de Cobertura de Criterios (CE.a al CE.i):** Cada capítulo de la memoria cumple formalmente con al menos un Criterio de Evaluación del RA1.
-2. **Coherencia con la Rúbrica de Moodle:** La documentación técnica proporcionada en la memoria permite alcanzar la máxima calificación (Nivel 3 / 3 puntos / 10,0 final) en cada fila de evaluación.
-3. **Plantilla de Referencia para el Alumnado:** Sirve como modelo guía para estructurar la Memoria Incremental v1.0 (Sprint 1) en proyectos de DAM, DAW y ASIR.
