@@ -2,7 +2,7 @@
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Resultado de Aprendizaje:** RA3 — Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.  
-> **Documento de Referencia:** `2_Memoria_TFG_JesusMoraMesa.pdf`
+> **Fuente de Referencia:** [`2_Memoria.pdf`](https://github.com/fencgut961/PI_26_27/tree/main/Memoria%20Ejemplo)  
 
 ---
 

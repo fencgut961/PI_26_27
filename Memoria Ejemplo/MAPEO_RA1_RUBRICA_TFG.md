@@ -3,7 +3,6 @@
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Resultado de Aprendizaje:** RA1 — Estudio del entorno productivo empresarial y demandas del mercado  
 > **Fuente de Referencia:** [`2_Memoria.pdf`](https://github.com/fencgut961/PI_26_27/tree/main/Memoria%20Ejemplo)  
-> **Objetivo:** Matriz de trazabilidad pedagógica entre los Criterios de Evaluación (CEv), la Rúbrica de Moodle (Nivel 3 - Excelente) y la memoria del TFG.
 
 ---
 

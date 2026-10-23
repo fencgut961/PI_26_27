@@ -1,9 +1,8 @@
 # 📊 Mapeo: RA2 vs. Rúbrica de Moodle vs. Memoria TFG
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
-> **Resultado de Aprendizaje (RA2):** Diseña proyectos relacionados con las competencias expresadas en el título, desarrollando explícitamente las fases que lo componen.  
-> **Fuente de Referencia TFG:** `2_Memoria_TFG_JesusMoraMesa.pdf`  
-> **Nivel de Evaluación:** Nivel 3 (Excelente - 3 puntos) de la Rúbrica Universal para Moodle.
+> **Resultado de Aprendizaje:** RA2 - Diseña proyectos relacionados con las competencias expresadas en el título, desarrollando explícitamente las fases que lo componen.  
+> **Fuente de Referencia:** [`2_Memoria.pdf`](https://github.com/fencgut961/PI_26_27/tree/main/Memoria%20Ejemplo)  
 
 ---
 

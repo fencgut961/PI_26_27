@@ -2,8 +2,7 @@
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Resultado de Aprendizaje:** RA4 — Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados.  
-> **Fuente de Referencia:** `2_Memoria_TFG_JesusMoraMesa.pdf`  
-> **Criterio de Evaluación de la Rúbrica:** Nivel 3 (Excelente — 3 Puntos / Máximo 21 Puntos)
+> **Fuente de Referencia:** [`2_Memoria.pdf`](https://github.com/fencgut961/PI_26_27/tree/main/Memoria%20Ejemplo)  
 
 ---
 
