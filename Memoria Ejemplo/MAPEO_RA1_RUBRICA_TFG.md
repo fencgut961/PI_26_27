@@ -1,4 +1,4 @@
-# 📊 Mapeo: RA1, Rúbrica Moodle (Nivel 3) y Memoria TFG
+# 📊 Mapeo: RA1 vs. Rúbrica de Moodle vs. Memoria TFG
 
 > **Módulo Profesional:** Proyecto Intermodular / Proyecto Integrado (DAM / DAW / ASIR)  
 > **Resultado de Aprendizaje:** RA1 — Estudio del entorno productivo empresarial y demandas del mercado  
